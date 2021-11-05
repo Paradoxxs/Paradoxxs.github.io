@@ -1,5 +1,4 @@
-## Machine learning 
-### Applying machine learning using python
+## Applying machine learning using python
 <br/>
 <br/>
 <br/>
