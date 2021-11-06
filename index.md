@@ -13,4 +13,4 @@
 <br/>
 <br/>
 #### Analysis iris pedels using Tensorflow 
-[*Iris analysis using Tensorflow*](https://colab.research.google.com/drive/1dMEPeUQ2pW7-7AvMic3id0vS3Xj_CVmM#scrollTo=_qEVXFluiiPw)
+[*Iris analysis using Tensorflow*](https://github.com/Paradoxxs/Paradoxxs.github.io/blob/main/Iris_analysis_using_Tensorflow.ipynb)
