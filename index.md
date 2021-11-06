@@ -5,7 +5,7 @@
 <br/>
 
 #### Selective phishing domain analysis
-Test multiple different algorithms to see which one perform the best and pick that
+Test multiple different algorithms to see which one perform the best and pick that<br/>
 [Selective phishing analysis](https://github.com/Paradoxxs/Paradoxxs.github.io/blob/main/Comparative_Phishing_domains_analysis.ipynb)
 <br/>
 <br/>
