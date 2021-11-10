@@ -1,8 +1,16 @@
-## Applying machine learning using python
+## Different field of cyber security
 <br/>
 <br/>
 <br/>
 <br/>
+
+
+### Red team 
+<br/>
+<br/>
+#### Basic of SQLI 
+
+### Applying machine learning to Cyber security
 
 #### Selective phishing domain analysis
 Test multiple different algorithms to see which one perform the best and pick that<br/>
