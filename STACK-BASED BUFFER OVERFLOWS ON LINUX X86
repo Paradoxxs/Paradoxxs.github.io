@@ -21,7 +21,7 @@ When a program is executed, the sections is mapped to the process, and this segm
 
 ### Buffer
 
-![[Pasted image 20210607114642.png]]
+![Buffer](https://raw.githubusercontent.com/Paradoxxs/Cybersecurity/master/Pasted%20image%2020210607114642.png)
 
 #### .text
 
