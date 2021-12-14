@@ -4,7 +4,13 @@
 <br/>
 <br/>
 
-
+### Malware analysis
+<br/>
+<br/>
+#### Malware analysis pipeline 
+[Malware analysis pipeline](https://github.com/Paradoxxs/REM-Jupyter)
+<br/>
+<br/>
 ### Red team 
 <br/>
 <br/>
@@ -28,6 +34,9 @@ Test multiple different algorithms to see which one perform the best and pick th
 <br/>
 #### Detecting phishing domains in log files using machine learning
 [*Phishing domains analysis*](https://github.com/Paradoxxs/Paradoxxs.github.io/blob/main/Phishing_domains_analysis.ipynb)
+<br/>
+<br/>
+### Other
 <br/>
 <br/>
 #### Analysis iris pedels using Tensorflow 
