@@ -21,5 +21,6 @@ Test multiple different algorithms to see which one perform the best and pick th
 #### [Detecting DGA domains in log files using machine learning](https://github.com/Paradoxxs/Paradoxxs.github.io/blob/main/Phishing_domains_analysis.ipynb)
 <br/>
 <br/>
+
 ### Other
-[*Iris analysis using Tensorflow*](https://github.com/Paradoxxs/Paradoxxs.github.io/blob/main/Iris_analysis_using_Tensorflow.ipynb)
+[Iris analysis using Tensorflow](https://github.com/Paradoxxs/Paradoxxs.github.io/blob/main/Iris_analysis_using_Tensorflow.ipynb)
