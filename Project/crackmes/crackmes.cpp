@@ -4,10 +4,6 @@
 #include <fstream>
 #include <Windows.h>
 
-using namespace std;
-
-
-
 int main() {
     string content;
     fstream file;
@@ -25,9 +21,6 @@ int main() {
 		var_1[cnt] = var_1[cnt] ^ 10;
 	}
 
-    //std::cout << var_1 << "\n";
-
-
 	file.open("test.txt");
 	if (!file) 
 	{
@@ -35,8 +28,6 @@ int main() {
 		return 1;
 	}
     file >> content;
-    //std::cout << content;
-
 
 	if(content == var_1)
 	{
