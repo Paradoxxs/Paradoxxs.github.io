@@ -12,6 +12,8 @@
 <br/>
 ### Applying machine learning to Cyber security
 
+#### [PCAP beacon analysis](https://github.com/Paradoxxs/Paradoxxs.github.io/blob/main/pcap_network_anlysis.ipynb)
+
 #### [LOLBIN classification](https://github.com/Paradoxxs/Paradoxxs.github.io/blob/main/lolbin_classification.ipynb)
 
 #### [Selective phishing domain analysis](https://github.com/Paradoxxs/Paradoxxs.github.io/blob/main/Comparative_Phishing_domains_analysis.ipynb)
