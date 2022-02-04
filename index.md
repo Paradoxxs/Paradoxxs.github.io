@@ -12,6 +12,8 @@
 <br/>
 ### Applying machine learning to Cyber security
 
+#### [Audit failed login with data from Cloud app security](https://github.com/Paradoxxs/Paradoxxs.github.io/blob/main/Audit_failed_login_CAS.ipynb)
+
 #### [PCAP beacon analysis](https://github.com/Paradoxxs/Paradoxxs.github.io/blob/main/pcap_network_anlysis.ipynb)
 
 #### [LOLBIN classification](https://github.com/Paradoxxs/Paradoxxs.github.io/blob/main/lolbin_classification.ipynb)
