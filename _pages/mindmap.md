@@ -1,3 +1,11 @@
+---
+layout: page
+title: mindmap
+permalink: /mindmap/
+---
+
+
+
 <!DOCTYPE html>
 <html>
   <head>
