@@ -1,0 +1,1721 @@
+
+{ 
+    "children" : [
+        {
+            "children" : [
+                {
+                "path": "\/private\/var\/installd\/Library\/MobileInstallation\/LastBuildInfo.plist",
+                "Description": "Operating system version",
+                "BFU": "Y",
+                "Backup": "Y",
+                "Sysdiagnose": "N"
+                },
+                {
+                "path": "\/private\/var\/mobile\/Library\/CoreDuet\/coreduetd.db",
+                "Description": "Lock\/Device Passcode Info (0=unlocked, 1=locked) (Up to iOS 9)",
+                "BFU": "N",
+                "Backup": "N",
+                "Sysdiagnose": "N"
+                },
+                {
+                "path": "\/private\/var\/mobile\/Library\/Logs\/mobileactivationd\/",
+                "Description": "MobileActivation Logs",
+                "BFU": "Y",
+                "Backup": "N",
+                "Sysdiagnose": "Y"
+                },
+                {
+                "path": "\/private\/var\/mobile\/Library\/Preferences\/com.apple.AdLib.plist",
+                "Description": "May show older iOS versions used",
+                "BFU": "Y",
+                "Backup": "Y",
+                "Sysdiagnose": "N"
+                },
+                {
+                "path": "\/private\/var\/mobile\/Library\/Preferences\/com.apple.aggregated.plist",
+                "Description": "Last BootTime",
+                "BFU": "Y",
+                "Backup": "Y",
+                "Sysdiagnose": "N"
+                },
+                {
+                "path": "\/private\/var\/mobile\/Library\/Preferences\/com.apple.mmcs.plist ",
+                "Description": "IMSIs",
+                "BFU": "Y",
+                "Backup": "Y",
+                "Sysdiagnose": "N"
+                },
+                {
+                "path": "\/private\/var\/mobile\/Library\/Preferences\/com.apple.mobilegestalt.plist",
+                "Description": "Device name",
+                "BFU": "Y",
+                "Backup": "Y",
+                "Sysdiagnose": "N"
+                },
+                {
+                "path": "\/private\/var\/mobile\/Library\/Preferences\/com.apple.preferences.datetime.plist",
+                "Description": "Time settings",
+                "BFU": "Y",
+                "Backup": "Y",
+                "Sysdiagnose": "N"
+                },
+                {
+                "path": "\/private\/var\/mobile\/Library\/Preferences\/com.apple.preferences.network.plist",
+                "Description": "Airplane mode (on\/off)",
+                "BFU": "Y",
+                "Backup": "Y",
+                "Sysdiagnose": "N"
+                },
+                {
+                "path": "\/private\/var\/mobile\/Library\/Preferences\/com.apple.Preferences.plist",
+                "Description": "Disk usage",
+                "BFU": "Y",
+                "Backup": "Y",
+                "Sysdiagnose": "N"
+                },
+                {
+                "path": "\/private\/var\/mobile\/Library\/Preferences\/com.apple.purplebuddy.plist",
+                "Description": "Language, Country info, Device IDs",
+                "BFU": "Y",
+                "Backup": "Y",
+                "Sysdiagnose": "N"
+                },
+                {
+                "path": "\/private\/var\/mobile\/Library\/Preferences\/com.apple.timed.plist",
+                "Description": "Auto Time and Auto Time Zone settings",
+                "BFU": "Y",
+                "Backup": "Y",
+                "Sysdiagnose": "N"
+                },
+                {
+                "path": "\/private\/var\/preferences\/SystemConfiguration\/com.apple.networkidentification.plist",
+                "Description": "Network IP, WiFi, Cellular Information",
+                "BFU": "Y",
+                "Backup": "Y",
+                "Sysdiagnose": "N"
+                },
+                {
+                "path": "\/private\/var\/preferences\/SystemConfiguration\/com.apple.radios.plist",
+                "Description": "Airplane mode (on\/off)",
+                "BFU": "Y",
+                "Backup": "Y",
+                "Sysdiagnose": "N"
+                },
+                {
+                "path": "\/private\/var\/preferences\/SystemConfiguration\/NetworkInterfaces.plist",
+                "Description": "Wi-Fi Mac Addresses",
+                "BFU": "Y",
+                "Backup": "N",
+                "Sysdiagnose": "Y"
+                },
+                {
+                "path": "\/private\/var\/preferences\/SystemConfiguration\/preferences.plist",
+                "Description": "Network and VPN information",
+                "BFU": "Y",
+                "Backup": "Y",
+                "Sysdiagnose": "N"
+                },
+                {
+                "path": "\/private\/var\/root\/Library\/Lockdown\/escrow_records\/",
+                "Description": "Computer Trust\/Pair certificates",
+                "BFU": "Y",
+                "Backup": "N",
+                "Sysdiagnose": "N"
+                },
+                {
+                "path": "\/private\/var\/root\/Library\/Lockdown\/pair_records\/",
+                "Description": "Computer Trust\/Pair certificates",
+                "BFU": "Y",
+                "Backup": "N",
+                "Sysdiagnose": "N"
+                },
+                {
+                "path": "\/private\/var\/root\/Library\/Preferences\/com.apple.preferences.network.plist",
+                "Description": "Airplane mode (on\/off)",
+                "BFU": "Y",
+                "Backup": "Y",
+                "Sysdiagnose": "N"
+                },
+                {
+                "path": "\/private\/var\/wireless\/Library\/Preferences\/com.apple.commcenter.plist",
+                "Description": "Device Info (IMEI, Phone Number, Network Carrier, ICCIDs, IMSIs, etc.)",
+                "BFU": "Y",
+                "Backup": "Y",
+                "Sysdiagnose": "N"
+                }
+            ],
+            "name":"Device info",
+            "type":"folder"
+        },
+        {
+            "children" : [
+                {
+                "path": "\/private\/var\/mobile\/Library\/Accounts\/Accounts3.sqlite",
+                "Description": "Account information",
+                "BFU": "Y",
+                "Backup": "Y",
+                "Sysdiagnose": "N"
+                },
+                {
+                "path": "\/private\/var\/mobile\/Library\/DataAccess\/",
+                "Description": "Account information used to set up apps (Email, #, etc) ",
+                "BFU": "Y",
+                "Backup": "Y",
+                "Sysdiagnose": "N"
+                },
+                {
+                "path": "\/private\/var\/mobile\/Library\/DataAccess\/AccountInformation.plist",
+                "Description": "Email sync data",
+                "BFU": "Y",
+                "Backup": "Y",
+                "Sysdiagnose": "N"
+                },
+                {
+                "path": "\/private\/var\/mobile\/Library\/DataAccess\/iCloud-[iCloud email account name]\/.mboxCache.plist",
+                "Description": "iCloud Email account information",
+                "BFU": "Y",
+                "Backup": "Y",
+                "Sysdiagnose": "N"
+                },
+                {
+                "path": "\/private\/var\/mobile\/Library\/Health\/healthdb.sqlite",
+                "Description": "Health data, personal data, iOS version info, etc.",
+                "BFU": "N",
+                "Backup": "Y",
+                "Sysdiagnose": "N"
+                },
+                {
+                "path": "\/private\/var\/mobile\/Library\/Health\/healthdb_secure.sqlite",
+                "Description": "Health data, personal data, iOS version info, etc.",
+                "BFU": "N",
+                "Backup": "Y",
+                "Sysdiagnose": "N"
+                },
+                {
+                "path": "\/private\/var\/mobile\/Library\/MedicalID\/MedicalIDData.Archive",
+                "Description": "Medical Information (bloodtype, organ donor, name, DOB, etc.)",
+                "BFU": "N",
+                "Backup": "Y",
+                "Sysdiagnose": "N"
+                },
+                {
+                "path": "\/private\/var\/mobile\/Library\/Preferences\/com.apple.accountsettings.plist ",
+                "Description": "Email accounts pushed to device",
+                "BFU": "Y",
+                "Backup": "Y",
+                "Sysdiagnose": "N"
+                },
+                {
+                "path": "\/private\/var\/mobile\/Library\/Preferences\/com.apple.cmfsyncagent.plist",
+                "Description": "Blocked Dialers",
+                "BFU": "Y",
+                "Backup": "Y",
+                "Sysdiagnose": "N"
+                },
+                {
+                "path": "\/private\/var\/mobile\/Library\/Preferences\/com.apple.commcenter.shared.plist",
+                "Description": "Phone number",
+                "BFU": "Y",
+                "Backup": "Y",
+                "Sysdiagnose": "N"
+                },
+                {
+                "path": "\/private\/var\/mobile\/Library\/Preferences\/com.apple.conference.plist ",
+                "Description": "Facetime phone number in use, SMS phone number, user accounts",
+                "BFU": "Y",
+                "Backup": "Y",
+                "Sysdiagnose": "N"
+                },
+                {
+                "path": "\/private\/var\/mobile\/Library\/Preferences\/com.apple.contacts.donation-agent.plist",
+                "Description": "Last Metrics Attempts (usage information)",
+                "BFU": "Y",
+                "Backup": "Y",
+                "Sysdiagnose": "N"
+                },
+                {
+                "path": "\/private\/var\/mobile\/Library\/Preferences\/com.apple.contextstored.plist ",
+                "Description": "Activity throttling",
+                "BFU": "Y",
+                "Backup": "Y",
+                "Sysdiagnose": "N"
+                },
+                {
+                "path": "\/private\/var\/mobile\/Library\/Preferences\/com.apple.coreduetd.plist",
+                "Description": "Activity throttling",
+                "BFU": "Y",
+                "Backup": "Y",
+                "Sysdiagnose": "N"
+                },
+                {
+                "path": "\/private\/var\/mobile\/Library\/Preferences\/com.apple.corerecents.recentsd.plist",
+                "Description": "iCloud login information",
+                "BFU": "Y",
+                "Backup": "Y",
+                "Sysdiagnose": "N"
+                },
+                {
+                "path": "\/private\/var\/mobile\/Library\/Preferences\/com.apple.FeedbackAssistant.plist",
+                "Description": "Last successful email address used to login to cloud",
+                "BFU": "Y",
+                "Backup": "Y",
+                "Sysdiagnose": "N"
+                },
+                {
+                "path": "\/private\/var\/mobile\/Library\/Preferences\/com.apple.homesharing.plist",
+                "Description": "iCloud account information",
+                "BFU": "Y",
+                "Backup": "Y",
+                "Sysdiagnose": "N"
+                },
+                {
+                "path": "\/private\/var\/mobile\/Library\/Preferences\/com.apple.icloud.findmydeviced.FMIPAccounts.plist",
+                "Description": "Find My iPhone settings",
+                "BFU": "Y",
+                "Backup": "Y",
+                "Sysdiagnose": "N"
+                },
+                {
+                "path": "\/private\/var\/mobile\/Library\/UserConfigurationProfiles\/",
+                "Description": "Profiles and restrictions",
+                "BFU": "Y",
+                "Backup": "Y",
+                "Sysdiagnose": "N"
+                },
+                {
+                "path": "\/private\/var\/preferences\/SystemConfiguration\/com.apple.accounts.exists.plist",
+                "Description": "Account information",
+                "BFU": "Y",
+                "Backup": "Y",
+                "Sysdiagnose": "N"
+                },
+                {
+                "path": "\/private\/var\/root\/Library\/Lockdown\/data_ark.plist",
+                "Description": "Last backup computer, iCloud Backup Settings, Device info",
+                "BFU": "Y",
+                "Backup": "N",
+                "Sysdiagnose": "N"
+                },
+                {
+                "path": "\/private\/var\/wireless\/Library\/preferences\/com.apple.commcenter.callservices.plist",
+                "Description": "Last iCloud account",
+                "BFU": "Y",
+                "Backup": "N",
+                "Sysdiagnose": "N"
+                }
+            ],
+            "name":"Account and password info",
+            "type":"folder"
+        },
+        {
+            "children" : [
+                {
+                    "path": "\/private\/installd\/Library\/Logs\/MobileInstallation\/mobile_installation.log.*",
+                    "Description": "Mobile Applications Installation Logs",
+                    "BFU": "Y",
+                    "Backup": "N",
+                    "Sysdiagnose": "Y"
+                   },
+                   {
+                    "path": "\/private\/var\/mobile\/Containers\/ ",
+                    "Description": "Application Folders",
+                    "BFU": "Y",
+                    "Backup": "Y",
+                    "Sysdiagnose": "N"
+                   },
+                   {
+                    "path": "\/private\/var\/mobile\/Library\/BulletinBoard\/ClearedSections.plist",
+                    "Description": "Logs of cleared notifications",
+                    "BFU": "Y",
+                    "Backup": "Y",
+                    "Sysdiagnose": "N"
+                   },
+                   {
+                    "path": "\/private\/var\/mobile\/Library\/Keyboard\/<language>-dynamic.lm\/dynamic-lexicon.dat",
+                    "Description": "Auto correction \/ Predictive text",
+                    "BFU": "N",
+                    "Backup": "N",
+                    "Sysdiagnose": "N"
+                   },
+                   {
+                    "path": "\/private\/var\/mobile\/Library\/Preferences\/",
+                    "Description": "Examine plists for more information",
+                    "BFU": "Y",
+                    "Backup": "Y",
+                    "Sysdiagnose": "N"
+                   },
+                   {
+                    "path": "\/private\/var\/preferences\/SystemConfiguration\/NetworkInterfaces.plist",
+                    "Description": "Wi-Fi Mac Addresses",
+                    "BFU": "Y",
+                    "Backup": "N",
+                    "Sysdiagnose": "Y"
+                   }
+            ],
+            "name":"System setting",
+            "type":"folder"
+        },
+        {
+            "children" : [
+                {
+                "path": "\/private\/var\/containers\/Shared\/SystemGroup\/systemgroup.com.apple.configurationprofiles\/Library\/ConfigurationProfilesCloudConfigurationDetails.plist",
+                "Description": "Cloud configurations",
+                "BFU": "N",
+                "Backup": "N",
+                "Sysdiagnose": "N"
+                },
+                {
+                "path": "\/private\/var\/mobile\/Library\/DoNotDisturb\/DB\/Settings.json",
+                "Description": "Do not disturb settings",
+                "BFU": "Y",
+                "Backup": "Y",
+                "Sysdiagnose": "N"
+                },
+                {
+                "path": "\/private\/var\/mobile\/Library\/Keyboard\/UserDictionary.sqlite",
+                "Description": "User created auto-correct",
+                "BFU": "N",
+                "Backup": "N",
+                "Sysdiagnose": "N"
+                },
+                {
+                "path": "\/private\/var\/mobile\/Library\/Mail\/",
+                "Description": "Mail and settings",
+                "BFU": "N",
+                "Backup": "N",
+                "Sysdiagnose": "N"
+                },
+                {
+                "path": "\/private\/var\/mobile\/Library\/Preferences\/com.apple.assistant*",
+                "Description": "Siri",
+                "BFU": "Y",
+                "Backup": "Y",
+                "Sysdiagnose": "N"
+                },
+                {
+                "path": "\/private\/var\/mobile\/Library\/Preferences\/com.apple.assistant.backedup.plist",
+                "Description": "Cloud sync settings",
+                "BFU": "Y",
+                "Backup": "Y",
+                "Sysdiagnose": "N"
+                },
+                {
+                "path": "\/private\/var\/mobile\/Library\/Preferences\/com.apple.camera.plist",
+                "Description": "Camera settings",
+                "BFU": "Y",
+                "Backup": "Y",
+                "Sysdiagnose": "N"
+                },
+                {
+                "path": "\/private\/var\/mobile\/Library\/Preferences\/com.apple.celestial.plist",
+                "Description": "Camera, CarPlay, Volumes and other settings",
+                "BFU": "Y",
+                "Backup": "Y",
+                "Sysdiagnose": "N"
+                },
+                {
+                "path": "\/private\/var\/mobile\/Library\/Preferences\/com.apple.cloudphotod.plist",
+                "Description": "Cloud photo sync information",
+                "BFU": "Y",
+                "Backup": "Y",
+                "Sysdiagnose": "N"
+                },
+                {
+                "path": "\/private\/var\/mobile\/Library\/Preferences\/com.apple.CoreDuet.plist",
+                "Description": "Cloud sync settings",
+                "BFU": "Y",
+                "Backup": "Y",
+                "Sysdiagnose": "N"
+                },
+                {
+                "path": "\/private\/var\/mobile\/Library\/Preferences\/com.apple.imservice*",
+                "Description": "SMS, iMessage and FaceTime",
+                "BFU": "Y",
+                "Backup": "Y",
+                "Sysdiagnose": "N"
+                },
+                {
+                "path": "\/private\/var\/mobile\/Library\/Preferences\/com.apple.MobileSMS.plist",
+                "Description": "Time to keep messages",
+                "BFU": "Y",
+                "Backup": "Y",
+                "Sysdiagnose": "N"
+                },
+                {
+                "path": "\/private\/var\/mobile\/Library\/Preferences\/com.apple.preferences.network.plist",
+                "Description": "Airplane Mode Settings",
+                "BFU": "Y",
+                "Backup": "Y",
+                "Sysdiagnose": "N"
+                },
+                {
+                "path": "\/private\/var\/mobile\/Library\/Preferences\/com.apple.springboard.plist",
+                "Description": "User created restrictions\/Remote wipe settings",
+                "BFU": "Y",
+                "Backup": "Y",
+                "Sysdiagnose": "N"
+                },
+                {
+                "path": "\/private\/var\/mobile\/Library\/Preferences\/com.apple.weather.plist",
+                "Description": "Weather (including current city)",
+                "BFU": "Y",
+                "Backup": "Y",
+                "Sysdiagnose": "N"
+                },
+                {
+                "path": "\/private\/var\/mobile\/Library\/SpringBoard\/HomeBackground.cpbitmap",
+                "Description": "Wallpaper",
+                "BFU": "Y",
+                "Backup": "Y",
+                "Sysdiagnose": "N"
+                },
+                {
+                "path": "\/private\/var\/mobile\/Library\/SpringBoard\/HomeBackgroundThumbnail.jpg",
+                "Description": "Wallpaper",
+                "BFU": "Y",
+                "Backup": "Y",
+                "Sysdiagnose": "N"
+                },
+                {
+                "path": "\/private\/var\/mobile\/Library\/SpringBoard\/IconState.plist",
+                "Description": "Homescreen icon layout",
+                "BFU": "Y",
+                "Backup": "Y",
+                "Sysdiagnose": "N"
+                },
+                {
+                "path": "\/private\/var\/mobile\/Library\/SpringBoard\/LockBackground.cpbitmap",
+                "Description": "Wallpaper",
+                "BFU": "Y",
+                "Backup": "Y",
+                "Sysdiagnose": "N"
+                },
+                {
+                "path": "\/private\/var\/mobile\/Library\/SpringBoard\/LockBackgroundThumbnail.jpg",
+                "Description": "Wallpaper",
+                "BFU": "Y",
+                "Backup": "Y",
+                "Sysdiagnose": "N"
+                },
+                {
+                "path": "\/private\/var\/mobile\/Library\/SpringBoard\/LockBackgroundThumbnaildark.jpg",
+                "Description": "Wallpaper",
+                "BFU": "Y",
+                "Backup": "Y",
+                "Sysdiagnose": "N"
+                },
+                {
+                "path": "\/private\/var\/mobile\/Library\/SpringBoard\/PushStore\/",
+                "Description": "Notifications",
+                "BFU": "N",
+                "Backup": "N",
+                "Sysdiagnose": "N"
+                },
+                {
+                "path": "\/private\/var\/mobile\/Library\/UserConfigurationProfiles\/UserSettings.plist",
+                "Description": "User created restrictions",
+                "BFU": "Y",
+                "Backup": "Y",
+                "Sysdiagnose": "N"
+                },
+                {
+                "path": "\/private\/var\/mobile\/Library\/UserNotifications\/",
+                "Description": "User Notifications",
+                "BFU": "Y",
+                "Backup": "Y",
+                "Sysdiagnose": "N"
+                },
+                {
+                "path": "\/private\/var\/root\/Library\/Lockdown\/data_ark.plist",
+                "Description": "Last backup computer, iCloud Backup Settings, Device info",
+                "BFU": "Y",
+                "Backup": "N",
+                "Sysdiagnose": "N"
+                },
+                {
+                "path": "\/private\/var\/root\/Library\/Preferences\/com.apple.preferences.network.plist",
+                "Description": "Airplane Mode Settings",
+                "BFU": "Y",
+                "Backup": "Y",
+                "Sysdiagnose": "N"
+                }
+            ],
+            "name":"user setting",
+            "type":"folder"
+        },
+        {
+            "children" : [
+                {
+                "path": "\/private\/var\/mobile\/Library\/CallHistory\/call_history.db",
+                "Description": "Call log (Up to iOS 7)",
+                "BFU": "N",
+                "Backup": "Y",
+                "Sysdiagnose": "N"
+                },
+                {
+                "path": "\/private\/var\/mobile\/Library\/CallHistoryDB\/CallHistory.storedata",
+                "Description": "Call log (From iOS 8)",
+                "BFU": "N",
+                "Backup": "Y",
+                "Sysdiagnose": "N"
+                },
+                {
+                "path": "\/private\/var\/mobile\/Library\/CallHistoryDB\/CallHistoryTemp.storedata",
+                "Description": "Call History Temporary storage (Before First Unlock)",
+                "BFU": "Y",
+                "Backup": "N",
+                "Sysdiagnose": "N"
+                },
+                {
+                "path": "\/private\/var\/mobile\/Library\/Mail\/",
+                "Description": "Mail and settings",
+                "BFU": "N",
+                "Backup": "N",
+                "Sysdiagnose": "N"
+                },
+                {
+                "path": "\/private\/var\/mobile\/Library\/Preferences\/com.apple.madrid.plist",
+                "Description": "SMS, iMessage and FaceTime",
+                "BFU": "Y",
+                "Backup": "Y",
+                "Sysdiagnose": "N"
+                },
+                {
+                "path": "\/private\/var\/mobile\/Library\/Preferences\/com.apple.mobilephone.*",
+                "Description": "List of contacts added to the phone application’s favorites list",
+                "BFU": "N",
+                "Backup": "Y",
+                "Sysdiagnose": "N"
+                },
+                {
+                "path": "\/private\/var\/mobile\/Library\/Preferences\/com.apple.MobileSMS.plist",
+                "Description": "SMS, iMessage and FaceTime",
+                "BFU": "Y",
+                "Backup": "Y",
+                "Sysdiagnose": "N"
+                },
+                {
+                "path": "\/private\/var\/mobile\/Library\/Recents\/",
+                "Description": "Recents communications",
+                "BFU": "N",
+                "Backup": "N",
+                "Sysdiagnose": "N"
+                },
+                {
+                "path": "\/private\/var\/mobile\/Library\/SMS\/Attachments\/*",
+                "Description": "MMS File",
+                "BFU": "N",
+                "Backup": "Y",
+                "Sysdiagnose": "N"
+                },
+                {
+                "path": "\/private\/var\/mobile\/Library\/SMS\/Drafts\/*",
+                "Description": "SMS\/MMS Drafts",
+                "BFU": "N",
+                "Backup": "Y",
+                "Sysdiagnose": "N"
+                },
+                {
+                "path": "\/private\/var\/mobile\/Library\/SMS\/sms.db",
+                "Description": "SMS\/MMS messages",
+                "BFU": "N",
+                "Backup": "Y",
+                "Sysdiagnose": "N"
+                },
+                {
+                "path": "\/private\/var\/mobile\/Library\/SMS\/sms-temp.db",
+                "Description": "SMS Temporary storage (Before First Unlock)",
+                "BFU": "Y",
+                "Backup": "N",
+                "Sysdiagnose": "N"
+                },
+                {
+                "path": "\/private\/var\/mobile\/Library\/Suggestions\/query_predictions.db",
+                "Description": "Contains iMessage\/SMS traces",
+                "BFU": "N",
+                "Backup": "N",
+                "Sysdiagnose": "N"
+                },
+                {
+                "path": "\/private\/var\/mobile\/Library\/Voicemail\/voicemail.db",
+                "Description": "Voicemail",
+                "BFU": "Y",
+                "Backup": "N",
+                "Sysdiagnose": "N"
+                },
+                {
+                "path": "\/private\/var\/mobile\/Media\/Recordings\/*",
+                "Description": "Voice Memos",
+                "BFU": "N",
+                "Backup": "Y",
+                "Sysdiagnose": "N"
+                }
+            ],
+            "name":"comms",
+            "type":"folder"
+        },
+        {
+            "children" : [
+                {
+                "path": "\/private\/var\/mobile\/Containers\/Data\/Application\/<Apple Safari GUID\/Library\/Caches\/com.apple.mobilesafari\/",
+                "Description": "Safari Cache files",
+                "BFU": "N",
+                "Backup": "N",
+                "Sysdiagnose": "N"
+                },
+                {
+                "path": "\/private\/var\/mobile\/Containers\/Data\/Application\/<Apple Safari GUID\/Library\/Caches\/com.apple.mobilesafari\/Cache.db",
+                "Description": "Safari Cache database",
+                "BFU": "N",
+                "Backup": "N",
+                "Sysdiagnose": "N"
+                },
+                {
+                "path": "\/private\/var\/mobile\/Containers\/Data\/Application\/<Apple Safari GUID\/Library\/Caches\/com.apple.WebAppCache\/ApplicationCache.db",
+                "Description": "Safari Website cache",
+                "BFU": "N",
+                "Backup": "N",
+                "Sysdiagnose": "N"
+                },
+                {
+                "path": "\/private\/var\/mobile\/Containers\/Data\/Application\/<Apple Safari GUID\/Library\/Cookies\/Cookies.binarycookies",
+                "Description": "Safari Cookies",
+                "BFU": "N",
+                "Backup": "Y",
+                "Sysdiagnose": "N"
+                },
+                {
+                "path": "\/private\/var\/mobile\/Containers\/Data\/Application\/<Apple Safari GUID\/Library\/Favicons\/Favicons\/",
+                "Description": "Safari Website favicons",
+                "BFU": "N",
+                "Backup": "N",
+                "Sysdiagnose": "N"
+                },
+                {
+                "path": "\/private\/var\/mobile\/Containers\/Data\/Application\/<Apple Safari GUID\/Library\/Preferences\/com.apple.mobilesafari.plist",
+                "Description": "Safari Configuration",
+                "BFU": "N",
+                "Backup": "Y",
+                "Sysdiagnose": "N"
+                },
+                {
+                "path": "\/private\/var\/mobile\/Containers\/Data\/Application\/<Apple Safari GUID\/Library\/Safari\/Downloads\/Downloads.plist",
+                "Description": "Safari Download History",
+                "BFU": "N",
+                "Backup": "Y",
+                "Sysdiagnose": "N"
+                },
+                {
+                "path": "\/private\/var\/mobile\/Containers\/Data\/Application\/<Apple Safari GUID\/Library\/Safari\/Thumbnails\/",
+                "Description": "Safari Tabs Screenshots (PNG or KTX format)",
+                "BFU": "N",
+                "Backup": "Y",
+                "Sysdiagnose": "N"
+                },
+                {
+                "path": "\/private\/var\/mobile\/Containers\/Data\/Application\/<Apple Safari GUID\/Library\/WebKit\/WebsiteData\/LocalStorage\/*",
+                "Description": "Safari WebKit Localstorage",
+                "BFU": "Y",
+                "Backup": "Y",
+                "Sysdiagnose": "N"
+                },
+                {
+                "path": "\/private\/var\/mobile\/Library\/Assistant\/knowledgeC.db",
+                "Description": "Safari History information",
+                "BFU": "N",
+                "Backup": "N",
+                "Sysdiagnose": "N"
+                },
+                {
+                "path": "\/private\/var\/mobile\/Library\/Safari\/Bookmarks.db",
+                "Description": "Safari Bookmarks",
+                "BFU": "N",
+                "Backup": "Y",
+                "Sysdiagnose": "N"
+                },
+                {
+                "path": "\/private\/var\/mobile\/Library\/Safari\/BrowserState.db",
+                "Description": "Safari Suspended State Tab",
+                "BFU": "N",
+                "Backup": "N",
+                "Sysdiagnose": "N"
+                },
+                {
+                "path": "\/private\/var\/mobile\/Library\/Safari\/CloudTabs.db",
+                "Description": "Safari Cloud Tabs",
+                "BFU": "N",
+                "Backup": "N",
+                "Sysdiagnose": "N"
+                },
+                {
+                "path": "\/private\/var\/mobile\/Library\/Safari\/History.db",
+                "Description": "Safari History",
+                "BFU": "N",
+                "Backup": "N",
+                "Sysdiagnose": "N"
+                }
+            ],
+            "name":"browser activity",
+            "type":"folder"
+        },
+        {
+            "children" : [
+                {
+                "path": "*.ktx",
+                "Description": "Application Snapshots",
+                "BFU": "N",
+                "Backup": "N",
+                "Sysdiagnose": "N"
+                },
+                {
+                "path": "\/private\/var\/mobile\/Library\/AddressBook\/AddressBookImages.sqlitedb",
+                "Description": "Contacts pictures",
+                "BFU": "N",
+                "Backup": "Y",
+                "Sysdiagnose": "N"
+                },
+                {
+                "path": "\/private\/var\/mobile\/Library\/Preferences\/com.apple.mobileslideshow.plist",
+                "Description": "Photos",
+                "BFU": "Y",
+                "Backup": "Y",
+                "Sysdiagnose": "N"
+                },
+                {
+                "path": "\/private\/var\/mobile\/Library\/SMS\/Attachments\/",
+                "Description": "MMS File",
+                "BFU": "N",
+                "Backup": "Y",
+                "Sysdiagnose": "N"
+                },
+                {
+                "path": "\/private\/var\/mobile\/Media\/DCIM\/1*APPLE ",
+                "Description": "User Created\/Saved Photos",
+                "BFU": "N",
+                "Backup": "Y",
+                "Sysdiagnose": "N"
+                },
+                {
+                "path": "\/private\/var\/mobile\/Media\/iTunes_Control\/iTunes\/MediaLibrary.sqlitedb",
+                "Description": "iTunes Media Library",
+                "BFU": "Y",
+                "Backup": "Y",
+                "Sysdiagnose": "N"
+                },
+                {
+                "path": "\/private\/var\/mobile\/Media\/PhotoData\/*.ithmb",
+                "Description": "Thumbnails databases",
+                "BFU": "N",
+                "Backup": "Y",
+                "Sysdiagnose": "N"
+                },
+                {
+                "path": "\/private\/var\/mobile\/Media\/PhotoData\/AlbumsMetadata\/",
+                "Description": "Photo Albums Metadata",
+                "BFU": "N",
+                "Backup": "Y",
+                "Sysdiagnose": "N"
+                },
+                {
+                "path": "\/private\/var\/mobile\/Media\/PhotoData\/CPL\/",
+                "Description": "Cloud Photo Library",
+                "BFU": "N",
+                "Backup": "Y",
+                "Sysdiagnose": "N"
+                },
+                {
+                "path": "\/private\/var\/mobile\/Media\/PhotoData\/Photos.sqlite",
+                "Description": "Photos\/Videos Database",
+                "BFU": "N",
+                "Backup": "Y",
+                "Sysdiagnose": "N"
+                },
+                {
+                "path": "\/private\/var\/mobile\/Media\/PhotoData\/V2\/",
+                "Description": "Photos saved from Live Video and SMS photo capture",
+                "BFU": "N",
+                "Backup": "Y",
+                "Sysdiagnose": "N"
+                }
+            ],
+            "name":"Multimedia",
+            "type":"folder"
+        },
+        {
+            "children" : [
+                {
+                "path": "\/private\/var\/db\/dhcpclient\/leases\/",
+                "Description": "DHCP Lease",
+                "BFU": "Y",
+                "Backup": "N",
+                "Sysdiagnose": "N"
+                },
+                {
+                "path": "\/private\/var\/mobile\/Library\/Preferences\/com.apple.preferences.network.plist",
+                "Description": "Airplane mode ON\/OFF",
+                "BFU": "Y",
+                "Backup": "Y",
+                "Sysdiagnose": "N"
+                },
+                {
+                "path": "\/private\/var\/networkd\/netusage.sqlite",
+                "Description": "Network data usage per App",
+                "BFU": "N",
+                "Backup": "N",
+                "Sysdiagnose": "N"
+                },
+                {
+                "path": "\/private\/var\/preferences\/com.apple.networkextension.plist",
+                "Description": "Network Extension",
+                "BFU": "Y",
+                "Backup": "Y",
+                "Sysdiagnose": "N"
+                },
+                {
+                "path": "\/private\/var\/preferences\/SystemConfiguration\/com.apple.networkidentification.plist",
+                "Description": "Network IP, Wi-Fi, Cellular",
+                "BFU": "Y",
+                "Backup": "Y",
+                "Sysdiagnose": "N"
+                },
+                {
+                "path": "\/private\/var\/preferences\/SystemConfiguration\/com.apple.wifi.plist",
+                "Description": "Wi-Fi",
+                "BFU": "Y",
+                "Backup": "Y",
+                "Sysdiagnose": "Y"
+                },
+                {
+                "path": "\/private\/var\/preferences\/SystemConfiguration\/NetworkInterfaces.plist",
+                "Description": "Wi-Fi Mac Addresses",
+                "BFU": "Y",
+                "Backup": "N",
+                "Sysdiagnose": "Y"
+                },
+                {
+                "path": "\/private\/var\/preferences\/SystemConfiguration\/preferences.plist",
+                "Description": "Wi-Fi, VPN, Certs and more",
+                "BFU": "Y",
+                "Backup": "Y",
+                "Sysdiagnose": "N"
+                },
+                {
+                "path": "\/private\/var\/root\/Library\/Preferences\/com.apple.preferences.network.plist",
+                "Description": "Wi-Fi ON\/OFF",
+                "BFU": "Y",
+                "Backup": "Y",
+                "Sysdiagnose": "N"
+                },
+                {
+                "path": "\/private\/var\/wireless\/Library\/Databases\/CellularUsage.db",
+                "Description": "SIMs used in device, including most recent",
+                "BFU": "Y",
+                "Backup": "Y",
+                "Sysdiagnose": "N"
+                },
+                {
+                "path": "\/private\/var\/wireless\/Library\/Preferences\/com.apple.CommCenter.counts.plist",
+                "Description": "Data and Cellular network statistics",
+                "BFU": "Y",
+                "Backup": "Y",
+                "Sysdiagnose": "N"
+                },
+                {
+                "path": "\/private\/var\/wireless\/Library\/Preferences\/com.apple.commcenter.device_specific_nobackup.plist",
+                "Description": "Device IMEI",
+                "BFU": "Y",
+                "Backup": "Y",
+                "Sysdiagnose": "N"
+                },
+                {
+                "path": "\/private\/var\/wireless\/Library\/Preferences\/com.apple.commcenter.plist",
+                "Description": "SIM Card ICCID",
+                "BFU": "Y",
+                "Backup": "Y",
+                "Sysdiagnose": "N"
+                }
+            ],
+            "name":"Network connections",
+            "type":"folder"
+        },
+        {
+            "children" : [
+                {
+                "path": "\/private\/var\/containers\/Shared\/SystemGroup\/<GUID>\/Library\/Database\/com.apple.MobileBluetooth.ledevices.other.db",
+                "Description": "Seen Bluetooth devices",
+                "BFU": "N",
+                "Backup": "Y",
+                "Sysdiagnose": "N"
+                },
+                {
+                "path": "\/private\/var\/containers\/Shared\/SystemGroup\/<GUID>\/Library\/Database\/com.apple.MobileBluetooth.ledevices.paired.db",
+                "Description": "Paired Bluetooth devices",
+                "BFU": "Y",
+                "Backup": "Y",
+                "Sysdiagnose": "N"
+                },
+                {
+                "path": "\/private\/var\/containers\/Shared\/SystemGroup\/<GUID>\/Library\/Preferences\/com.apple.MobileBluetooth.devices.plist",
+                "Description": "Paired Bluetooth devices",
+                "BFU": "N",
+                "Backup": "Y",
+                "Sysdiagnose": "N"
+                },
+                {
+                "path": "\/private\/var\/mobile\/Library\/DataAccess\/iCloud-[iCloud email account name]\/.OfflineCache\/[number]",
+                "Description": "iClould offline cache",
+                "BFU": "Y",
+                "Backup": "Y",
+                "Sysdiagnose": "N"
+                },
+                {
+                "path": "\/private\/var\/mobile\/Library\/DeviceRegistry.state\/activeStateMachine.plist",
+                "Description": "Apple Watch pairing information",
+                "BFU": "Y",
+                "Backup": "Y",
+                "Sysdiagnose": "N"
+                },
+                {
+                "path": "\/private\/var\/mobile\/Library\/DeviceRegistry.state\/historySecureProperties.plist",
+                "Description": "Apple Watch information (also previously paired Apple Watch)",
+                "BFU": "N",
+                "Backup": "Y",
+                "Sysdiagnose": "N"
+                },
+                {
+                "path": "\/private\/var\/mobile\/Library\/DeviceRegistry.state\/stateMachine-<GUID>.plist",
+                "Description": "Apple Watch pairing information (also previously paired Apple Watch)",
+                "BFU": "N",
+                "Backup": "Y",
+                "Sysdiagnose": "N"
+                },
+                {
+                "path": "\/private\/var\/mobile\/Library\/DeviceRegistry\/<GUID>\/",
+                "Description": "Apple Watch data",
+                "BFU": "Y",
+                "Backup": "Y",
+                "Sysdiagnose": "N"
+                },
+                {
+                "path": "\/private\/var\/mobile\/Library\/DeviceRegistry\/<GUID>\/NanoAppRegistry\/Applications\/",
+                "Description": "Apple Watch Applications",
+                "BFU": "Y",
+                "Backup": "Y",
+                "Sysdiagnose": "N"
+                },
+                {
+                "path": "\/private\/var\/mobile\/Library\/DeviceRegistry\/<GUID>\/NanoMail\/registry.sqlite",
+                "Description": "Apple Watch Mail application",
+                "BFU": "Y",
+                "Backup": "Y",
+                "Sysdiagnose": "N"
+                },
+                {
+                "path": "\/private\/var\/mobile\/Library\/DeviceRegistry\/<GUID>\/NanoPasses\/nanopasses.sqlite3",
+                "Description": "Apple Watch Wallet Passes",
+                "BFU": "N",
+                "Backup": "Y",
+                "Sysdiagnose": "N"
+                },
+                {
+                "path": "\/private\/var\/mobile\/Library\/DeviceRegistry\/<GUID>\/NanoPreferencesSync\/Backup\/Files\/",
+                "Description": "Apple Watch Faces",
+                "BFU": "Y",
+                "Backup": "Y",
+                "Sysdiagnose": "N"
+                },
+                {
+                "path": "\/private\/var\/mobile\/Library\/Health\/NanoSync\/com.apple.private.alloy.health.sync.db",
+                "Description": "AppleWatch Health data sync",
+                "BFU": "N",
+                "Backup": "Y",
+                "Sysdiagnose": "N"
+                },
+                {
+                "path": "\/private\/var\/mobile\/Library\/homed\/datastore.sqlite",
+                "Description": "Apple HomeKit Devices",
+                "BFU": "N",
+                "Backup": "Y",
+                "Sysdiagnose": "N"
+                },
+                {
+                "path": "\/private\/var\/mobile\/Library\/MobileBluetooth\/com.apple.MobileBluetooth.ledevices.plist",
+                "Description": "Seen Bluetooth devices",
+                "BFU": "Y",
+                "Backup": "Y",
+                "Sysdiagnose": "N"
+                },
+                {
+                "path": "\/private\/var\/mobile\/Library\/NanoBackup\/",
+                "Description": "Apple Watch information",
+                "BFU": "Y",
+                "Backup": "Y",
+                "Sysdiagnose": "N"
+                },
+                {
+                "path": "\/private\/var\/mobile\/Library\/NanoMusicSync\/",
+                "Description": "Apple Watch information",
+                "BFU": "Y",
+                "Backup": "N",
+                "Sysdiagnose": "N"
+                },
+                {
+                "path": "\/private\/var\/mobile\/Library\/NanoPreferencesSync\/",
+                "Description": "Apple Watch information",
+                "BFU": "Y",
+                "Backup": "N",
+                "Sysdiagnose": "N"
+                },
+                {
+                "path": "\/private\/var\/mobile\/Library\/NanoTimeKit\/",
+                "Description": "Apple Watch information",
+                "BFU": "Y",
+                "Backup": "N",
+                "Sysdiagnose": "N"
+                },
+                {
+                "path": "\/private\/var\/mobile\/Library\/Preferences\/com.apple.carplay.plist",
+                "Description": "Apple CarPlay configuration",
+                "BFU": "Y",
+                "Backup": "Y",
+                "Sysdiagnose": "N"
+                },
+                {
+                "path": "\/private\/var\/mobile\/Library\/Preferences\/com.apple.cloud.quota.plist",
+                "Description": "iCloud quota information",
+                "BFU": "Y",
+                "Backup": "Y",
+                "Sysdiagnose": "N"
+                },
+                {
+                "path": "\/private\/var\/mobile\/Library\/Preferences\/com.apple.CoreDuet.QueuedDenials.plist",
+                "Description": "Cloud Sync denials and dates",
+                "BFU": "Y",
+                "Backup": "Y",
+                "Sysdiagnose": "N"
+                },
+                {
+                "path": "\/private\/var\/mobile\/Library\/Preferences\/com.apple.coreduetd.plist",
+                "Description": "sync devices",
+                "BFU": "Y",
+                "Backup": "Y",
+                "Sysdiagnose": "N"
+                },
+                {
+                "path": "\/private\/var\/mobile\/Library\/Preferences\/com.apple.identityservices.idstatuscache.plist",
+                "Description": "iCloud sync, Email, FaceTime, Email, more",
+                "BFU": "Y",
+                "Backup": "Y",
+                "Sysdiagnose": "N"
+                },
+                {
+                "path": "\/private\/var\/mobile\/Library\/Preferences\/com.apple.mobile.ldbackup.plist",
+                "Description": "Last iTunes and last iCloud backup date and timezone.",
+                "BFU": "Y",
+                "Backup": "Y",
+                "Sysdiagnose": "N"
+                },
+                {
+                "path": "\/private\/var\/mobile\/Library\/Preferences\/com.apple.nano*.plist",
+                "Description": "Apple Watch preferences",
+                "BFU": "Y",
+                "Backup": "Y",
+                "Sysdiagnose": "N"
+                },
+                {
+                "path": "\/private\/var\/mobile\/Library\/Preferences\/com.apple.sharingd.plist",
+                "Description": "Device AirDrop ID",
+                "BFU": "Y",
+                "Backup": "Y",
+                "Sysdiagnose": "N"
+                },
+                {
+                "path": "\/private\/var\/mobile\/Library\/Springboard\/<GUID>-CarDisplay[Desired]IconState.plist",
+                "Description": "Apple CarPlay per car App Icon configuration",
+                "BFU": "Y",
+                "Backup": "Y",
+                "Sysdiagnose": "N"
+                },
+                {
+                "path": "\/private\/var\/mobile\/Media\/iTunesControl\/iTunes\/iTunesPrefs",
+                "Description": "List of computer where the device was connected to",
+                "BFU": "Y",
+                "Backup": "Y",
+                "Sysdiagnose": "N"
+                },
+                {
+                "path": "\/private\/var\/root\/Library\/Lockdown\/data_ark.plist",
+                "Description": "Last backup computer, iCloud Backup Settings, Device info",
+                "BFU": "Y",
+                "Backup": "N",
+                "Sysdiagnose": "N"
+                },
+                {
+                "path": "\/private\/var\/wireless\/Library\/Databases\/DataUsage-watch.sqlite",
+                "Description": "Watch Application Usage",
+                "BFU": "N",
+                "Backup": "N",
+                "Sysdiagnose": "N"
+                }
+            ],
+            "name":"Syncing",
+            "type":"folder"
+        },
+        {
+            "children" : [
+                {
+                "path": "\/private\/var\/containers\/Shared\/SystemGroup\/<GUID>\/Library\/Database\/com.apple.MobileBluetooth.ledevices.other.db",
+                "Description": "Seen Bluetooth devices",
+                "BFU": "N",
+                "Backup": "Y",
+                "Sysdiagnose": "N"
+                },
+                {
+                "path": "\/private\/var\/mobile\/Containers\/Data\/Application\/<Apple_Maps_GUID>\/Library\/Maps\/GeoHistory.mapsdata",
+                "Description": "Apple Maps history",
+                "BFU": "N",
+                "Backup": "Y",
+                "Sysdiagnose": "N"
+                },
+                {
+                "path": "\/private\/var\/mobile\/Containers\/Data\/Application\/<Apple_Maps_GUID>\/Library\/Maps\/History.mapsdata",
+                "Description": "Apple Maps history",
+                "BFU": "N",
+                "Backup": "Y",
+                "Sysdiagnose": "N"
+                },
+                {
+                "path": "\/private\/var\/mobile\/Containers\/Data\/Application\/<Apple_Maps_GUID>\/Library\/Preferences\/com.apple.Maps.plist",
+                "Description": "Last latitude and longitude, map search history",
+                "BFU": "Y",
+                "Backup": "Y",
+                "Sysdiagnose": "N"
+                },
+                {
+                "path": "\/private\/var\/mobile\/Containers\/Data\/Application\/<Apple_Maps_GUID>\/Library\/SyncedPreferences\/com.apple.Maps-com.apple.Maps.recents.plist",
+                "Description": "Apple Maps recents",
+                "BFU": "Y",
+                "Backup": "N",
+                "Sysdiagnose": "N"
+                },
+                {
+                "path": "\/private\/var\/mobile\/Containers\/Data\/Application\/<Apple_Maps_GUID>\/Library\/SyncedPreferences\/com.apple.Maps-com.apple.MapsSupport.bookmarks.plist",
+                "Description": "Apple Maps bookmarks",
+                "BFU": "Y",
+                "Backup": "N",
+                "Sysdiagnose": "N"
+                },
+                {
+                "path": "\/private\/var\/mobile\/Containers\/Data\/Application\/<Apple_Maps_GUID>\/Library\/SyncedPreferences\/com.apple.Maps-com.apple.MapsSupport.history.plist",
+                "Description": "Apple Maps history",
+                "BFU": "Y",
+                "Backup": "N",
+                "Sysdiagnose": "N"
+                },
+                {
+                "path": "\/private\/var\/mobile\/Containers\/Shared\/AppGroup\/<Apple_MAPS_GUID>\/Library\/Preferences\/group.com.apple.Maps.plist",
+                "Description": "Last latitude and longitude, map search history",
+                "BFU": "Y",
+                "Backup": "Y",
+                "Sysdiagnose": "N"
+                },
+                {
+                "path": "\/private\/var\/mobile\/Library\/Caches\/com.apple.routined\/Cache.sqlite",
+                "Description": "Location information",
+                "BFU": "N",
+                "Backup": "N",
+                "Sysdiagnose": "N"
+                },
+                {
+                "path": "\/private\/var\/mobile\/Library\/Caches\/com.apple.routined\/Local.sqlite",
+                "Description": "Location information",
+                "BFU": "N",
+                "Backup": "N",
+                "Sysdiagnose": "N"
+                },
+                {
+                "path": "\/private\/var\/mobile\/Library\/Preferences\/com.apple.locationd.plist",
+                "Description": "\"Location Services\" setting (Enabled = 1; Disabled = 0)",
+                "BFU": "Y",
+                "Backup": "Y",
+                "Sysdiagnose": "N"
+                },
+                {
+                "path": "\/private\/var\/mobile\/Library\/Preferences\/com.apple.preferences.datetime.plist",
+                "Description": "Time settings",
+                "BFU": "Y",
+                "Backup": "Y",
+                "Sysdiagnose": "N"
+                },
+                {
+                "path": "\/private\/var\/mobile\/Library\/Preferences\/com.apple.purplebuddy.plist",
+                "Description": "Language, Country info, Device IDs",
+                "BFU": "Y",
+                "Backup": "Y",
+                "Sysdiagnose": "N"
+                },
+                {
+                "path": "\/private\/var\/preferences\/SystemConfiguration\/com.apple.networkidentification.plist",
+                "Description": "Network IP, WiFi, Cellular",
+                "BFU": "Y",
+                "Backup": "Y",
+                "Sysdiagnose": "N"
+                },
+                {
+                "path": "\/private\/var\/preferences\/SystemConfiguration\/preferences.plist",
+                "Description": "Network and VPN information",
+                "BFU": "Y",
+                "Backup": "Y",
+                "Sysdiagnose": "N"
+                },
+                {
+                "path": "\/private\/var\/root\/Library\/Caches\/locationd\/Cache.sqlite",
+                "Description": "Location information",
+                "BFU": "N",
+                "Backup": "N",
+                "Sysdiagnose": "N"
+                },
+                {
+                "path": "\/private\/var\/root\/Library\/Caches\/locationd\/cache_encryptedA.db",
+                "Description": "Location information",
+                "BFU": "N",
+                "Backup": "N",
+                "Sysdiagnose": "N"
+                },
+                {
+                "path": "\/private\/var\/root\/Library\/Caches\/locationd\/cache_encryptedB.db",
+                "Description": "Location information",
+                "BFU": "N",
+                "Backup": "N",
+                "Sysdiagnose": "N"
+                },
+                {
+                "path": "\/private\/var\/root\/Library\/Caches\/locationd\/cache_encryptedC.db",
+                "Description": "Location information",
+                "BFU": "N",
+                "Backup": "N",
+                "Sysdiagnose": "N"
+                },
+                {
+                "path": "\/private\/var\/root\/Library\/Caches\/locationd\/consolidated.db",
+                "Description": "Application Traces and GeoFence information",
+                "BFU": "Y",
+                "Backup": "Y",
+                "Sysdiagnose": "N"
+                },
+                {
+                "path": "\/private\/var\/root\/Library\/Caches\/locationd\/significant.plist",
+                "Description": "Significant Location",
+                "BFU": "N",
+                "Backup": "Y",
+                "Sysdiagnose": "N"
+                },
+                {
+                "path": "\/private\/var\/root\/Library\/Caches\/locationd\/significantVisitAuth.plist",
+                "Description": "Significant Location",
+                "BFU": "Y",
+                "Backup": "Y",
+                "Sysdiagnose": "N"
+                },
+                {
+                "path": "\/private\/var\/root\/Library\/Caches\/locationd\/significantVisitInterest.plist",
+                "Description": "Significant Location",
+                "BFU": "Y",
+                "Backup": "Y",
+                "Sysdiagnose": "N"
+                }
+            ],
+            "name":"Location artifacts",
+            "type":"folder"
+        },
+        {
+            "children" : [
+                {
+                "path": "\/private\/var\/installd\/Library\/Logs\/MobileInstallation\/mobile_installation.log.*",
+                "Description": "Mobile Applications Installation Logs",
+                "BFU": "Y",
+                "Backup": "N",
+                "Sysdiagnose": "Y"
+                },
+                {
+                "path": "\/private\/var\/containers\/Shared\/SystemGroup\/<GUID>\/Library\/BatteryLife\/CurrentPowerLog.PLSQL",
+                "Description": "Battery life tracker",
+                "BFU": "N",
+                "Backup": "N",
+                "Sysdiagnose": "Y"
+                },
+                {
+                "path": "\/private\/var\/mobile\/Library\/AggregatedDictionary\/ADDataStore.sqlitedb",
+                "Description": "Application traces",
+                "BFU": "Y",
+                "Backup": "N",
+                "Sysdiagnose": "N"
+                },
+                {
+                "path": "\/private\/var\/mobile\/Library\/AppConduit\/AvailableApps.plist",
+                "Description": "Installed Apps and Apps Path",
+                "BFU": "Y",
+                "Backup": "N",
+                "Sysdiagnose": "N"
+                },
+                {
+                "path": "\/private\/var\/mobile\/Library\/AppConduit\/AvailableCompanionApps.plist",
+                "Description": "Installed Apps and Apps Path",
+                "BFU": "Y",
+                "Backup": "N",
+                "Sysdiagnose": "N"
+                },
+                {
+                "path": "\/private\/var\/mobile\/Library\/Application Support\/com.apple.remotemanagmentd\/RMAdminStore-Local.sqlite",
+                "Description": "Screen time",
+                "BFU": "N",
+                "Backup": "N",
+                "Sysdiagnose": "N"
+                },
+                {
+                "path": "\/private\/var\/mobile\/Library\/ApplicationSync\/AssetSortOrder.plist",
+                "Description": "Application order on the SpringBoard",
+                "BFU": "Y",
+                "Backup": "N",
+                "Sysdiagnose": "N"
+                },
+                {
+                "path": "\/private\/var\/mobile\/Library\/Assistant\/knowledgeC.db",
+                "Description": "Application traces",
+                "BFU": "N",
+                "Backup": "N",
+                "Sysdiagnose": "N"
+                },
+                {
+                "path": "\/private\/var\/mobile\/Library\/com.apple.itunesstored\/itunesstored2.sqlitedb",
+                "Description": "Application traces",
+                "BFU": "Y",
+                "Backup": "Y",
+                "Sysdiagnose": "N"
+                },
+                {
+                "path": "\/private\/var\/mobile\/Library\/com.apple.itunesstored\/kvs.sqlitedb",
+                "Description": "Installed Applications",
+                "BFU": "Y",
+                "Backup": "Y",
+                "Sysdiagnose": "N"
+                },
+                {
+                "path": "\/private\/var\/mobile\/Library\/CoreDuet\/Knowledge\/knowledgeC.db",
+                "Description": "Application traces",
+                "BFU": "N",
+                "Backup": "N",
+                "Sysdiagnose": "N"
+                },
+                {
+                "path": "\/private\/var\/mobile\/Library\/CoreDuet\/People\/interactionC.db",
+                "Description": "Application traces",
+                "BFU": "N",
+                "Backup": "Y",
+                "Sysdiagnose": "N"
+                },
+                {
+                "path": "\/private\/var\/mobile\/Library\/FrontBoard\/applicationState.db",
+                "Description": "Application traces",
+                "BFU": "Y",
+                "Backup": "Y",
+                "Sysdiagnose": "N"
+                },
+                {
+                "path": "\/private\/var\/mobile\/Library\/Health\/ActivitySharing\/contacts2.dat",
+                "Description": "Fitness Friends",
+                "BFU": "N",
+                "Backup": "N",
+                "Sysdiagnose": "N"
+                },
+                {
+                "path": "\/private\/var\/mobile\/Library\/Keyboard\/langlikelihood.dat",
+                "Description": "Application traces",
+                "BFU": "Y",
+                "Backup": "Y",
+                "Sysdiagnose": "N"
+                },
+                {
+                "path": "\/private\/var\/mobile\/Library\/locationd\/user.plist",
+                "Description": "Step\/Stride Cadence, Pedometer Info",
+                "BFU": "N",
+                "Backup": "Y",
+                "Sysdiagnose": "N"
+                },
+                {
+                "path": "\/private\/var\/mobile\/Library\/Logs\/AppConduit\/",
+                "Description": "Installed Apps and Apps Path",
+                "BFU": "Y",
+                "Backup": "N",
+                "Sysdiagnose": "Y"
+                },
+                {
+                "path": "\/private\/var\/mobile\/Library\/Logs\/mobile_installation_helper.log*",
+                "Description": "Application traces",
+                "BFU": "N",
+                "Backup": "Y",
+                "Sysdiagnose": "N"
+                },
+                {
+                "path": "\/private\/var\/mobile\/Library\/Preferences\/addaily.plist",
+                "Description": "Application traces",
+                "BFU": "Y",
+                "Backup": "Y",
+                "Sysdiagnose": "N"
+                },
+                {
+                "path": "\/private\/var\/containers\/Shared\/SystemGroup\/<GUID>\/Library\/Logs\/mobile_installation_helper.log.*",
+                "Description": "Application traces",
+                "BFU": "N",
+                "Backup": "Y",
+                "Sysdiagnose": "N"
+                },
+                {
+                "path": "\/private\/var\/mobile\/Library\/Preferences\/com.apple.ActivitySharing.plist",
+                "Description": "Information about Fitness Friends",
+                "BFU": "Y",
+                "Backup": "Y",
+                "Sysdiagnose": "N"
+                },
+                {
+                "path": "\/private\/var\/mobile\/Library\/preferences\/com.apple.AppStore.plist",
+                "Description": "Last search on Apple Store",
+                "BFU": "Y",
+                "Backup": "Y",
+                "Sysdiagnose": "N"
+                },
+                {
+                "path": "\/private\/var\/mobile\/Library\/Preferences\/com.apple.corespotlightui.plist",
+                "Description": "Application traces",
+                "BFU": "Y",
+                "Backup": "Y",
+                "Sysdiagnose": "N"
+                },
+                {
+                "path": "\/private\/var\/mobile\/Library\/TCC\/TCC.db",
+                "Description": "Applications permissions",
+                "BFU": "Y",
+                "Backup": "Y",
+                "Sysdiagnose": "N"
+                },
+                {
+                "path": "\/private\/var\/networkd\/netusage.sqlite",
+                "Description": "Network data usage per App",
+                "BFU": "N",
+                "Backup": "N",
+                "Sysdiagnose": "N"
+                },
+                {
+                "path": "\/private\/var\/root\/Library\/Caches\/locationd\/clients.plist",
+                "Description": "Application traces",
+                "BFU": "Y",
+                "Backup": "Y",
+                "Sysdiagnose": "N"
+                },
+                {
+                "path": "\/private\/var\/root\/Library\/Logs\/MobileContainerManager",
+                "Description": "MobileContainerManager logs",
+                "BFU": "Y",
+                "Backup": "N",
+                "Sysdiagnose": "Y"
+                },
+                {
+                "path": "\/private\/var\/root\/Library\/MobileContainerManager\/containers.sqlite3",
+                "Description": "Installed Applications",
+                "BFU": "Y",
+                "Backup": "N",
+                "Sysdiagnose": "N"
+                },
+                {
+                "path": "\/private\/var\/wireless\/Library\/Databases\/DataUsage.sqlite",
+                "Description": "Application traces",
+                "BFU": "Y",
+                "Backup": "N",
+                "Sysdiagnose": "N"
+                }
+            ],
+            "name":"Application usage",
+            "type":"folder"
+        },
+        {
+            "children" : [
+                {
+                "path": "\/private\/var\/containers\/Shared\/SystemGroup\/<GUID>\/Library\/BatteryLife\/CurrentPowerLog.PLSQL",
+                "Description": "Battery life tracker",
+                "BFU": "N",
+                "Backup": "N",
+                "Sysdiagnose": "Y"
+                },
+                {
+                "path": "\/private\/var\/mobile\/Library\/CoreDuet\/coreduetd.db",
+                "Description": "Powering Events (0=unplugged, 1=plugged in)",
+                "BFU": "N",
+                "Backup": "N",
+                "Sysdiagnose": "N"
+                },
+                {
+                "path": "\/private\/var\/mobile\/Library\/Preferences\/com.apple.BatteryCenter.BatteryWidget.plist",
+                "Description": "Battery icon status",
+                "BFU": "N",
+                "Backup": "Y",
+                "Sysdiagnose": "N"
+                },
+                {
+                "path": "\/private\/var\/mobile\/Library\/Preferences\/com.apple.coreduetd.batterysaver.state.plist",
+                "Description": "Battery Saver state",
+                "BFU": "Y",
+                "Backup": "N",
+                "Sysdiagnose": "N"
+                }
+            ],
+            "name":"Batter power",
+            "type":"folder"
+        },
+        {
+            "children" : [
+                {
+                "path": "\/private\/var\/mobile\/Containers\/Shared\/AppGroup\/<Apple_Notes_GUID>\/NoteStore.sqlite",
+                "Description": "iCloud Notes",
+                "BFU": "N",
+                "Backup": "Y",
+                "Sysdiagnose": "N"
+                },
+                {
+                "path": "\/private\/var\/mobile\/Library\/AddressBook\/AddressBook.sqlitedb",
+                "Description": "Contacts",
+                "BFU": "N",
+                "Backup": "y",
+                "Sysdiagnose": "N"
+                },
+                {
+                "path": "\/private\/var\/mobile\/Library\/AddressBook\/AddressBookImages.sqlitedb",
+                "Description": "Contact Images",
+                "BFU": "N",
+                "Backup": "Y",
+                "Sysdiagnose": "N"
+                },
+                {
+                "path": "\/private\/var\/mobile\/Library\/Calendar\/Calendar.sqlitedb ",
+                "Description": "Calendar",
+                "BFU": "N",
+                "Backup": "Y",
+                "Sysdiagnose": "N"
+                },
+                {
+                "path": "\/private\/var\/mobile\/Library\/Calendar\/Extras.db",
+                "Description": "Extras for Calendar",
+                "BFU": "Y",
+                "Backup": "Y",
+                "Sysdiagnose": "N"
+                },
+                {
+                "path": "\/private\/var\/mobile\/Library\/Calendar\/Notifications.Calendar.Protected",
+                "Description": "Calendar entries",
+                "BFU": "Y",
+                "Backup": "N",
+                "Sysdiagnose": "N"
+                },
+                {
+                "path": "\/private\/var\/mobile\/Library\/Mail\/",
+                "Description": "Mail and settings",
+                "BFU": "N",
+                "Backup": "N",
+                "Sysdiagnose": "N"
+                },
+                {
+                "path": "\/private\/var\/mobile\/Library\/Notes\/Library\/Notes\/notes.idx ",
+                "Description": "Notes",
+                "BFU": "N",
+                "Backup": "N",
+                "Sysdiagnose": "N"
+                },
+                {
+                "path": "\/private\/var\/mobile\/Library\/Notes\/notes.sqlite",
+                "Description": "Notes",
+                "BFU": "N",
+                "Backup": "Y",
+                "Sysdiagnose": "N"
+                },
+                {
+                "path": "\/private\/var\/mobile\/Library\/Passes\/",
+                "Description": "Apple Passes",
+                "BFU": "N",
+                "Backup": "Y",
+                "Sysdiagnose": "N"
+                },
+                {
+                "path": "\/private\/var\/mobile\/Library\/Preferences\/com.apple.mobilenotes.plist",
+                "Description": "Notes",
+                "BFU": "Y",
+                "Backup": "Y",
+                "Sysdiagnose": "N"
+                }
+            ],
+            "name":"Native apps",
+            "type":"folder"
+        },
+        {
+            "children" : [
+                   {
+                    "path": "\/Lockdown\/device_values.plist",
+                    "Description": "Activated state, BT address and more",
+                    "BFU": "N",
+                    "Backup": "Y",
+                    "Sysdiagnose": "N"
+                   },
+                   {
+                    "path": "info.plist",
+                    "Description": "Identifiers about iOS device (phone number, version, etc)",
+                    "BFU": "N",
+                    "Backup": "Y",
+                    "Sysdiagnose": "N"
+                   },
+                   {
+                    "path": "manifest.plist",
+                    "Description": "Encryption state, installed apps and more",
+                    "BFU": "N",
+                    "Backup": "Y",
+                    "Sysdiagnose": "N"
+                   },
+                   {
+                    "path": "status.plist",
+                    "Description": "Last backup date and other identifiers",
+                    "BFU": "N",
+                    "Backup": "Y",
+                    "Sysdiagnose": "N"
+                   }
+                  ],
+            "name":"Backup",
+            "type":"folder"
+        },
+        {
+            "children" : [
+                   {
+                    "path": "\/private\/var\/mobile\/Library\/Preferences\/com.apple.purplebuddy.plist",
+                    "Description": "Language, Country info, Device IDs",
+                    "BFU": "Y",
+                    "Backup": "Y",
+                    "Sysdiagnose": "Y"
+                   },
+                   {
+                    "path": "\/private\/var\/root\/.obliterated",
+                    "Description": "Creation time stamp -> Device reset time",
+                    "BFU": "Y",
+                    "Backup": "N",
+                    "Sysdiagnose": "N"
+                   },
+                   {
+                    "path": "\/private\/var\/root\/Library\/Preferences\/com.apple.MobileBackup.plist",
+                    "Description": "Restore information (timestamp, local vs. iCloud)",
+                    "BFU": "Y",
+                    "Backup": "Y",
+                    "Sysdiagnose": "Y"
+                   }
+            ],
+            "name":"Evidence destruction",
+            "type":"folder"
+        }
+    ],
+    "name":"IOS forensics",
+    "type":"folder"
+}

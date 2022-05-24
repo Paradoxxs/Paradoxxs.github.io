@@ -1,0 +1,575 @@
+{
+    "children": [
+      {
+        "children": [
+          {
+            "name": "UserAssits",
+            "description" : "GUI-based programs launched from the desktop, All values are ROT-13 encoded",
+            "time":"Last run time (UTC), focus time in ms, last write time for the key is likely the first time a program was executed",
+            "path": "NTUSER.DAT\\Software\\Microsoft\\Windows\\Currentversion\\Explorer\\UserAssist\\{GUID}\\Count"
+          },
+          {
+            "name": "Windows 10 Timeline",
+            "description" : "records recently used applications and files in a timeline",
+            "path": "C:\\Users\\<profile>\\AppData\\Local\\ConnectedDevicesPlatform\\<random-name-folder>\\ActivitiesCache.db"
+          },
+          {
+            "name": "Background activity moderator (BAM)",
+            "description" : "records recently used applications and files in a timeline",
+            "time":"Last execution date",
+            "path": "SYSTEM\\CurrentControlSet\\Services\\bam\\UserSettings\\{SID}"
+          },
+          {
+            "name": "Desktop activity moderator (DAM)",
+            "description" : "records recently used applications and files in a timeline",
+            "time":"Last execution date",
+            "path": "SYSTEM\\CurrentControlSet\\Services\\dam\\UserSettings\\{SID}"
+          },
+          {
+            "name": "System Resource Usage Monitor(SRUM)",
+            "description" : "Records 30 to 60 days of historical system performance",
+            "tool":"scrum_dump.exe",
+            "path": "SOFTWARE\\Microsoft\\WindowsNT\\CurrentVersion\\SRUM\\Extensions {d10ca2fe-6fcf4f6d-848e-b2e99266fa89} = Application Resource Usage Provider C:\\Windows\\System32\\SRU\\*"
+          },
+          {
+            "name": "Jump lists",
+            "description" : "https://dfir.to/EZjumpList",
+            "path": "C:\\%USERPROFILE%\\AppData\\Roaming\\Microsoft\\Windows\\Recent\\AutomaticDestinations",
+            "time":"First time executed = creation time, last time executed of application w/file open = modification time"
+          },
+          {
+            "name": "Last-Visited MRU",
+            "description" : "Tracks the specific executable used by an application to open the files",
+            "path": "NTUSER.DAT\\Software\\Microsoft\\Windows\\CurrentVersion\\Explorer\\ComDlg32\\LastVisitedPidlMRU"
+          },
+          {
+            "name": "Prefetch",
+            "description" : "Increases performance of a system by pre-loading code pages of commonly used applications. Cache Manager monitors all files and directories referenced for each, disable on system with SSD",
+            "time" : "Date created = first executed, Date modified = last executed",
+            "MACB" : "A",
+            "path": "C:\\Windows\\Prefetch"
+          },
+          {
+            "name": "RecentApps",
+            "description" : "Track execution of GUI based application and recent file opened by that application",
+            "time":"LastaccessTIme = last execution time in UTC",
+            "MACB" : "A",
+            "path": "NTUSER.dat\\Software\\Microsoft\\Windows\\Current Version\\Search\\RecentApps"
+          }],
+        "name": "Program execution",
+        "type": "folder"
+      },
+      {
+        "children": [
+          {
+            "name": "Last-Visited MRU",
+            "description" : "Tracks the specific executable used by an application to open the files",
+            "path": "NTUSER.DAT\\Software\\Microsoft\\Windows\\CurrentVersion\\Explorer\\ComDlg32\\LastVisitedPidlMRU"
+          },
+          {
+            "name": "IE|Edge file://",
+            "description" : "The history also records local and remote (via network shares) does not mean the file was opened in browser",
+            "path": "%USERPROFILE%\\AppData\\Local\\Microsoft\\Windows\\WebCache\\WebCacheV*.dat"
+          },
+          {
+            "name": "Thumbcache",
+            "description" : "Thumbnails of pictures, office documents, and folders",
+            "path": "C:\\%USERPROFILE%\\AppData\\Local\\Microsoft\\Windows\\Explorer"
+          },
+          {
+            "name": "Thumbs.db",
+            "description" : "Thumbnails of pictures, office documents, and folders",
+            "path": "Automatically created anywhere and accessed via a UNC Path(local or remote)"
+          },
+          {
+            "name": "Search – WordWheelQuery",
+            "description" : "Stores user search history for explorer and start menu",
+            "path": "NTUSER.DAT\\Software\\Microsoft\\Windows\\CurrentVersion\\Explorer\\WordWheelQuery"
+          },
+          {
+            "name": "Typed path",
+            "description" : "The path typed in the explorer address bar.",
+            "path": "NTUSER.DAT\\software\\microsoft\\windows\\CurrentVersion\\Explorer\\TypedPaths"
+          },
+          {
+            "name": "shimcache",
+            "description" : "Any executable run on the Windows system could be found in this key",
+            "time": "Last modified date of the PE",
+            "MACB":"M",
+            "path": "SYSTEM\\CurrentControlSet\\Control\\Session Manager\\AppCompatCache"
+          },
+          {
+            "name": "Amcache.hve",
+            "description" : "Program execution, {Volume guid} is paired up with the mountedevices key found in system\\mounteddevices. Value names are in hex (0:17,100,101) paired to a name",
+            "time": "First Run Time = Last Modification Time of Key",
+            "MACB":"M",
+            "path": "C:\\Windows\\AppCompat\\Programs\\Amcache.hve"
+          }],
+        "name": "Deleted file or file knowledge",
+        "type": "folder"
+      },
+      {
+        "children": [
+          {
+            "name": "Timezone",
+            "path": "SYSTEM\\CurrentControlSet\\Control\\TimeZoneInformation"
+          },
+          {
+            "name": "Network History",
+            "description" : "Identify networks that the computer has been connected to",
+            "path": "SOFTWARE\\Microsoft\\Windows NT\\CurrentVersion\\NetworkList\\Signatures\\{Unmanaged or Managed} | SOFTWARE\\Microsoft\\Windows NT\\CurrentVersion\\NetworkList\\Nla\\Cache"
+          },
+          {
+            "name": "WLAN Event Log",
+            "description" : "Identify networks that the computer has been connected to",
+            "path": "Microsoft-Windows-WLAN-AutoConfig Operational.evtx"
+          },
+          {
+            "name": "Network shares evt",
+            "description": "Event ID 5140 - 5145",
+            "path":"windows\\system32\\winevt\\logs\\security.evtx"
+          },
+          {
+            "name": "Network shares",
+            "description": "List open network shares on the computer, and flags and configuration settings. Look for and identify possible offline caching",
+            "path":"System\\CurrentControlSet\\Service\\Lanmanserver\\share\\"
+          },
+          {
+            "name": "Network profile key - first and last time connection ",
+            "description": "Identify the type of network the computer was connected to, will store the SSID of previous wireless, 0x47 wireless, 0x06 wired, 0x17 broadband",
+            "time": "localtime",
+            "path":"SOFTWARE\\Microsoft\\Windows NT\\CurrentVersion\\NetworkList\\Profiles"
+          },
+        {
+          "name":"IP address",
+          "path":"SYSTEM\\currentcontrolset\\services\\tcpip\\parameters\\interfaces\\{GUID}"
+        }],
+        "name": "Network activity/Physical location",
+        "type": "folder"
+      },
+      {
+        "children": [
+          {
+            "name": "Last-Visited MRU",
+            "description" : "Tracks the specific executable used by an application to open the files",
+            "path": "NTUSER.DAT\\Software\\Microsoft\\Windows\\CurrentVersion\\Explorer\\ComDlg32\\LastVisitedPidlMRU"
+          },
+          {
+            "name": "IE|Edge file://",
+            "description" : "The history also records local and remote (via network shares) does not mean the file was opened in browser",
+            "path": "%USERPROFILE%\\AppData\\Local\\Microsoft\\Windows\\WebCache\\WebCacheV*.dat"
+          },
+          {
+            "name": "Shortcut (LNK)",
+            "description" : "last drive letter of the USB",
+            "path": "%USERPROFILE%\\AppData\\Roaming\\Microsoft\\Windows\\Recent and %USERPROFILE%\\AppData\\Roaming\\Microsoft\\O¯ce\\Recent"
+          },
+          {
+            "name": "Jump lists",
+            "description" : "https://dfir.to/EZjumpList",
+            "path": "C:\\%USERPROFILE%\\AppData\\Roaming\\Microsoft\\Windows\\Recent\\AutomaticDestinations",
+            "time":"First time executed = creation time, last time executed of application w/file open = modification time"
+          },
+          {
+            "name":"Open/Save MRU",
+            "description": "tracks files that have been opened or saved within a Windows shell dialog box",
+            "time":"Openend on",
+            "path":"NTUSER.DAT\\Software\\Microsoft\\Windows\\CurrentVersion\\Explorer\\ComDlg32\\OpenSavePIDlMRU"
+          },
+          {
+            "name": "Prefetch",
+            "description" : "Increases performance of a system by pre-loading code pages of commonly used applications. Cache Manager monitors all files and directories referenced for each, disable on system with SSD",
+            "time" : "Date created = first executed, Date modified = last executed",
+            "path": "C:\\Windows\\Prefetch"
+          },
+          {
+            "name": "Office Recent Files",
+            "description" : "MS Office programs will track their own Recent Files",
+            "time": "Windows 64 hex value - big endian",
+            "path": "NTUSER.DAT\\Software\\Microsoft\\Office\\{VERSION}\\{app}\\UserMRU\\LiveID_####\\{FileMRU placeMRU}"
+          },
+          {
+            "name": "Office reading location",
+            "description" : "MS Office programs will track their own Recent Files",
+            "time": "Windows 64 hex value - big endian",
+            "path": "NTUSER.dat\\SOFTWARE\\Microsoft\\Office\\{VERSION}\\{app}\\Reading Locations\\"
+          },
+          {
+            "name": "Shell Bags",
+            "description" : "Which folders were accessed on the local machine, the network, and/or removable devices",
+            "path": "NTUSER.DAT\\Software\\Microsoft\\Windows\\Shell\\{Bags or BagMRU}"
+          },
+          {
+            "name": "Shell Bags (Explore)",
+            "description" : "Which folders were accessed on the local machine, the network, and/or removable devices",
+            "path": "USRCLASS.DAT\\Local Settings\\Software\\Microsoft\\Windows\\Shell\\{Bags or BagMRU}"
+          },
+          {
+            "name": "Recent docs",
+            "description" : "Registry Key that will track the last files and folders opened and is used to populate data in “Recent” menus of the Start menu, It the MRUlist that is used to create the order in which files are opened. ",
+            "path": "NTUSER.DAT\\Software\\Microsoft\\Windows\\CurrentVersion\\Explorer\\RecentDocs"
+          }
+        ],
+        "name": "File/Folder opening",
+        "type": "folder"
+      },
+      {
+        "children": [
+          {
+            "name": "last login",
+            "description" : "local account of the system",
+            "time" : "UCT",
+            "tool": "saminsider",
+            "path": "C:\\windows\\system32\\config\\SAM and SAM\\Domains\\Account\\Users"
+          },
+          {
+            "name": "last password change",
+            "time" : "UCT",
+            "tool": "saminsider",
+            "path": "C:\\windows\\system32\\config\\SAM and SAM\\Domains\\Account\\Users"
+          },
+          {
+            "name": "RDP usage",
+            "description" : "RDP logons, will also contain info on source hostname, Event ID 4778 and 4779",
+            "path": "%SYSTEM ROOT%\\System32\\winevt\\logs\\Security.evtx"
+          },
+          {
+            "name": "Authentication Events",
+            "description" : "4776: Successful/Failed account authentication",
+            "path": "%SYSTEM ROOT%\\System32\\winevt\\logs\\Security.evtx"
+          },
+          {
+            "name": "Success/Fail Logons ",
+            "description" : "4624 success, 4634 |4647 logoff",
+            "path": "%SYSTEM ROOT%\\System32\\winevt\\logs\\Security.evtx"
+          }],
+        "name": "Account usage",
+        "type": "folder"
+      },
+      {
+        "children": [
+        {
+          "name": "Key identification",
+          "path": "SYSTEM\\CurrentControlSet\\Enum\\{ USB or USBSTOR}"
+        },
+        {
+          "name": "Plug and play logs",
+          "path": "C:\\Windows\\inf\\setupapi.dev.log"
+        },
+        {
+          "name": "First install",
+          "path": "System Hive:\\CurrentControlSet\\Enum\\USBSTOR\\Ven_Prod_Version\\USBSerial#\\Properties\\{83da6326-97a6-4088-9453-a19231573b29\\0064"
+        },
+        {
+          "name": "Last Connected",
+          "path": "System Hive:\\CurrentControlSet\\Enum\\USBSTOR\\Ven_Prod_Version\\USBSerial#\\Properties\\{83da6326-97a6-4088-9453-a19231573b29\\0066"
+        },
+        {
+          "name": "Removal time",
+          "path": "System Hive:\\CurrentControlSet\\Enum\\USBSTOR\\Ven_Prod_Version\\USBSerial#\\Properties\\{83da6326-97a6-4088-9453-a19231573b29\\0067"
+        },
+        {
+          "name": "User of USB device",
+          "description" : "Find User that used the Unique USB Device. Look for GUID from SYSTEM\\MountedDevices",
+          "path": "NTUSER.DAT\\Software\\Microsoft\\Windows\\CurrentVersion\\Explorer\\MountPoints2"
+        },
+        {
+          "name": "PNP Events",
+          "description" : "Event ID: 20001 – Plug and Play driver install attempted",
+          "path": "%system root%\\System32\\winevt\\logs\\System.evtx"
+        },
+        {
+          "name": "Volume serial number",
+          "description" : "Discover the Volume Serial Number",
+          "path": "SOFTWARE\\Microsoft\\WindowsNT\\CurrentVersion\\ENDMgm"
+        },
+        {
+          "name": "Drive letter and volume name",
+          "description" : "last drive letter of the USB",
+          "path": "SOFTWARE\\Microsoft\\Windows Portable Devices\\Devices and SYSTEM\\MountedDevices"
+        },
+        {
+          "name": "Shortcut (LNK)",
+          "description" : "last drive letter of the USB",
+          "path": "%USERPROFILE%\\AppData\\Roaming\\Microsoft\\Windows\\Recent and %USERPROFILE%\\AppData\\Roaming\\Microsoft\\O¯ce\\Recent"
+        }],
+        "name": "External device/USB usage",
+        "type": "folder"
+      },
+      {
+        "children": [
+        {
+          "children":[
+          {
+          "name": "History",
+          "path": "%USERPROFILE%\\AppData\\Local\\Microsoft\\Windows\\WebCache\\WebCacheV*.dat"
+          },
+          {
+            "name": "Cookies",
+            "path": "%USERPROFILE%\\AppData\\Local\\Packages\\microsoft.microsoftedge_<APPID>\\AC\\MicrosoftEdge\\Cookies"
+          },
+          {
+            "name": "Cache",
+            "path": "%USERPROFILE%\\AppData\\Local\\Packages\\microsoft.microsoftedge_<APPID>\\AC\\MicrosoftEdge\\Cache"
+          },
+          {
+            "name": "Session",
+            "path": "%USERPROFILE%\\AppData\\Local\\Microsoft\\Internet Explorer\\Recovery"
+          },
+          {
+            "name": "Browser Search Terms",
+            "path": "%USERPROFILE%\\AppData\\Local\\Microsoft\\Windows\\WebCache\\WebCacheV*.dat"
+          },
+          {
+            "name": "Downloads",
+            "path": "%USERPROFILE%\\AppData\\Local\\Microsoft\\Windows\\WebCache\\WebCacheV*.dat"
+          }
+  
+        ],
+          "name": "Internet explore (Egde)",
+          "type": "folder"
+        },
+        {
+          "children":[
+            {
+              "name": "History",
+              "path": "%USERPROFILE%\\AppData\\Local\\Google\\Chrome\\User Data\\Default\\History"
+              },
+              {
+                "name": "Cookies",
+                "path": "%USERPROFILE%\\AppData\\Local\\Google\\Chrome\\User Data\\Default\\Local Storage\\"
+              },
+              {
+                "name": "Cache",
+                "path": "%USERPROFILE%\\AppData\\Local\\Google\\Chrome\\User Data\\Default\\Cache\\ - data_# and f_######"
+              },
+              {
+                "name": "Session",
+                "path": "%USERPROFILE%\\AppData\\Local\\Google\\Chrome\\User Data\\Default\\"
+              }],
+          "name": "Chrome",
+          "type": "folder"
+        },
+        {
+          "children":[
+            {
+              "name": "History",
+              "path": "%USERPROFILE%\\AppData\\Roaming\\Mozilla\\Firefox\\Profiles\\<random text>.default\\places.sqlite"
+              },
+              {
+                "name": "Cookies",
+                "path": "%USERPROFILE%\\AppData\\Roaming\\Mozilla\\Firefox\\Profiles\\<randomtext>.default\\cookies.sqlite"
+              },
+              {
+                "name": "Cache",
+                "path": "%USERPROFILE%\\AppData\\Local\\Mozilla\\Firefox\\Profiles\\<randomtext>.default\\Cache"
+              },
+              {
+                "name": "Session",
+                "path": "%USERPROFILE%\\AppData\\Roaming\\Mozilla\\Firefox\\Profiles\\<randomtext>.default\\sessionstore.js"
+              },
+              {
+                "name": "Browser Search Terms",
+                "path": "%userprofile%\\AppData\\Roaming\\Mozilla\\Firefox\\Profiles\\<randomtext>.default\\places.sqlite"
+              },
+              {
+                "name": "Browser Search Terms",
+                "path": "%userprofile%\\AppData\\Roaming\\Mozilla\\Firefox\\Profiles\\<randomtext>.default\\places.sqlite"
+              },
+              {
+                "name": "Downloads",
+                "path": "%userprofile%\\AppData\\Roaming\\Mozilla\\ Firefox\\Profiles\\<random text>.default\\downloads.sqlite"
+              }],
+           "name": "Firefox",
+           "type": "folder"
+        },
+        {
+          "name":"Super cookies",
+          "path":"%APPDATA%\\Roaming\\Macromedia\\FlashPlayer\\#SharedObjects\\<randomprofileid>"
+        }
+      
+      ],
+        "name": "Browser usage",
+        "type": "folder"
+      },
+      {
+        "children": [
+          {
+            "name":"Open/Save MRU",
+            "description": "tracks files that have been opened or saved within a Windows shell dialog box",
+            "time":"Openend on",
+            "path":"NTUSER.DAT\\Software\\Microsoft\\Windows\\CurrentVersion\\Explorer\\ComDlg32\\OpenSavePIDlMRU"
+          },
+          {
+            "name":"Email attachments",
+            "path": "%USERPROFILE%\\AppData\\Local\\Microsoft\\Outlook"
+          }],
+        "name": "File download",
+        "type": "folder"
+      
+      },
+      {
+        "children": [
+          {
+            "name":"Shadow copy",
+            "description": "Backup of previous vesion of the system",
+            "path":"vssadmin list shadowstorage"
+          }],
+          "name":"Backups",
+          "type":"folder"
+      },
+      {
+        "children": [
+          {
+            "name":"Hibernation files",
+            "description": "Compressed RAM image",
+            "path":"%SystemDrive%\\hiberfile.sys"
+          },
+          {
+            "name":"Page files",
+            "description": "Compressed RAM image",
+            "path":"%SystemDrive%\\pagefile.sys"
+          },
+          {
+            "name":"swap files",
+            "description": "Compressed RAM image",
+            "path":"%SystemDrive%\\pagefile.sys"
+          },
+          {
+            "name":"memory dump files",
+            "description": "RAM dump image",
+            "path":"%windir\\memory.dmp"
+          }],
+          "name":"Memory",
+          "type":"folder"
+      },
+      {
+        "children": [
+          {
+            "name":"Powershell history",
+            "path":"%AppData%\\Roaming\\Microsoft\\Windows\\PowerShell\\PSReadLine\\ConsoleHost_history.txt"
+          },
+          {
+            "name":"WMI databse",
+            "Description":"objects.data = object managed by WMI, index.btr = binary tree index, Mapping* = correlated data",
+            "path":"%systemroot%\\system32\\wbem\\repository"
+          },
+          {
+            "name": "Command line evt",
+            "Description":"Event Id : Security 4688 | powershell/operational 4103 - 4106",
+            "path":"Windows\\system32\\winevt\\logs\\{security | Powershell/operational}"
+          },
+          {
+            "name":"WMI evt",
+            "Description":"Event Id : Security 4688 | powershell/operational 4103 - 4106",
+            "path":"Windows\\system32\\winevt\\logs\\{security | Powershell/operational}"
+          },
+          {
+            "name":"Last command executed",
+            "Description":"Command executed executed from run",
+            "path":"NTUSER.DAT\\Software\\Microsoft\\Windows\\CurrentVersion\\Explorer\\RunMRU  "
+          }],
+          "name":"Command",
+          "type":"folder"
+      },
+        {
+        "children": [
+          {
+            "name":"startup folder",
+            "path":"%userprofile%\\AppData\\Roaming\\Microsoft\\Windows\\Start Menu\\Programs\\Startup"
+          },
+          {
+            "name":"startup registry user context",
+            "path":"NTUSER.DAT\\SOFTWARE\\Microsoft\\Windows\\CurrentVersion\\{Run or Runonce}"
+          },
+          {
+            "name":"startup registry",
+            "path":"SOFTWARE\\Microsoft\\Windows\\CurrentVersion\\{Run or Runonce}"
+          },
+                {
+            "name":"startup registry 2",
+            "path":"SOFTWARE\\microsoft\\windows\\currentversion\\policies\\explorer\run"
+          },
+          {
+            "name":"startup registry 3",
+            "path":"HKCU\\Software\\microsoft\\windows NT\\CurrentVersion\\winlogon\\userinit"
+          },
+          {
+           "name": "Scheduled task",
+           "Description": "Event ID 4698 (security) | task scheduler 106, 141 and 200",
+           "path" : "Windows\\system32\\winevt\\logs\\{security | task scheduler}"
+          },
+          {
+            "name": "Boot log ",
+            "path" : "C:\\Windows\\System32\\WDI\\LogFiles\\BootCKCL.etl"
+           },
+          {
+            "name":"Service evt",
+            "Description":"Event id : system 7034-7036, 7040, 7045 | security 4697",
+            "path": "Windows\\system32\\winevt\\logs\\{system | security}"
+            
+          },
+        {   
+            "name":"Service",
+            "Description":"if start key is 0x02 it will start at boot",
+            "path":"System\\Currentcontrolset\\service"
+        }],
+          "name":"Persistance",
+          "type":"folder"
+      },
+      {
+        "children": [
+          {
+            "name":"Log clearing",
+            "Description":"Event ID : Security 1102 | System 104",
+            "path": "Windows\\system32\\winevt\\logs\\{security | system}"
+          }
+        ],
+        "name":"Evidence destruction",
+        "type":"fodler"    
+      },
+      {
+        "children": [
+          {
+            "name":"OS version",
+            "Description":"os version",
+            "time": "unix time seconds",
+            "path": "SOFTWARE\\Microsoft\\Windows NT\\CurrentVersion"
+          },
+          {
+            "name":"Current control set",
+            "Description":"Information about which currentcontrolset is currently in use",
+            "path": "System\\select"
+          },
+          {
+            "name":"Computer name",
+            "path": "SYSTEM\\CurrentContro1Set\\Control\\ComputerName\\ComputerName "
+          },
+          {
+            "name":"Time zone information",
+            "path": "SYSTEM\\CurrentContro1Set\\Control\\TimeZoneinformation"
+          },
+          {
+            "name":"NTFS last access time on/off",
+            "Description":"Disabled means the last access time will not be recorded in the NTFS file system. It means that you will not be able to see when data was last accessed by the system.",
+            "path": "System\\currentControlSet\\Control\\Filesystem"
+          },
+          {
+            "name":"Network interfaces",
+            "Description":"Network interface cards, list network interfaces of the computer and allows you to tie machine to network activity.",
+            "path": "System\\CurrentControlSet\\Services\\Tcpip\\Parameters\\Interfaces"
+          },
+          {
+            "name":"Shutdown",
+            "Description":"System last shutdown time",
+            "time":"Hex encoded - Windows 64-bit time",
+            "path": "SYSTEM\\CurrentControlSet\\control\\windows"
+          }
+        ],
+        "name":"System information",
+        "type":"fodler"    
+      }
+    ],
+      "name": "Windows forensics",
+      "type": "folder"
+  }

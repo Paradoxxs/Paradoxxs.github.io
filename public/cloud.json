@@ -1,0 +1,32 @@
+{
+    "children": [
+    {
+        "children": [
+        {
+
+        }],
+        "name":"Azure",
+        "type":"folder"
+        
+    },
+    {
+    "children": [
+        {
+
+        }],
+        "name":"Google",
+        "type":"folder"
+    },
+    {
+    "children": [
+        {
+
+        }],
+        "name":"Amazone",
+        "type":"folder"
+    }
+    ],  
+    "name": "Cloud forensics",
+    "type": "folder"
+}
+

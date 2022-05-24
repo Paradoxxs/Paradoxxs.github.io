@@ -1,0 +1,144 @@
+{
+    "children": [
+    {
+        "children": [
+        {
+            "name":"netstats",
+            "path":"netstat -antp"
+        },
+        {
+            "name":"Network logs",
+            "path":"/var/log/messages"
+        }],
+        "name":"Network",
+        "type":"folder"
+        
+    },
+    {
+    "children": [
+        {
+            "name":"Process",
+            "path":"ps axuf or pstree"
+        },
+        {
+            "name":"SGID",
+            "description":"Find user files",
+            "path":"find / -prem -6000 -user root -type f"
+        },
+        {
+            "name":"SUID",
+            "description":"Find files owned by root and check entries",
+            "path":"find / -prem -4000 -user root -type f"
+        }],
+        "name":"File execution & information",
+        "type":"folder"
+    },
+    {
+    "children": [
+        {
+            "name":"File modification",
+            "description":"find all files that have been modified",
+            "path":"find / -mtime -o -ctime -5"
+        },
+        {
+            "name":"Installation of software",
+            "description":"Track installation of system and software packages",
+            "path":"/var/log/yum.log"
+        },
+        {
+            "name":"Groups",
+            "description":"User groups",
+            "path":"/etc/group"
+        },
+        {
+            "name":"Failed logon",
+            "description":"Failed logon attemps",
+            "path":"/var/log/{faillog or btmp}"
+        },
+        {
+            "name":"Logon",
+            "description":"Authentication of the system",
+            "path":"/var/log/{auth.log or secure or utmp}"
+        },
+        {
+            "name":"Command history",
+            "description":"User bash command history",
+            "path":"/home/{user}/.bash_history"
+        },
+        {
+            "name":"User",
+            "description":"Users",
+            "path":"/etc/{passwd or shadow}"
+        }],
+        "name":"User activity",
+        "type":"folder"
+    },
+    {
+    "children": [
+        {
+            "name":"boot logs",
+            "descritpion":"Contains info about boot",
+            "path":"/var/log/boot.log"
+        },
+        {
+            "name":"Kernel logs",
+            "descritpion":"",
+            "path":"/var/log/kern"
+            
+        },
+        {
+            "name":"Version",
+            "descritpion":"",
+            "path":"/boot or /etc/issue"
+            
+        },
+        {
+            "name":"system activity logs",
+            "descritpion":"Track non-kernel error, app service error and log at system startup",
+            "path":"/var/log/message"
+            
+        }],
+        "name":"System info",
+        "type":"folder"
+    },
+    {
+        "children": [
+        {
+            "name":"Cron jobs",
+            "description":"Allow for script, command, binaries, etc to be executed within a define interval. ",
+            "path":"/etc/cron*"
+            
+        },
+        {
+            "name":"SSH key authentication",
+            "description":"Allow one to access system using private/public key pair",
+            "path":"/home/{user}/.ssh/.authorized_keys"
+        }],
+        "name":"Persistance",
+        "type":"folder"
+        },
+        {
+        "children": [
+        {
+            "name":"dmesg",
+            "description":"Contains messaging that identifies gadget drivers. The order dmesg can be utilized to see messages in this record.",
+            "path":"/var/log/dmesg"
+        }],
+        "name":"External",
+        "type":"folder"
+        },
+        {
+        "children": [
+        {
+            "name":"Web server logs",
+            "description":"store web server logs",
+            "path":"/varlog/httpd"
+        }],
+        "name":"other",
+        "type":"folder"
+        }
+    ],  
+    "name": "Linux forensics",
+    "type": "folder"
+}
+

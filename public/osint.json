@@ -1,0 +1,284 @@
+{
+    "children": [
+    {
+        "children": [
+        {
+            "name":"Shodan",
+            "url":"https://www.shodan.io/"
+        },
+        {
+            "name":"Google dorks",
+            "url":"https://www.exploit-db.com/google-hacking-database"
+        },
+        {
+            "name":"Yandex",
+            "Url":"https://yandex.com/"
+        }],
+        "name":"Search engine",
+        "type":"folder"
+    },
+    {
+    "children": [
+        {
+            "name":"epieos",
+            "description":"Retrieve information about email",
+            "url":"https://epieos.com/"
+        },
+        {
+            "name":"Identify email of domain",
+            "tool":"https://hunter.io/"
+        }],
+        "name":"Email",
+        "type":"folder"
+    },
+    {
+    "children": [
+        {
+            "name":"usersearch.org",
+            "url":"https://usersearch.org/index.php"
+        },
+        {
+            "name":"whatsmyname",
+            "url":"https://whatsmyname.app/"
+        },
+        {
+            "name":"Namechk",
+            "url":"https://namechk.com/"
+        },
+        {
+            "name":"Checkusernames",
+            "url":"https://checkusernames.com/"
+        }],
+        "name":"Username",
+        "type":"folder"
+    },
+    {
+    "children": [
+        {
+            "name":"dnsdumpster",
+            "description":"Very usefull tool for gathering info such as sub domains",
+            "url":"https://dnsdumpster.com/"
+        },
+        {
+            "name":"viewdns.info",
+            "url":"https://viewdns.info/"
+        },
+        {
+            "name":"passiveDNS",
+            "description":"historical dns data",
+            "url":"https://passivedns.mnemonic.no/"
+        },
+        {
+            "name":"host.io",
+            "description":"",
+            "url":"https://host.io/"
+        },
+        {  
+            "name":"Find website owned by the same person/org",
+            "url":"https://analyzeid.com/"
+        },
+        {
+            "name":"Find related website",
+            "url":"https://spyonweb.com/"
+        },
+        {
+            "name":"Zone transfer",
+            "description":"Will get all DNS records for an target domain",
+            "tool":"https://hackertarget.com/zone-transfer/, dnsrecon, dnswalk"
+        }],
+        "name":"Domain name",
+        "type":"folder"
+    },
+    {
+    "children": [
+        {
+            "name":"Greynoise.io",
+            "url":"https://viz.greynoise.io/"
+
+        },
+        {
+            "name":"ipinfo",
+            "url":"https://ipinfo.io/"
+        },
+        {
+            "name":"Reverse DNS lookup",
+            "description":"Using to IP address to lookup domain that are associcated with it.",
+            "tool":"https://mxtoolbox.com/ReverseLookup.aspx"
+        }],
+        "name":"IP address",
+        "type":"folder"
+    },
+    {
+    "children": [
+        {
+            "name":"crt.sh",
+            "url":"https://crt.sh/"
+
+        }],
+        "name":"SSL cert",
+        "type":"folder"
+    },
+    {
+    "children": [
+    {
+        "name":"Contact exploitation",
+        "description":"By adding the phone number of the target to an clean phone, then installing social media app, some apps will pair you with target as a contact"
+    }],
+    "name":"Phone number",
+    "type":"folder"
+    },
+    {
+    "children": [
+        {
+            "name":"Grayhatwarefare",
+            "url":"https://grayhatwarfare.com/"
+        }],
+    "name":"Cloud bucket",
+    "type":"folder"
+    },
+    {
+    "children": [
+        {
+            "name":"Alienvault",
+            "url":"https://otx.alienvault.com/dashboard/new"
+        },
+        {
+            "name":"SecurityTrails",
+            "url":"https://securitytrails.com/"
+        },
+        {
+            "name":"RiskIQ community",
+            "url":"https://community.riskiq.com/"
+        },
+        {
+            "name":"Virus total",
+            "description":"",
+            "url":"https://www.virustotal.com/"
+        },
+        {
+            "name":"hybrid-analysis",
+            "url":"https://hybrid-analysis.com/"
+        },
+        {
+            "name":"Any run",
+            "url":"https://any.run/"
+        },
+        {
+            "name":"urlscan.io",
+            "url":"https://urlscan.io/"
+        },
+        {
+            "name":"Intezer analyze",
+            "url":"https://analyze.intezer.com/"
+        }],
+    "name":"Threat installigence",
+    "type":"folder"
+    },
+    {
+    "children": [
+        {
+            "name":"PublicWWW",
+            "url":"https://publicwww.com/"
+        },
+        {
+            "name":"searchcode",
+            "url":"https://searchcode.com/"
+        }],
+    "name":"Source code",
+    "type":"folder"
+    },
+    {
+    "children": [
+        {
+            "name":"favicon",
+            "descirption":"Get the hash of website favicon, which can used to find site with the same faviocn by using shodan",
+            "url":"https://faviconhash.com/"
+        },
+        {
+            "name":"Security header",
+            "descirption":"List of security instruction. The important header here is Content-security-policy  header identifies what domain are allowed to serve content on the site",
+            "tool":"identify: Securityheader.io, recon: censys.io"
+        }],
+    "name":"Website",
+    "type":"folder"
+    },
+    {
+    "children": [
+        {
+            "name":"WayBackMachine",
+            "descirption":"Stores historical sites",
+            "url":"https://archive.org/"
+        },
+        {
+            "name":"Archive.today",
+            "url":"https://archive.ph/"
+        },
+        {
+            "name":"Web arhives chrom extension",
+            "url":"https://chrome.google.com/webstore/detail/web-archives/hkligngkgcpcolhcnkgccglchdafcnao"
+        },
+        {
+            "name":"OCCRP aleph",
+            "url":"https://aleph.occrp.org/"
+        }],
+    "name":"Archives",
+    "type":"folder"
+    },
+    {
+    "children": [
+        {
+            "name":"IntelligenceX",
+            "descirption":"Stores data dumps",
+            "url":"https://intelx.io/"
+        },
+        {
+                "name":"psatebin dumps",
+                "url":"https://psbdmp.ws/"
+        }],
+    "name":"Data dumps",
+    "type":"folder"
+    },
+    {
+    "children": [
+        {
+            "name":"Tiny eye",
+            "descirption":"",
+            "url":"https://tineye.com/"
+        },
+        {
+            "name":"Bing",
+            "descirption":"One reason to use bing reverse img search over google, is because google tries to tag the image and do a search on that instead",
+            "url":"https://bing.com/"
+        }],
+    "name":"Image",
+    "type":"folder"
+    },
+    {
+    "children": [
+        {
+            "name":"Locate wifi by SSID",
+            "descirption":"Wigle tries to map out all wifi signals",
+            "url":"https://wigle.net/"
+        }],
+    "name":"Wifi",
+    "type":"folder"
+    },
+    {
+    "children":[
+        {
+            "name":"Mitaka",
+            "descirption":"Allow for quick look up of data on various sites.",
+            "url":"https://chrome.google.com/webstore/detail/mitaka/bfjbejmeoibbdpfdbmbacmefcbannnbg"
+        },
+        {
+            "name":"Contry specific lookup sites",
+            "descirption":"maps out sources for the different contry",
+            "url":"https://cipher387.github.io/osintmap/"
+        }],
+    "name":"Helper tools",
+    "type":"folder"
+    }],  
+"name": "OSINT forensics",
+"type": "folder"
+}
+

@@ -1,0 +1,43 @@
+{
+    "children": [
+    {
+        "children": [
+        {
+            "name":"AHMIA",
+            "url":"https://ahmia.fi/"
+        },
+        {
+            "name":"Fresh onions",
+            "url":"http://freshonifyfe4rmuh6qwpsexfhdrww7wnt5qmkoertwxmcuvm4woo4ad.onion/"
+        }],
+        "name":"search engine",
+        "type":"folder"
+        
+    },
+    {
+        "children": [
+            {
+                "name":"0day",
+                "url":"http://torbox36ijlcevujx7mjb4oiusvwgvmue7jfn2cvutwa6kl6to3uyqad.onion/"
+            }],
+        "name":"Exploits",
+        "type":"folder"
+    },
+    {
+        "children": [
+            {
+                "name":"Cyber security - CryptBB",
+                "url":"http://cryptbbtg65gibadeeo2awe3j7s6evg7eklserehqr4w4e2bis5tebid.onion/"
+            },
+            {
+                "name":"darknetlive",
+                "url":"https://darknetlive.com/forums/"
+            }],
+        "name":"Forums",
+        "type":"folder"
+    }
+    ],  
+    "name": "darkweb forensics",
+    "type": "folder"
+}
+

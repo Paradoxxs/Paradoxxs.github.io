@@ -1,0 +1,104 @@
+{
+    "children": [
+    {
+        "children": [
+        {
+
+        }],
+        "name":"Network",
+        "type":"folder"
+        
+    },
+    {
+    "children": [
+        {
+
+        }],
+        "name":"File execution",
+        "type":"folder"
+    },
+    {
+    "children": [
+        {
+
+        }],
+        "name":"User activity",
+        "type":"folder"
+    },
+    {
+    "children": [
+        {
+
+        }],
+        "name":"System info",
+        "type":"folder"
+    },
+    {
+        "children": [
+            {
+                "name":"Login itmes",
+                "description":"Execute when user logon",
+                "path":"system preference -> users and groups -> login itmes",
+                "tool":"knockknock"
+            },
+            {
+                "name":"Launch items agents",
+                "description":"Agent lunch on user logon and interact with the user session.",
+                "path":"/System/Library/Launchagents or ~/Library/LaunchAgents"
+            },
+            {
+                "name":"Launch items daemons",
+                "description":"Daemons are non-interactive and run before the user login ",
+                "path":"/System/Library/LaunchDaemon"
+            },
+            {
+                "name":"Cron jobs",
+                "description":"Allow script, command, etc to be executed at defined intervals",
+                "path":"/private/var/at/tabs"
+            },
+            {
+                "name":"Login/out hooks",
+                "description":"Hook a script or command that will be executed at user login or logout, stored inside plist with key loginHook and LogoutHook",
+                "path":"~/Library/Preferences/com.apple.loginwindow.plist  "
+            },
+            {
+                "name":"Dynamic libraries (dylib)",
+                "description":"Scan all launch items and application and check the relevant property list for DYLD_INSERT_LIBARIES key/value pair ",
+                "tool":"Dylib hijack scanner"
+            },
+            {
+                "name":"Periodic",
+                "description":"Very similiar to cron job that requires root access",
+                "path":"/etc/periodic"
+            },
+            {
+                "name":"at task",
+                "description":"at tasks are used as schedule task to execute at define time",
+                "path":"/private/var/at/jobs"
+            },
+            {
+                "name":"Event monitor rules",
+                "description":"The event monitor binary will load rules from the /etc/emond.d/rules dir, These rules define the name, event type and action to take",
+                "path":"/etc/emond.d/rules"
+            },
+            {
+                "name":"Re-opened application",
+                "description":"Allow the user to startup application that was shutdown during logout, the applice thare are open again are stored in the plist",
+                "path":"~/Library/Preferences/ByHost/com.apple.loginwindow.<UUID>.plist"
+            }],
+            "name":"Persistance",
+            "type":"folder"
+        },
+        {
+            "children": [
+                {
+        
+                }],
+                "name":"other",
+                "type":"folder"
+            }
+    ],  
+    "name": "Mac forensics",
+    "type": "folder"
+}
+

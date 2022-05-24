@@ -1,0 +1,909 @@
+{ 
+    "children" : [
+        {
+            "children": [
+                {
+                    "DEVICE INFORMATION": "System",
+                    "path": "\/build.prop",
+                    "Column3": "N\/A",
+                    "name": "Device information (version, patches, etc.)"
+                   },
+                   {
+                    "DEVICE INFORMATION": "Userdata",
+                    "path": "\/data\/com.android.providers.calendar\/databases\/calendar.db ",
+                    "Column3": "*",
+                    "name": "Calendar Items and Timezone information"
+                   },
+                   {
+                    "DEVICE INFORMATION": "Userdata",
+                    "path": "\/data\/com.android.providers.settings\/databases\/settings.db",
+                    "Column3": "*",
+                    "name": "Lock settings information"
+                   },
+                   {
+                    "DEVICE INFORMATION": "Userdata",
+                    "path": "\/data\/com.android.providers.settings\/databases\/settings.db-WAL",
+                    "Column3": "*",
+                    "name": "Lock settings information"
+                   },
+                   {
+                    "DEVICE INFORMATION": "Userdata",
+                    "path": "\/data\/com.android.providers.settings\/databases\/locksettings.db",
+                    "Column3": "*",
+                    "name": "Lock settings information"
+                   },
+                   {
+                    "DEVICE INFORMATION": "Userdata",
+                    "path": "\/data\/com.android.providers.settings\/databases\/locksettings.db-WAL",
+                    "Column3": "*",
+                    "name": "Lock settings information"
+                    
+                   },
+                   {
+                    "DEVICE INFORMATION": "Userdata",
+                    "path": "\/data\/com.google.android.gms\/shared_prefs\/Checkin.xml ",
+                    "Column3": "N\/A",
+                    "name": "Activity on device related to installed SIM (ICCID and Google Account included)"
+                   },
+                   {
+                    "DEVICE INFORMATION": "Userdata",
+                    "path": "\/data\/com.google.android.gsf\/databases\/gservices.db",
+                    "Column3": "*",
+                    "name": "Fitness settings, network settings, other settings"
+                   },
+                   {
+                    "DEVICE INFORMATION": "Userdata",
+                    "path": "\/misc\/",
+                    "Column3": "N\/A",
+                    "name": "Bluetooth, VPN, Wi-Fi and more"
+                   },
+                   {
+                    "DEVICE INFORMATION": "Userdata",
+                    "path": "\/Property\/persist.sys.timezone",
+                    "Column3": "N\/A",
+                    "name": "Timezone (Up to Android 8)"
+                   },
+                   {
+                    "DEVICE INFORMATION": "Userdata",
+                    "path": "\/Property\/persistent_properties",
+                    "Column3": "N\/A",
+                    "name": "Timezone (From Android 9)"
+                   },
+                   {
+                    "DEVICE INFORMATION": "Userdata",
+                    "path": "\/system\/*.key",
+                    "Column3": "N\/A",
+                    "name": "Files needed for password cracking"
+                   },
+                   {
+                    "DEVICE INFORMATION": "Userdata",
+                    "path": "\/system\/device_policies.xml",
+                    "Column3": "N\/A",
+                    "name": "Passcode requirements and policies. Syncing info may exist"
+                   },
+                   {
+                    "DEVICE INFORMATION": "Userdata",
+                    "path": "\/system\/locksettings.db",
+                    "Column3": "*",
+                    "name": "Lock settings information"
+                   },
+                   {
+                    "DEVICE INFORMATION": "Userdata",
+                    "path": "\/system\/locksettings.db-WAL",
+                    "Column3": "*",
+                    "name": "Lock settings information"
+                   },
+                   {
+                    "DEVICE INFORMATION": "Userdata",
+                    "path": "\/system\/netpolicy.xml",
+                    "Column3": "N\/A",
+                    "name": "Timezone"
+                   },
+                   {
+                    "DEVICE INFORMATION": "Userdata",
+                    "path": "\/system\/SimCard.dat",
+                    "Column3": "N\/A",
+                    "name": "Sim card and phone number information"
+                   },
+                   {
+                    "DEVICE INFORMATION": "Userdata",
+                    "path": "\/system\/users\/0\/settings_global.xml ",
+                    "Column3": "N\/A",
+                    "name": "Global settings"
+                   },
+                   {
+                    "DEVICE INFORMATION": "Userdata",
+                    "path": "\/system\/users\/0\/settings_secure.xml ",
+                    "Column3": "N\/A",
+                    "name": "Secure settings"
+                   },
+                   {
+                    "DEVICE INFORMATION": "Userdata",
+                    "path": "\/system\/users\/0\/settings_system.xml ",
+                    "Column3": "N\/A",
+                    "name": "System settings"
+                   }],
+            "name": "Device information",
+            "type": "folder"
+          },
+          {
+            "children": [
+                {
+                    "PASSWORDS AND ACCOUNT INFORMATION": "Userdata",
+                    "path": "\/data\/com.android.email\/databases\/EmailProvider.db",
+                    "Column3": "Account, Email AddressCache, Mailbox*",
+                    "name": "Email accounts, 3rd party app data, and messages associated with Email notifications, Email accounts, 3rd party app data, and messages associated with Email notifications"
+                   },
+                   {
+                    "PASSWORDS AND ACCOUNT INFORMATION": "Userdata",
+                    "path": "\/data\/com.android.providers.contacts\/databases\/contacts2.db",
+                    "Column3": "accounts",
+                    "name": "Login info"
+                   },
+                   {
+                    "PASSWORDS AND ACCOUNT INFORMATION": "Userdata",
+                    "path": "\/data\/com.android.providers.settings\/*",
+                    "Column3": "N\/A",
+                    "name": "Username and passwords"
+                   },
+                   {
+                    "PASSWORDS AND ACCOUNT INFORMATION": "Userdata",
+                    "path": "\/data\/com.android.vending\/shared_prefs\/lastaccount.xml",
+                    "Column3": "N\/A",
+                    "name": "Last account used on Google PlayStore (Android 9 and above)"
+                   },
+                   {
+                    "PASSWORDS AND ACCOUNT INFORMATION": "Userdata",
+                    "path": "\/data\/com.google.android.gms\/shared_prefs\/BackupAccount.xml",
+                    "Column3": "N\/A",
+                    "name": "Backup account email address"
+                   },
+                   {
+                    "PASSWORDS AND ACCOUNT INFORMATION": "Userdata",
+                    "path": "\/data\/com.google.android.googlequicksearchbox\/databases\/app_icons.db",
+                    "Column3": "*",
+                    "name": "Google Account Information"
+                   },
+                   {
+                    "PASSWORDS AND ACCOUNT INFORMATION": "Userdata",
+                    "path": "\/data\/com.google.android.googlequicksearchbox\/databases\/launcher.db",
+                    "Column3": "*",
+                    "name": "Google Account Information"
+                   },
+                   {
+                    "PASSWORDS AND ACCOUNT INFORMATION": "Userdata",
+                    "path": "\/data\/com.google.android.googlequicksearchbox\/databases\/opa_history",
+                    "Column3": "*",
+                    "name": "Google Account Information"
+                   },
+                   {
+                    "PASSWORDS AND ACCOUNT INFORMATION": "Userdata",
+                    "path": "\/data\/com.google.android.gsf\/databases\/gservices.db",
+                    "Column3": "*",
+                    "name": "Fitness settings, network settings, other settings"
+                   },
+                   {
+                    "PASSWORDS AND ACCOUNT INFORMATION": "Userdata",
+                    "path": "\/system_ce\/0\/accounts_ce.db",
+                    "Column3": "*",
+                    "name": "Additional accounts (could also be system_de or accounts_de)"
+                   },
+                   {
+                    "PASSWORDS AND ACCOUNT INFORMATION": "Userdata",
+                    "path": "\/system_de\/0\/accounts_de.db",
+                    "Column3": "*",
+                    "name": "Additional accounts (could also be system_de or accounts_de)"
+                   },
+                   {
+                    "PASSWORDS AND ACCOUNT INFORMATION": "Userdata",
+                    "path": "\/misc\/wifi\/softap.conf ",
+                    "Column3": "N\/A",
+                    "name": "Hotspot Passwords"
+                   },
+                   {
+                    "PASSWORDS AND ACCOUNT INFORMATION": "Userdata",
+                    "path": "\/misc\/wifi\/wpa_supplicant.conf",
+                    "Column3": "N\/A",
+                    "name": "Wi-Fi Network Password"
+                   },
+                   {
+                    "PASSWORDS AND ACCOUNT INFORMATION": "Userdata",
+                    "path": "\/system\/accounts*.db",
+                    "Column3": "*",
+                    "name": "User account information"
+                   },
+                   {
+                    "PASSWORDS AND ACCOUNT INFORMATION": "Userdata",
+                    "path": "\/system\/sync\/accounts.xml",
+                    "Column3": "N\/A",
+                    "name": "User account information"
+                   },
+                   {
+                    "PASSWORDS AND ACCOUNT INFORMATION": "Userdata",
+                    "path": "\/system\/users\/0\/0.xml",
+                    "Column3": "N\/A",
+                    "name": "User information"
+                   }],
+            "name": "Account and password information",
+            "type": "folder"
+          },
+          {
+            "children": [
+                {
+                "SYSTEM SETTINGS": "Partition",
+                "path": "Path",
+                "Column3": "Table",
+                "name": "Description"
+                },
+                {
+                "SYSTEM SETTINGS": "Userdata",
+                "path": "\/data\/com.google.android.gms\/shared_prefs\/*",
+                "Column3": "N\/A",
+                "name": "Preference files"
+                },
+                {
+                "SYSTEM SETTINGS": "Userdata",
+                "path": "\/data\/com.google.android.gsf\/databases\/gservices.db",
+                "Column3": "*",
+                "name": "Fitness settings, network settings, other settings"
+                },
+                {
+                "SYSTEM SETTINGS": "Userdata",
+                "path": "\/system\/recent_images\/*.png",
+                "Column3": "N\/A",
+                "name": "Application snapshots"
+                },
+                {
+                "SYSTEM SETTINGS": "Userdata",
+                "path": "\/system_ce\/recent_images\/*.png",
+                "Column3": null,
+                "name": "Application snapshots"
+                },
+                {
+                "SYSTEM SETTINGS": "Userdata",
+                "path": "\/system\/users\/0\/settings_global.xml",
+                "Column3": "N\/A",
+                "name": "Global settings"
+                },
+                {
+                "SYSTEM SETTINGS": "Userdata",
+                "path": "\/system\/users\/0\/settings_secure.xml ",
+                "Column3": "N\/A",
+                "name": "Secure Settings"
+                },
+                {
+                "SYSTEM SETTINGS": "Userdata",
+                "path": "\/system\/users\/0\/settings_system.xml",
+                "Column3": "N\/A",
+                "name": "System Settings"
+                }],
+            "name": "System settings",
+            "type": "folder"
+          },
+          {
+            "children": [
+                {
+                "USER SETTINGS": "Userdata",
+                "path": "\/data\/com.android.providers.calendar\/databases\/calendar.db ",
+                "Column3": "*",
+                "name": "Calendar Items and Timezone information"
+                },
+                {
+                "USER SETTINGS": "Userdata",
+                "path": "\/data\/com.android.providers.userdictionary\/databases\/user_dict.db",
+                "Column3": "*",
+                "name": "Dictionary Files (Keylogging)"
+                },
+                {
+                "USER SETTINGS": "Userdata",
+                "path": "\/data\/com.google.android.gms\/databases\/NetworkUsage.db",
+                "Column3": "*",
+                "name": "Application, User and Location traces"
+                },
+                {
+                "USER SETTINGS": "Userdata",
+                "path": "\/data\/com.google.android.gms\/databases\/ns.db",
+                "Column3": "*",
+                "name": "Application, User and Location traces"
+                },
+                {
+                "USER SETTINGS": "Userdata",
+                "path": "\/data\/com.google.android.gms\/databases\/reminders.db",
+                "Column3": "*",
+                "name": "Application, User and Location traces"
+                },
+                {
+                "USER SETTINGS": "Userdata",
+                "path": "\/data\/com.google.android.gsf\/databases\/googlesettings.db ",
+                "Column3": "*",
+                "name": "Google preferences – location, maps, wallet, etc --1=true"
+                },
+                {
+                "USER SETTINGS": "Userdata",
+                "path": "\/data\/com.google.android.gsf\/databases\/gservices.db",
+                "Column3": "*",
+                "name": "Fitness settings, network settings, other settings"
+                },
+                {
+                "USER SETTINGS": "Userdata",
+                "path": "\/data\/com.sec.android.inputmethod\/Swiftkey\/user\/dynamic.lm",
+                "Column3": "N\/A",
+                "name": "Dictionary Files (Keylogging) SwiftKey folder name may vary"
+                }],
+            "name": "User settings",
+            "type": "folder"
+          },
+          {
+            "children": [
+                {
+                "COMMUNICATIONS - SMS, CALLS, EMAILS": "Cache",
+                "path": "*",
+                "Column3": "*",
+                "name": "Gmail attachments, Downloads and Browser data"
+                },
+                {
+                "COMMUNICATIONS - SMS, CALLS, EMAILS": "Userdata",
+                "path": "\/data\/com.android.providers.contacts\/databases\/calllog.db",
+                "Column3": "calls",
+                "name": "Call logs (From Android 7)"
+                },
+                {
+                "COMMUNICATIONS - SMS, CALLS, EMAILS": "Userdata",
+                "path": "\/data\/com.android.providers.contacts\/databases\/contacts2.db",
+                "Column3": "calls",
+                "name": "Call logs (Up to Android 6)"
+                },
+                {
+                "COMMUNICATIONS - SMS, CALLS, EMAILS": "Userdata",
+                "path": "\/data\/com.android.providers.telephony\/databases\/mmssms.db",
+                "Column3": "sms and part",
+                "name": "SMS\/MMS"
+                },
+                {
+                "COMMUNICATIONS - SMS, CALLS, EMAILS": "Userdata",
+                "path": "\/data\/com.google.android.apps.messaging\/databases\/bugle_db ",
+                "Column3": "*",
+                "name": "RCS\/Android Messages (refer to notebook for query)"
+                },
+                {
+                "COMMUNICATIONS - SMS, CALLS, EMAILS": "Userdata",
+                "path": "\/data\/com.google.android.dialer\/databases\/dialer.db",
+                "Column3": "*",
+                "name": "Call logs"
+                },
+                {
+                "COMMUNICATIONS - SMS, CALLS, EMAILS": "Userdata",
+                "path": "\/data\/com.google.android.gm\/databases\/<mail-name>.db",
+                "Column3": "conversations and messages",
+                "name": "Gmail snippets"
+                },
+                {
+                "COMMUNICATIONS - SMS, CALLS, EMAILS": "Userdata",
+                "path": "\/data\/com.google.android.gm\/databases\/bigTopDataDB.<user-id>",
+                "Column3": null,
+                "name": "Email information"
+                },
+                {
+                "COMMUNICATIONS - SMS, CALLS, EMAILS": "Userdata",
+                "path": "\/data\/com.google.android.gm\/databases\/EmailProvider.db",
+                "Column3": null,
+                "name": "Email information"
+                },
+                {
+                "COMMUNICATIONS - SMS, CALLS, EMAILS": "Userdata",
+                "path": "\/data\/com.google.android.gms\/databases\/icing_mmssms.db",
+                "Column3": "*",
+                "name": "SMS\/MMS"
+                },
+                {
+                "COMMUNICATIONS - SMS, CALLS, EMAILS": "Userdata",
+                "path": "\/data\/com.google.android.gms\/databases\/ipa_mmssms.db",
+                "Column3": "*",
+                "name": "SMS\/MMS"
+                },
+                {
+                "COMMUNICATIONS - SMS, CALLS, EMAILS": "Userdata",
+                "path": "\/data\/com.sec.android.provider.logsprovider\/databases\/logs.db",
+                "Column3": "logs",
+                "name": "Call logs"
+                }],
+            "name": "Comms",
+            "type": "folder"
+          },
+          {
+            "children": [
+                {
+                    "MULTIMEDIA": "Userdata",
+                    "path": "\/data\/com.android.providers.media\/databases\/external*.db",
+                    "Column3": "*",
+                    "name": "Traces to SD card used in the device. This is stored on the phone."
+                   },
+                   {
+                    "MULTIMEDIA": "Userdata",
+                    "path": "\/data\/com.android.providers.media\/databases\/external*.db-WAL",
+                    "Column3": "*",
+                    "name": "Traces to SD card used in the device. This is stored on the phone."
+                   },
+                   {
+                    "MULTIMEDIA": "Userdata",
+                    "path": "\/data\/com.google.android.apps.photos\/databases\/gphotos0.db",
+                    "Column3": "local_media",
+                    "name": "Camera Photos information"
+                   },
+                   {
+                    "MULTIMEDIA": "Userdata",
+                    "path": "\/data\/com.samsung.cmh\/databases\/cmh.db",
+                    "Column3": "files",
+                    "name": "Camera Photo - Samsung Devices"
+                   },
+                   {
+                    "MULTIMEDIA": "Userdata",
+                    "path": "\/data\/com.samsung.storyservice\/databases\/dme.db",
+                    "Column3": "info",
+                    "name": "Camera Photo - Samsung Devices"
+                   },
+                   {
+                    "MULTIMEDIA": "Userdata",
+                    "path": "\/data\/com.samsung.visionprovider\/databases\/visionprovider.db",
+                    "Column3": "files",
+                    "name": "Camera Photo - Samsung Devices"
+                   },
+                   {
+                    "MULTIMEDIA": "Userdata",
+                    "path": "\/media\/",
+                    "Column3": "N\/A",
+                    "name": "Acts like SD card"
+                   }],
+            "name": "Multimedia",
+            "type": "folder"
+          },
+          {
+            "children": [
+                {
+                "BROWSER ACTIVITY": "Cache",
+                "path": "*",
+                "Column3": "N\/A",
+                "name": "Gmail attachments, Downloads and Browser data"
+                },
+                {
+                "BROWSER ACTIVITY": "Userdata",
+                "path": "\/data\/com.android.browser\/app_databases\/*",
+                "Column3": "*",
+                "name": "Internet History"
+                },
+                {
+                "BROWSER ACTIVITY": "Userdata",
+                "path": "\/data\/com.android.browser\/app_geolocation\/GeolocationPermissions.db",
+                "Column3": "*",
+                "name": "Internet History"
+                },
+                {
+                "BROWSER ACTIVITY": "Userdata",
+                "path": "\/data\/com.android.browser\/databases\/Browser.db",
+                "Column3": null,
+                "name": null
+                },
+                {
+                "BROWSER ACTIVITY": "Userdata",
+                "path": "\/data\/com.android.browser\/databases\/browser2.db",
+                "Column3": "*",
+                "name": "Internet History"
+                },
+                {
+                "BROWSER ACTIVITY": "Userdata",
+                "path": "\/data\/com.android.browser\/databases\/webview.db",
+                "Column3": "*",
+                "name": "Internet History"
+                },
+                {
+                "BROWSER ACTIVITY": "Userdata",
+                "path": "\/data\/com.android.browser\/databases\/webviewCache.db",
+                "Column3": "*",
+                "name": "Internet History"
+                },
+                {
+                "BROWSER ACTIVITY": "Userdata",
+                "path": "\/data\/com.android.email\/webviewCache.db",
+                "Column3": "*",
+                "name": "Internet History"
+                }],
+            "name": "Browser",
+            "type": "folder"
+          },
+          {
+            "children": [
+                {
+                "NETWORK CONNECTIONS": "Userdata",
+                "path": "\/data\/com.android.connectivity.metrics\/databases\/events.db",
+                "Column3": "completed_events_requests",
+                "name": "USB, Bluetooth, NFC and other connects - Acquisition connection tracked here"
+                },
+                {
+                "NETWORK CONNECTIONS": "Userdata",
+                "path": "\/data\/com.google.android.gms\/databases\/herrevad",
+                "Column3": "*",
+                "name": "Wireless network and MAC addresses"
+                },
+                {
+                "NETWORK CONNECTIONS": "Userdata",
+                "path": "\/data\/com.google.android.locations\/files\/cache.cell",
+                "Column3": "*",
+                "name": "Cellular and WiFi"
+                },
+                {
+                "NETWORK CONNECTIONS": "Userdata",
+                "path": "\/data\/com.google.android.locations\/files\/cache.wifi",
+                "Column3": "*",
+                "name": "Cellular and WiFi"
+                },
+                {
+                "NETWORK CONNECTIONS": "Userdata",
+                "path": "\/misc\/wifi\/WifiConfigStore.xml",
+                "Column3": "N\/A",
+                "name": "Wireless network"
+                }],
+            "name": "Network connection",
+            "type": "folder"
+          },
+          {
+            "children": [
+                {
+                    "SYNCING ARTIFACTS": "Userdata",
+                    "path": "\/data\/com.google.android.apps.docs.editors.docs\/databases\/*",
+                    "Column3": "*",
+                    "name": "Google Docs"
+                   },
+                   {
+                    "SYNCING ARTIFACTS": "Userdata",
+                    "path": "\/data\/com.google.android.apps.docs.editors.sheets\/databases\/*",
+                    "Column3": "*",
+                    "name": "Google Docs"
+                   },
+                   {
+                    "SYNCING ARTIFACTS": "Userdata",
+                    "path": "\/data\/com.google.android.apps.docs.editors.slides\/databases\/*",
+                    "Column3": "*",
+                    "name": "Google Docs"
+                   },
+                   {
+                    "SYNCING ARTIFACTS": "Userdata",
+                    "path": "\/data\/com.google.android.apps.docs\/databases\/* ",
+                    "Column3": "*",
+                    "name": "Google Docs"
+                   },
+                   {
+                    "SYNCING ARTIFACTS": "Userdata",
+                    "path": "\/data\/com.google.android.apps.genie.geniewidget\/databases\/newsweather.db",
+                    "Column3": "*",
+                    "name": "Sync activity"
+                   },
+                   {
+                    "SYNCING ARTIFACTS": "Userdata",
+                    "path": "\/data\/com.google.android.gms\/databases\/peoplelog.db",
+                    "Column3": "*",
+                    "name": "Sync activity - contacts"
+                   },
+                   {
+                    "SYNCING ARTIFACTS": "Userdata",
+                    "path": "\/data\/com.google.android.gms\/shared_prefs\/com.google.android.gms.auth.authzen.cryptauth.SyncManager.proximity_features.xml",
+                    "Column3": "N\/A",
+                    "name": "Sync Activity"
+                   },
+                   {
+                    "SYNCING ARTIFACTS": "Userdata",
+                    "path": "\/system\/sync\/accounts.xml",
+                    "Column3": null,
+                    "name": "Synced Accounts"
+                   }],
+            "name": "Syncing artifacts",
+            "type": "folder"
+          },
+          {
+            "children": [
+                {
+                    "LOCATION ARTIFACTS": "Userdata",
+                    "path": "\/data\/com.google.android.apps.maps\/databases\/da_destination_history",
+                    "Column3": "destination history",
+                    "name": "Maps"
+                   },
+                   {
+                    "LOCATION ARTIFACTS": "Userdata",
+                    "path": "\/data\/com.google.android.apps.maps\/databases\/gmm_storage.db",
+                    "Column3": "*",
+                    "name": "Search history Maps"
+                   },
+                   {
+                    "LOCATION ARTIFACTS": "Userdata",
+                    "path": "\/data\/com.google.android.apps.maps\/databases\/search_history.db",
+                    "Column3": "history and suggestions",
+                    "name": "Maps"
+                   },
+                   {
+                    "LOCATION ARTIFACTS": "Userdata",
+                    "path": "\/data\/com.google.android.apps.maps\/databases\/gmm_sync.db",
+                    "Column3": "*",
+                    "name": "Syncing"
+                   },
+                   {
+                    "LOCATION ARTIFACTS": "Userdata",
+                    "path": "\/data\/com.sec.android.daemonapp\/db\/weatherClock",
+                    "Column3": "*",
+                    "name": "Location artifacts"
+                   },
+                   {
+                    "LOCATION ARTIFACTS": "Userdata",
+                    "path": "\/Media\/0\/DCIM\/Camera",
+                    "Column3": "*",
+                    "name": "EXIF data with location info"
+                   }],
+            "name": "Location artifacts",
+            "type": "folder"
+          },
+          {
+            "children": [
+                {
+                "APPLICATION USAGE": "Userdata",
+                "path": "\/app\/*",
+                "Column3": "N\/A",
+                "name": "APK files for installed applications"
+                },
+                {
+                "APPLICATION USAGE": "Userdata",
+                "path": "\/dalvik-cache",
+                "Column3": "N\/A",
+                "name": ".dex\/.oat\/.art files for installed applications"
+                },
+                {
+                "APPLICATION USAGE": "Userdata",
+                "path": "\/data\/\"Application Folder\"",
+                "Column3": "N\/A",
+                "name": "Application Data Files*"
+                },
+                {
+                "APPLICATION USAGE": "Userdata",
+                "path": "\/data\/com.android.vending\/databases\/data_usage.db",
+                "Column3": "app_data_usage",
+                "name": "Application traces"
+                },
+                {
+                "APPLICATION USAGE": "Userdata",
+                "path": "\/data\/com.android.vending\/databases\/frosting.db",
+                "Column3": "frosting",
+                "name": "Application traces"
+                },
+                {
+                "APPLICATION USAGE": "Userdata",
+                "path": "\/data\/com.android.vending\/databases\/install_queue.db",
+                "Column3": "install_requests",
+                "name": "Application traces"
+                },
+                {
+                "APPLICATION USAGE": "Userdata",
+                "path": "\/data\/com.android.vending\/databases\/library.db",
+                "Column3": "ownership",
+                "name": "Application traces"
+                },
+                {
+                "APPLICATION USAGE": "Userdata",
+                "path": "\/data\/com.android.vending\/databases\/localappstate.db",
+                "Column3": "appstate",
+                "name": "Application traces"
+                },
+                {
+                "APPLICATION USAGE": "Userdata",
+                "path": "\/data\/com.android.vending\/databases\/notification_cache",
+                "Column3": "notifications",
+                "name": "Application traces"
+                },
+                {
+                "APPLICATION USAGE": "Userdata",
+                "path": "\/data\/com.android.vending\/databases\/package_verification.db",
+                "Column3": "verification_cache",
+                "name": "Application traces"
+                },
+                {
+                "APPLICATION USAGE": "Userdata",
+                "path": "\/data\/com.android.vending\/databases\/suggestions.db",
+                "Column3": "suggestions",
+                "name": "Application traces"
+                },
+                {
+                "APPLICATION USAGE": "Userdata",
+                "path": "\/data\/com.android.vending\/databases\/verify_apps.db",
+                "Column3": "*",
+                "name": "Application traces"
+                },
+                {
+                "APPLICATION USAGE": "Userdata",
+                "path": "\/data\/com.google.android.gms\/databases\/config.db",
+                "Column3": "main",
+                "name": "Application traces"
+                },
+                {
+                "APPLICATION USAGE": "Userdata",
+                "path": "\/data\/com.google.android.gms\/databases\/gass.db",
+                "Column3": "app_info",
+                "name": "Application traces"
+                },
+                {
+                "APPLICATION USAGE": "Userdata",
+                "path": "\/data\/com.google.android.gms\/databases\/gcm_registrar.db",
+                "Column3": "packages",
+                "name": "Application traces"
+                },
+                {
+                "APPLICATION USAGE": "Userdata",
+                "path": "\/data\/com.google.android.gms\/databases\/google_app_measurement.db",
+                "Column3": "*",
+                "name": "Application traces"
+                },
+                {
+                "APPLICATION USAGE": "Userdata",
+                "path": "\/data\/com.google.android.gms\/shared_prefs\/batterystats.xml",
+                "Column3": "N\/A",
+                "name": "Battery Usage Stats - Contains Application Usage information"
+                },
+                {
+                "APPLICATION USAGE": "Userdata",
+                "path": "\/data\/com.google.android.googlequicksearchbox\/*",
+                "Column3": "N\/A",
+                "name": "Google App searches, installed applications and more "
+                },
+                {
+                "APPLICATION USAGE": "Userdata",
+                "path": "\/data\/com.samsung.android.providers.context.databases.ContextLog_0.db",
+                "Column3": "*",
+                "name": "Application traces (Samsung devices)"
+                },
+                {
+                "APPLICATION USAGE": "Userdata",
+                "path": "\/data\/com.sec.android.app.launcher\/databases\/launcher.db",
+                "Column3": "N\/A",
+                "name": "Application artifacts (even after deleted)"
+                },
+                {
+                "APPLICATION USAGE": "Userdata",
+                "path": "\/data\/data\/com.google.android.gms\/files\/batterystatsdumpsystask.gz",
+                "Column3": "N\/A",
+                "name": "Battery Usage Stats - Contains Application Usage information"
+                },
+                {
+                "APPLICATION USAGE": "Userdata",
+                "path": "\/system\/appops.xml",
+                "Column3": "N\/A",
+                "name": "Application permissions"
+                },
+                {
+                "APPLICATION USAGE": "Userdata",
+                "path": "\/system\/batterystats.bin",
+                "Column3": "N\/A",
+                "name": "Battery Usage Stats - Contains Application Usage information"
+                },
+                {
+                "APPLICATION USAGE": "Userdata",
+                "path": "\/system\/batterystats-checkin.bin",
+                "Column3": "N\/A",
+                "name": "Battery Usage Stats - Contains Application Usage information"
+                },
+                {
+                "APPLICATION USAGE": "Userdata",
+                "path": "\/system\/batterystats-daily.xml",
+                "Column3": "N\/A",
+                "name": "Battery Usage Stats - Contains Application Usage information"
+                },
+                {
+                "APPLICATION USAGE": "Userdata",
+                "path": "\/system\/dmappmgr.db",
+                "Column3": "N\/A",
+                "name": "Application Usage"
+                },
+                {
+                "APPLICATION USAGE": "Userdata",
+                "path": "\/system\/job\/jobs.xml",
+                "Column3": "N\/A",
+                "name": "Application Usage"
+                },
+                {
+                "APPLICATION USAGE": "Userdata",
+                "path": "\/system\/notification_log.db",
+                "Column3": "N\/A",
+                "name": "Application notifications"
+                },
+                {
+                "APPLICATION USAGE": "Userdata",
+                "path": "\/system\/packages.list",
+                "Column3": "N\/A",
+                "name": "Application permissions and metadata"
+                },
+                {
+                "APPLICATION USAGE": "Userdata",
+                "path": "\/system\/packages.xml",
+                "Column3": "N\/A",
+                "name": "Application permissions"
+                },
+                {
+                "APPLICATION USAGE": "Userdata",
+                "path": "\/system\/usagestats\/0\/*",
+                "Column3": "N\/A",
+                "name": "Application Usage Stats"
+                },
+                {
+                "APPLICATION USAGE": "Userdata",
+                "path": "\/system\/users\/0\/app_idle_stats.xml",
+                "Column3": "N\/A",
+                "name": "Application Usage"
+                },
+                {
+                "APPLICATION USAGE": "Userdata",
+                "path": "\/system_ce\/0\/recent_images\/*.png",
+                "Column3": "N\/A",
+                "name": "Application snapshots"
+                },
+                {
+                "APPLICATION USAGE": "Userdata",
+                "path": "\/system_ce\/0\/recent_tasks\/*.xml",
+                "Column3": "N\/A",
+                "name": "Recent Tasks"
+                }],
+            "name": "Application usage",
+            "type": "folder"
+          },
+          {
+            "children": [
+              {
+                "name": "Calendar",
+                "description" : "Calendar Items",
+                "path": "/data/com.android.providers.calendar/databases/calendar.db"
+              },
+              {
+                "name": "Contacts",
+                "description" : "Calendar Items",
+                "path": "/data/com.android.providers.contacts/databases/contacts2.db"
+              },
+              {
+                "name": "Call Logs",
+                "description" : "Calendar Items",
+                "path": "/data/com.android.providers.contacts/databases/contacts2.db"
+              },
+              {
+                "name": "Call Logs",
+                "description" : "Calendar Items",
+                "path": "/data/com.android.providers.contacts/databases/calllog.db"
+              },
+              {
+                "name": "Downloads",
+                "description" : "Calendar Items",
+                "path": "/data/com.android.providers.downloads/databases/downloads.db"
+              },
+              {
+                "name": "Contacts",
+                "description" : "Calendar Items",
+                "path": "/data/com.google.android.gms/databases/icing_contacts.db"
+              },
+              {
+                "name": "MMS/SMS",
+                "description" : "Calendar Items",
+                "path": "/data/com.google.android.gms/databases/icing_mmssms.db"
+              },
+              {
+                "name": "MMS/SMS",
+                "description" : "Calendar Items",
+                "path": "/data/com.google.android.gms/databases/ipa_mmssms.db"
+              },
+              {
+                "name": "Android Pay",
+                "description" : "Calendar Items",
+                "path": "/data/com.google.android.gms/databases/android_pay"
+              },
+              {
+                "name": "Google+ Contacts",
+                "description" : "Calendar Items",
+                "path": "/data/com.google.android.gms/databases/pluscontacts.db"
+              }],
+            "name": "Native apps",
+            "type": "folder"
+          }
+    ],
+    "name":"Android forencis",
+    "type":"folder"
+}
