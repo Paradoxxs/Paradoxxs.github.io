@@ -104,6 +104,10 @@
             "time": "First Run Time = Last Modification Time of Key",
             "MACB":"M",
             "path": "C:\\Windows\\AppCompat\\Programs\\Amcache.hve"
+          },
+          {
+            "name":"NTFS Alternate data stream zone identifier (ADS) Zone identifier",
+            "description":"Tell the source of the file (NoZone = -1 MyComputer = 0 Intranet= 1 Trusted= 2 Internet= 3 Untrusted= 4)"
           }],
         "name": "Deleted file or file knowledge",
         "type": "folder"

@@ -1,0 +1,60 @@
+{
+    "children": [
+    {
+        "children": [
+        {
+            "name":"DNS tunnel",
+            "description":" Port : tcp 53, Client volume : large, Server voulume : Large, connection duration : Long"
+        },
+        {
+            "name":"TLS VPN",
+            "description":" Port : tcp 443, Client volume : large, Server voulume : Large, connection duration : Long"
+        },
+        {
+            "name":"HTTP post upload (Exfil)",
+            "description":" Port : tcp 443, Client volume : large, Server voulume : small, connection duration : Various"
+        },
+        {
+            "name":"scp download",
+            "description":"Port 22, Client volume : small, Server voulume : large, connection duration : various"
+        },
+        {
+            "name":"Beaconing",
+            "description":"Small frequection connection",
+            "tool":"RITA, my own beaconing analysis script"
+        }
+        ],
+        "name":"Traffic analysis",
+        "description":"Understanding the network flow of an network using staticis analysis",
+        "type":"folder"
+    },
+    {
+    "children": [
+        {
+
+        }],
+        "name":"Signature analysis",
+        "description":"Looking for known bad patterns",
+        "type":"folder"
+    },
+    {
+    "children": [
+        {
+            "name":"Capturing packets",
+            "description":"Capturing network packet for later analysis",
+            "tool":"tcpdump, wireshark"
+        }],
+        "name":"Full content analysis",
+        "description":"Looking into every single packet to understand an attack",
+
+        "type":"folder"
+    },
+    {
+        "name":"Treat intel",
+        "description":"Check for network connection to know bad IP or domain address."
+    }
+    ],  
+    "name": "Network forensics",
+    "type": "folder"
+}
+

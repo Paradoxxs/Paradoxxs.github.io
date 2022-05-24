@@ -29,6 +29,7 @@ permalink: /mindmap/
     <button id="ios" onclick="ios()">IOS</button>
     <button id="mac" onclick="mac()">Mac</button>
     <button id="linux" onclick="linux()">Linux</button>
+    <button id="network" onclick="network()">Network</button>
     <button id="osint" onclick="osint()">OSINT</button>
     <button id="darkweb" onclick="darkweb()">Darkweb</button>
     <button id="blockchain" onclick="blockchain()">Blockchain</button>
