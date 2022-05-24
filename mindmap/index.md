@@ -1,4 +1,9 @@
-<!DOCTYPE html>
+---
+layout: page
+title: mindmap
+permalink: /mindmap/
+---
+
 <html>
   <head>
     <meta http-equiv="Content-Type" content="text/html;charset=utf-8"/>

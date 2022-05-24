@@ -4,9 +4,6 @@ title: mindmap
 permalink: /mindmap/
 ---
 
-
-
-<!DOCTYPE html>
 <html>
   <head>
     <meta http-equiv="Content-Type" content="text/html;charset=utf-8"/>
@@ -39,7 +36,7 @@ permalink: /mindmap/
     <h3>Notes</h3>
     Forensics mindmap focused on where to gather evidence.  The intention is to help people find locate critical evidence with easy.<br>
       
-    <p>Inspired by the OSINT framework</p>
+    <p>Inspired by the OSINT framework test</p>
 
   </body>
 
