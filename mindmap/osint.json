@@ -191,7 +191,7 @@
     "children": [
         {
             "name":"favicon",
-            "description":"Get the hash of website favicon, which can used to find site with the same faviocn by using shodan",
+            "description":"Get the hash of website favicon, which can used to find site that use the same favicon using shodan",
             "url":"https://faviconhash.com/"
         },
         {
