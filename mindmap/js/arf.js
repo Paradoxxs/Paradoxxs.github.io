@@ -273,14 +273,7 @@ function update(source) {
       .attr("class", "about lifespan")
       .text(function(d) { return d.path; })
 
-  node.append("text")
-    .attr("x", 18)
-    .attr("y", 18)
-    .attr("dy", ".71em")
-    .attr("class", "about tool")
-    .text(function(d) { if (d.tool) return "tool: " + d.tool; });
 
-      
   nodeEnter.append("svg:title")
     .text(function(d) {return d.description + '\n' + "tools: " +  d.tool + '\n' + "Time: "  +  d.time;})
 
