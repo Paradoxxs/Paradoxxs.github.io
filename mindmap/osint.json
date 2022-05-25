@@ -129,6 +129,16 @@
     {
         "name":"Contact exploitation",
         "description":"By adding the phone number of the target to an clean phone, then installing social media app, some apps will pair you with target as a contact"
+    },
+    {
+        "name":"information gathering",
+        "description":"Automaticly gather information about an phone number, and automate generate google dorks",
+        "url":"https://github.com/sundowndev/phoneinfoga"
+    },
+    {
+        "name":"global phone number lookup API",
+        "description":"API for looking up phone numbers",
+        "url":"https://numverify.com/"
     }],
     "name":"Phone number",
     "type":"folder"
@@ -247,7 +257,6 @@
     "name":"Website",
     "type":"folder"
     },
-,
     {
     "children": [
         {
