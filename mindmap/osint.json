@@ -105,6 +105,11 @@
             "name":"Reverse DNS lookup",
             "description":"Using to IP address to lookup domain that are associcated with it.",
             "tool":"https://mxtoolbox.com/ReverseLookup.aspx"
+        },
+        {
+            "name":"geolocate IP address",
+            "description":"Public available database of IP address and location",
+            "url":"https://dev.maxmind.com/geoip/geolite2-free-geolocation-data?lang=en"
         }],
         "name":"IP address",
         "type":"folder"
@@ -133,8 +138,29 @@
         {
             "name":"Grayhatwarefare",
             "url":"https://grayhatwarfare.com/"
+        },
+        {
+            "name":"Enumuration resources",
+            "description":"Cloud enum enumerate public available resources in cloud",
+            "url":"https://github.com/initstring/cloud_enum"
+        },
+        {
+            "name":"Enumuration resources with skyArk",
+            "description":"Enumerate public available resources in cloud",
+            "url":"https://github.com/cyberark/SkyArk"
+        },
+        {
+            "name":"Enumuration azure blob resources with blobhunter",
+            "description":"enum public available blob storage",
+            "url":"https://github.com/cyberark/blobhunter"
+        },
+        {
+            "name":"Enumuration azure blob resources with blobhunter",
+            "description":"enum public available blob storage",
+            "url":"https://github.com/cyberark/blobhunter"
         }],
-    "name":"Cloud bucket",
+
+    "name":"Cloud",
     "type":"folder"
     },
     {
@@ -199,32 +225,29 @@
             "name":"Security header",
             "description":"List of security instruction. The important header here is Content-security-policy  header identifies what domain are allowed to serve content on the site",
             "tool":"identify: Securityheader.io, recon: censys.io"
-        }],
+        },
+        {
+            "children": [
+                {
+                    "name":"WayBackMachine",
+                    "description":"Stores historical sites",
+                    "url":"https://archive.org/"
+                },
+                {
+                    "name":"Archive.today",
+                    "url":"https://archive.ph/"
+                },
+                {
+                    "name":"Web arhives chrom extension",
+                    "url":"https://chrome.google.com/webstore/detail/web-archives/hkligngkgcpcolhcnkgccglchdafcnao"
+                }],
+            "name":"Archives",
+            "type":"folder"
+            }],
     "name":"Website",
     "type":"folder"
     },
-    {
-    "children": [
-        {
-            "name":"WayBackMachine",
-            "description":"Stores historical sites",
-            "url":"https://archive.org/"
-        },
-        {
-            "name":"Archive.today",
-            "url":"https://archive.ph/"
-        },
-        {
-            "name":"Web arhives chrom extension",
-            "url":"https://chrome.google.com/webstore/detail/web-archives/hkligngkgcpcolhcnkgccglchdafcnao"
-        },
-        {
-            "name":"OCCRP aleph",
-            "url":"https://aleph.occrp.org/"
-        }],
-    "name":"Archives",
-    "type":"folder"
-    },
+,
     {
     "children": [
         {
@@ -233,7 +256,7 @@
             "url":"https://intelx.io/"
         },
         {
-                "name":"psatebin dumps",
+                "name":"pastebin dumps",
                 "url":"https://psbdmp.ws/"
         }],
     "name":"Data dumps",
@@ -270,14 +293,14 @@
             "name":"Mitaka",
             "descirption":"Allow for quick look up of data on various sites.",
             "url":"https://chrome.google.com/webstore/detail/mitaka/bfjbejmeoibbdpfdbmbacmefcbannnbg"
-        },
-        {
-            "name":"Contry specific lookup sites",
-            "descirption":"maps out sources for the different contry",
-            "url":"https://cipher387.github.io/osintmap/"
         }],
     "name":"Helper tools",
     "type":"folder"
+    },
+    {
+        "name":"Contry specific lookup sites",
+        "descirption":"maps out sources for the different contry",
+        "url":"https://cipher387.github.io/osintmap/"
     }],  
 "name": "OSINT forensics",
 "type": "folder"

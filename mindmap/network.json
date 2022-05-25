@@ -52,6 +52,11 @@
     {
         "name":"Treat intel",
         "description":"Check for network connection to know bad IP or domain address."
+    },
+    {
+        "name":"geolocate IP address",
+        "description":"Public available database of IP address and location",
+        "url":"https://dev.maxmind.com/geoip/geolite2-free-geolocation-data?lang=en"
     }
     ],  
     "name": "Network forensics",
