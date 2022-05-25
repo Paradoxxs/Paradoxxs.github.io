@@ -78,7 +78,8 @@
             "url":"https://analyzeid.com/"
         },
         {
-            "name":"Find related website",
+            "name":"Find website with similar attributes",
+            "description":"Will find website that have similiar attributes such as IP, google analytist, etc",
             "url":"https://spyonweb.com/"
         },
         {
