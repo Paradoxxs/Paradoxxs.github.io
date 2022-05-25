@@ -191,12 +191,12 @@
     "children": [
         {
             "name":"favicon",
-            "descirption":"Get the hash of website favicon, which can used to find site with the same faviocn by using shodan",
+            "description":"Get the hash of website favicon, which can used to find site with the same faviocn by using shodan",
             "url":"https://faviconhash.com/"
         },
         {
             "name":"Security header",
-            "descirption":"List of security instruction. The important header here is Content-security-policy  header identifies what domain are allowed to serve content on the site",
+            "description":"List of security instruction. The important header here is Content-security-policy  header identifies what domain are allowed to serve content on the site",
             "tool":"identify: Securityheader.io, recon: censys.io"
         }],
     "name":"Website",
@@ -206,7 +206,7 @@
     "children": [
         {
             "name":"WayBackMachine",
-            "descirption":"Stores historical sites",
+            "description":"Stores historical sites",
             "url":"https://archive.org/"
         },
         {
