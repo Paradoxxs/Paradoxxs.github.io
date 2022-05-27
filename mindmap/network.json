@@ -42,7 +42,7 @@
         {
             "name":"Capturing packets",
             "description":"Capturing network packet for later analysis",
-            "tool":"tcpdump, wireshark"
+            "tool":"tcpdump, wireshark, tshark"
         }],
         "name":"Full content analysis",
         "description":"Looking into every single packet to understand an attack",

@@ -117,7 +117,7 @@
     {
     "children": [
         {
-            "name":"crt.sh",
+            "name":"SSL cert information lookup with crt.sh",
             "url":"https://crt.sh/"
 
         }],
@@ -188,24 +188,33 @@
             "url":"https://community.riskiq.com/"
         },
         {
-            "name":"Virus total",
-            "description":"",
+            "name":"Virustotal",
+            "description":"public avilable anti-virus scanner.",
             "url":"https://www.virustotal.com/"
         },
         {
             "name":"hybrid-analysis",
+            "description":"Sandbox for analysis files",
             "url":"https://hybrid-analysis.com/"
         },
         {
             "name":"Any run",
+            "description":"Sandbox that used to execute malicous files",
             "url":"https://any.run/"
         },
         {
             "name":"urlscan.io",
+            "description":"scan url for malicous use",
             "url":"https://urlscan.io/"
         },
         {
             "name":"Intezer analyze",
+            "description":"Scanner to automate file analysis for malware",
+            "url":"https://analyze.intezer.com/"
+        },
+        {
+            "name":"UNPACME",
+            "description":"automated malware unpacking service",
             "url":"https://analyze.intezer.com/"
         }],
     "name":"Threat installigence",
@@ -233,7 +242,7 @@
         },
         {
             "name":"Security header",
-            "description":"List of security instruction. The important header here is Content-security-policy  header identifies what domain are allowed to serve content on the site",
+            "description":"List of security instruction. The important header is 'Content-security-policy' that is used to identifies what domain are allowed to serve content on the site, the goal is identify site with an security header that allow content from the domain in question.",
             "tool":"identify: Securityheader.io, recon: censys.io"
         },
         {
@@ -300,7 +309,7 @@
     "children":[
         {
             "name":"Mitaka",
-            "descirption":"Allow for quick look up of data on various sites.",
+            "description":"Allow for quick look up of data on various sites.",
             "url":"https://chrome.google.com/webstore/detail/mitaka/bfjbejmeoibbdpfdbmbacmefcbannnbg"
         }],
     "name":"Helper tools",
@@ -308,7 +317,7 @@
     },
     {
         "name":"Contry specific lookup sites",
-        "descirption":"maps out sources for the different contry",
+        "description":"maps out sources for the different contry",
         "url":"https://cipher387.github.io/osintmap/"
     }],  
 "name": "OSINT forensics",
