@@ -5,6 +5,7 @@
         {
             "name":"Azure active directory",
             "descrption":"User & group database, allow for collecting data about user logon",
+            "path":"Get-AzureADAuditSignInLog",
             "timestamp":"30 days"
         },
         {
@@ -16,7 +17,7 @@
             "name":"Enumerate storage accounts",
             "descrption":"",
             "path":"az storage account list"
-        }
+        },
         {
             "name":"Enumerate blob objects",
             "descrption":"",
