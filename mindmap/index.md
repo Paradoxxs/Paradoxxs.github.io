@@ -34,6 +34,7 @@ permalink: /mindmap/
     <button id="darkweb" onclick="darkweb()">Darkweb</button>
     <button id="blockchain" onclick="blockchain()">Blockchain</button>
     <button id="cloud" onclick="cloud()">Cloud</button>
+        <button id="malware" onclick="malware()">Malware</button>
     <h3>Notes</h3>
     Forensics mindmap focused on where to gather evidence.  The intention is to help people find locate critical evidence with easy.<br>
       

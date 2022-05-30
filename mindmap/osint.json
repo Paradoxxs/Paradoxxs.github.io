@@ -13,6 +13,10 @@
         {
             "name":"Yandex",
             "Url":"https://yandex.com/"
+        },
+        {
+            "name":"Brave search",
+            "url":"https://search.brave.com/"
         }],
         "name":"Search engine",
         "type":"folder"
