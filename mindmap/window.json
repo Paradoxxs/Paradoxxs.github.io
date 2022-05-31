@@ -107,7 +107,8 @@
           },
           {
             "name":"NTFS Alternate data stream zone identifier (ADS) Zone identifier",
-            "description":"Tell the source of the file (NoZone = -1 MyComputer = 0 Intranet= 1 Trusted= 2 Internet= 3 Untrusted= 4)"
+            "description":"Tell the source of the file (NoZone = -1 MyComputer = 0 Intranet= 1 Trusted= 2 Internet= 3 Untrusted= 4)",
+            "tool":"streams.exe by sysinternals"
           }],
         "name": "Deleted file or file knowledge",
         "type": "folder"
