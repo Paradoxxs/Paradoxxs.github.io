@@ -31,6 +31,11 @@
         {
             "name":"Identify email of domain",
             "tool":"https://hunter.io/"
+        },
+        {
+            "name":"Email reputation",
+            "description":"Gives an reputation score to email based on multiple factors",
+            "url":"https://emailrep.io/"
         }],
         "name":"Email",
         "type":"folder"
