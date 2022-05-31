@@ -57,6 +57,10 @@
         {
             "name":"Checkusernames",
             "url":"https://checkusernames.com/"
+        },
+        {
+            "name":"User name search",
+            "url":"https://instantusername.com/#/"
         }],
         "name":"Username",
         "type":"folder"
