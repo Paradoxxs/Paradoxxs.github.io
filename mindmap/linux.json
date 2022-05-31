@@ -41,9 +41,29 @@
             "path":"find / -mtime -o -ctime -5"
         },
         {
-            "name":"Installation of software",
+            "name":"Installation of software with yum",
             "description":"Track installation of system and software packages",
             "path":"/var/log/yum.log"
+        },
+        {
+            "name":"Installation of software with apt",
+            "description":"Track installation of system and software packages",
+            "path":"/var/log/apt/history.log"
+        },
+        {
+            "name":"Installation of software with dpkg",
+            "description":"Track installation of system and software packages",
+            "path":"/var/log/apt/dpkg.log*"
+        },
+        {
+            "name":"system Executable",
+            "description":"Executable files",
+            "path":"/bin or /sbin"
+        },
+        {
+            "name":"user Executable",
+            "description":"Executable file",
+            "path":"/usr/bin or /usr/sbin"
         },
         {
             "name":"Groups",
