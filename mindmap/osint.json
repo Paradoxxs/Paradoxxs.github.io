@@ -305,6 +305,11 @@
             "name":"Locate wifi by SSID",
             "descirption":"Wigle tries to map out all wifi signals",
             "url":"https://wigle.net/"
+        },
+        {
+            "name":"Geolocate wifi using public databases with geowifi",
+            "description":"Uses public database to locate an wifi by BSSID and SSID",
+            "url":"https://github.com/GONZOsint/geowifi"
         }],
     "name":"Wifi",
     "type":"folder"
