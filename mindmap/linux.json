@@ -56,16 +56,6 @@
             "path":"/var/log/apt/dpkg.log*"
         },
         {
-            "name":"system Executable",
-            "description":"Executable files",
-            "path":"/bin or /sbin"
-        },
-        {
-            "name":"user Executable",
-            "description":"Executable file",
-            "path":"/usr/bin or /usr/sbin"
-        },
-        {
             "name":"Groups",
             "description":"User groups",
             "path":"/etc/group"
@@ -110,13 +100,22 @@
             "name":"Version",
             "descritpion":"",
             "path":"/boot or /etc/issue"
-            
         },
         {
             "name":"system activity logs",
             "descritpion":"Track non-kernel error, app service error and log at system startup",
             "path":"/var/log/message"
             
+        },
+        {
+            "name":"system Executable",
+            "description":"Executable files",
+            "path":"/bin or /sbin"
+        },
+        {
+            "name":"user Executable",
+            "description":"Executable file",
+            "path":"/usr/bin or /usr/sbin"
         }],
         "name":"System info",
         "type":"folder"
