@@ -53,8 +53,13 @@
             "name":"Enumlate S3 bucket object",
             "descrption":"",
             "path":"aws s3 ls s3://{bucket name}"
+        },
+        {
+            "name":"AWS IR tool",
+            "description":"",
+            "url":"https://github.com/ThreatResponse/aws_ir"
         }],
-        "name":"Amazone",
+        "name":"AWS",
         "type":"folder"
     }
     ],  
