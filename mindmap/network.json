@@ -61,8 +61,7 @@
         "name":"geolocate IP address",
         "description":"Public available database of IP address and location",
         "url":"https://dev.maxmind.com/geoip/geolite2-free-geolocation-data?lang=en"
-    }
-    ],  
+    }],  
     "name": "Network forensics",
     "type": "folder"
 }
