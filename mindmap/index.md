@@ -24,8 +24,8 @@ permalink: /mindmap/
 
     <div class="legend"><p></p></div>
 
-    <button id="windows" onclick="windows()">Windows</button>
-    <button id="android" onclick="android()">Android</button>
+    <button id="windows" onclick="updateview('windows.json')">Windows</button>
+    <button id="android" onclick=""updateview('android.json')">Android</button>
     <button id="ios" onclick="ios()">IOS</button>
     <button id="mac" onclick="mac()">Mac</button>
     <button id="linux" onclick="linux()">Linux</button>
@@ -34,7 +34,7 @@ permalink: /mindmap/
     <button id="darkweb" onclick="darkweb()">Darkweb</button>
     <button id="blockchain" onclick="blockchain()">Blockchain</button>
     <button id="cloud" onclick="cloud()">Cloud</button>
-        <button id="malware" onclick="malware()">Malware</button>
+    <button id="malware" onclick="malware()">Malware</button>
     <h3>Notes</h3>
     Forensics mindmap focused on where to gather evidence.  The intention is to help people find locate critical evidence with easy.<br>
       

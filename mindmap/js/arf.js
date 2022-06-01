@@ -35,8 +35,8 @@ var vis = d3.select("#body").append("svg:svg")
     update(root);
   });
 
-function windows() {
-  d3.json("window.json", function(json) {
+function updateview(json) {
+  d3.json("json", function(json) {
     root = json;
     root.x0 = height / 2;
     root.y0 = 0;
