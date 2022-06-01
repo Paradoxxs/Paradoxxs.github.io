@@ -26,8 +26,7 @@
         {
             "name":"network architecture",
             "Description":"Having an good understanding of the network arhicture and what normal traffic looks like, It an good idea to have a ready filter to apply to network traffic that will filter out what is known good traffic."
-        }
-        ],
+        }],
         "name":"Traffic analysis",
         "description":"Understanding the network flow of an network using staticis analysis",
         "type":"folder"
