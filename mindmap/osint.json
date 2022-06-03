@@ -259,6 +259,16 @@
             "tool":"identify: Securityheader.io, recon: censys.io"
         },
         {
+            "name":"Technology",
+            "description":"Get the techonology the website is built with",
+            "url":"https://builtwith.com/"
+        },
+        {
+            "name":"Google analytic cookie tracking",
+            "description":"google dorking the website google tracking code to find website that same code"
+
+        },
+        {
             "children": [
                 {
                     "name":"WayBackMachine",
