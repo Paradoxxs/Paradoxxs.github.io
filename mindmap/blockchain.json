@@ -27,6 +27,15 @@
         "type":"folder"
     },
     {
+        "children": [
+            {
+                "name":"graph explorer of btc with orbit",
+                "url":"https://github.com/s0md3v/Orbit"
+            }],
+            "name":"Bitcoin",
+            "type":"folder"
+    },
+    {
     "children": [
         {
             "name":"ethtective.com",
@@ -40,6 +49,20 @@
         "name":"Etherium",
         "type":"folder"
     },
+    {
+        "children": [
+            {
+                "name":"minergate",
+                "description":"",
+                "url":"https://minergate.com/blockchain/xmr/blocks"
+            },
+            {
+                "name":"xmrchain",
+                "url":"https://xmrchain.net/"
+            }],
+            "name":"Monero",
+            "type":"folder"
+        },
     {
         "name":"Blockchain tool collection",
         "url":"https://www.cypherhunter.com/"
