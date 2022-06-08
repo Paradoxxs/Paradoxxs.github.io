@@ -128,6 +128,15 @@
         "type":"folder"
     },
     {
+        "children": [
+            {
+                "name":"Lookup information on mac address",
+                "url":"https://macaddress.io/"
+            }],
+        "name":"MAC address",
+        "type":"folder"
+        },
+    {
     "children": [
         {
             "name":"SSL cert information lookup with crt.sh",
