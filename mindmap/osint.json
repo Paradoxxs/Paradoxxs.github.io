@@ -36,6 +36,11 @@
             "name":"Email reputation",
             "description":"Gives an reputation score to email based on multiple factors",
             "url":"https://emailrep.io/"
+        },
+        {
+            "name":"Email registered accounts with Holehe",
+            "description":"",
+            "url":"https://github.com/megadose/holehe"
         }],
         "name":"Email",
         "type":"folder"
