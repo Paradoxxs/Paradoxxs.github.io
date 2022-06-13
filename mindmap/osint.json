@@ -17,6 +17,10 @@
         {
             "name":"Brave search",
             "url":"https://search.brave.com/"
+        },
+        {
+            "name":"Censys search",
+            "url":"https://search.censys.io/"
         }],
         "name":"Search engine",
         "type":"folder"
