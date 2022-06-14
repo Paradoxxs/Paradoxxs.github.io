@@ -167,7 +167,7 @@
           {
             "name": "Shortcut (LNK)",
             "description" : "last drive letter of the USB",
-            "path": "%USERPROFILE%\\AppData\\Roaming\\Microsoft\\Windows\\Recent and %USERPROFILE%\\AppData\\Roaming\\Microsoft\\O¯ce\\Recent"
+            "path": "%USERPROFILE%\\AppData\\Roaming\\Microsoft\\Windows\\Recent and %USERPROFILE%\\AppData\\Roaming\\Microsoft\\Office\\Recent"
           },
           {
             "name": "Jump lists",
@@ -225,13 +225,13 @@
             "description" : "local account of the system",
             "time" : "UCT",
             "tool": "saminsider",
-            "path": "C:\\windows\\system32\\config\\SAM and SAM\\Domains\\Account\\Users"
+            "path": "C:\\windows\\system32\\config\\SAM\\Domains\\Account\\Users"
           },
           {
             "name": "last password change",
             "time" : "UCT",
             "tool": "saminsider",
-            "path": "C:\\windows\\system32\\config\\SAM and SAM\\Domains\\Account\\Users"
+            "path": "C:\\windows\\system32\\config\\SAM\\Domains\\Account\\Users"
           },
           {
             "name": "RDP usage",
@@ -340,6 +340,10 @@
               "name": "History",
               "path": "%USERPROFILE%\\AppData\\Local\\Google\\Chrome\\User Data\\Default\\History"
               },
+              {
+                "name": "Autofill and web data",
+                "path": "%USERPROFILE%\\AppData\\Local\\Google\\Chrome\\User Data\\Default\\Web data"
+                },
               {
                 "name": "Cookies",
                 "path": "%USERPROFILE%\\AppData\\Local\\Google\\Chrome\\User Data\\Default\\Local Storage\\"
@@ -569,6 +573,10 @@
             "Description":"System last shutdown time",
             "time":"Hex encoded - Windows 64-bit time",
             "path": "SYSTEM\\CurrentControlSet\\control\\windows"
+          },
+          {
+            "name":"Installed Software",
+            "path":"Software\\Microsoft\\Windows\\CurrentVersion\\Uninstall"
           }
         ],
         "name":"System information",

@@ -19,18 +19,22 @@
         "type":"folder"
     },
     {
-    "children": [
-        {
-            "name":"Maltego"
-        }],
-        "name":"Visual analysis tools",
-        "type":"folder"
-    },
-    {
         "children": [
             {
                 "name":"graph explorer of btc with orbit",
                 "url":"https://github.com/s0md3v/Orbit"
+            },
+            {
+                "name":"Bitcoin abuse database",
+                "url":"https://www.bitcoinabuse.com/"
+            },
+            {
+                "name":"Bitcoin hashxp",
+                "url":"https://hashxp.org/address/"
+            },
+            {
+                "name":"Bitcoin whois",
+                "url":"https://www.bitcoinwhoswho.com/"
             }],
             "name":"Bitcoin",
             "type":"folder"

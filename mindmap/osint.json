@@ -132,6 +132,10 @@
             "name":"geolocate IP address",
             "description":"Public available database of IP address and location",
             "url":"https://dev.maxmind.com/geoip/geolite2-free-geolocation-data?lang=en"
+        },
+        {
+            "name":"IP classification",
+            "url":"https://scamalytics.com/ip"
         }],
         "name":"IP address",
         "type":"folder"
