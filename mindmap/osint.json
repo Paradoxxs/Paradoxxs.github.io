@@ -366,6 +366,23 @@
     "type":"folder"
     },
     {
+        "children":[
+            {
+                "name":"This person does not exists",
+                "description":"AI generated faces",
+                "url":"https://this-person-does-not-exist.com/en"
+            }],
+        "name":"SOCINT",
+        "type":"folder"
+    },
+    {
+        "children":[
+            {
+            }],
+        "name":"Automation",
+        "type":"folder"
+    },
+    {
         "name":"Contry specific lookup sites",
         "description":"maps out sources for the different contry",
         "url":"https://cipher387.github.io/osintmap/"
