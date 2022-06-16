@@ -108,7 +108,7 @@
           {
             "name":"NTFS Alternate data stream zone identifier (ADS) Zone identifier",
             "description":"Tell the source of the file (NoZone = -1 MyComputer = 0 Intranet= 1 Trusted= 2 Internet= 3 Untrusted= 4)",
-            "tool":"streams.exe by sysinternals"
+            "tool":"Get-ChildItem -Recurse | Get-Content -Stream Zone.Identifier -ErrorAction SilentlyContinue"
           }],
         "name": "Deleted file or file knowledge",
         "type": "folder"
@@ -185,7 +185,8 @@
             "name": "Prefetch",
             "description" : "Increases performance of a system by pre-loading code pages of commonly used applications. Cache Manager monitors all files and directories referenced for each, disable on system with SSD",
             "time" : "Date created = first executed, Date modified = last executed",
-            "path": "C:\\Windows\\Prefetch"
+            "path": "C:\\Windows\\Prefetch",
+            "tool":"WinPrefetchView"
           },
           {
             "name": "Office Recent Files",
@@ -207,7 +208,7 @@
           {
             "name": "Shell Bags (Explore)",
             "description" : "Which folders were accessed on the local machine, the network, and/or removable devices",
-            "path": "USRCLASS.DAT\\Local Settings\\Software\\Microsoft\\Windows\\Shell\\{Bags or BagMRU}"
+            "path": "appdata\\Local\\Microsoft\\Windows\\USRCLASS.DAT\\Local Settings\\Software\\Microsoft\\Windows\\Shell\\{Bags or BagMRU}"
           },
           {
             "name": "Recent docs",
@@ -247,6 +248,12 @@
             "name": "Success/Fail Logons ",
             "description" : "4624 success, 4634 |4647 logoff",
             "path": "%SYSTEM ROOT%\\System32\\winevt\\logs\\Security.evtx"
+          },
+          {
+            "name":"Password hashes",
+            "description":"Windows password hashes used by user to login, on a live machine is live in memory inside lsass, on a dead box it inside SAM and System combined",
+            "path":"Live : lsass, Dead: SAM and SYSTEM hive",
+            "tool":"mimikatz"
           }],
         "name": "Account usage",
         "type": "folder"

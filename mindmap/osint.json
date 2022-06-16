@@ -383,6 +383,16 @@
         "type":"folder"
     },
     {
+        "children":[
+            {
+                "name":"Hash decrpytion",
+                "description":"Check the hash against known database",
+                "url":"https://hashes.com/en/decrypt/hash"
+            }],
+        "name":"Tools",
+        "type":"folder"
+    },
+    {
         "name":"Contry specific lookup sites",
         "description":"maps out sources for the different contry",
         "url":"https://cipher387.github.io/osintmap/"
