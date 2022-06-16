@@ -53,13 +53,14 @@ This is done by understanding the threat, what tool they use and how to mitigate
      
  
 # Threat modeling
-     Representation of the threat was it related to the consumer
- Collection management framework 
-     Datasheet that explain the source of informations, and what information can be answered from the different sources. 
+
+Representation of a threat and how it related to the consumer
+## Collection management framework 
+
+Datasheet that explain the source of informations, and what information can be answered from the different sources. 
 And what can be used to pivot on. 
 ![](https://remnoteuserdata.s3.amazonaws.com/OopTWh5cncwsJE4xXVMQjPLaLSjBTCMY9colEfgzAo8Cq9MEWDXFCMN4Bk2mYPgdPayPRXyerAdSeIhC5ipWlruyTy2t__r3wqjUAC4jje4HFP_1WTsHTB0P58wNQs.png) 
-     
- ![](https://remnoteuserdata.s3.amazonaws.com/N46wlL6t_4fFAuPl0dYoTnabr77RuKlooSjy0aMJvx40eEFCwWWZ5DvwTDtb7xQnT9SSHfH2K0aBsk5d5B772CQqo4E1bPsk6kc_bykdItMh8CEO789MVI6lEw_M6ZW.png) 
+![](https://remnoteuserdata.s3.amazonaws.com/N46wlL6t_4fFAuPl0dYoTnabr77RuKlooSjy0aMJvx40eEFCwWWZ5DvwTDtb7xQnT9SSHfH2K0aBsk5d5B772CQqo4E1bPsk6kc_bykdItMh8CEO789MVI6lEw_M6ZW.png) 
  
  Intel to threat hunting and incident response
     1. Threat model 
