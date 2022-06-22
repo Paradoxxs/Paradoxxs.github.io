@@ -1,5 +1,3 @@
-# Praticial threat intelligence 
-
 Intelligence lifecycle, is an very high level process that can be mapped to multiple sources, SIGINT, HUMINT, etc. 
 
 1. Direction
