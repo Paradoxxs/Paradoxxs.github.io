@@ -326,6 +326,14 @@
         {
                 "name":"pastebin dumps",
                 "url":"https://psbdmp.ws/"
+        },
+        {
+            "name":"Breach directory",
+            "url":"https://www.breachdirectory.org/"
+        },
+        {
+            "name":"hashmob",
+            "url":"https://hashmob.net/"
         }],
     "name":"Data dumps",
     "type":"folder"
