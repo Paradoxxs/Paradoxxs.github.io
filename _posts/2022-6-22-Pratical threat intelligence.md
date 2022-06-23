@@ -27,7 +27,7 @@ Cyber threat intelligence cycle:
     - Reading threat reports
     - Mitre attack techniques, and analysis what tactics are related to the threat actor within your requiement, and then how well you are protecting against these tatics. 
     - Threat hunting, take the tatics you discovered in your previous step and see if they are present within your organization, if they are found what are the context around them detection. 
-    - IR, is a great place to intelligence as they are directly related to your organization. 
+    - IR, is a great place to intelligence as they are directly related to your organization. And you know the context of all the data.
 3. Processing
     - Take the collected information, unify the data and stored it in an analysis bucket for analysis.
 4. Analysis 
