@@ -68,8 +68,12 @@
             "url":"https://checkusernames.com/"
         },
         {
-            "name":"User name search",
+            "name":"instant username",
             "url":"https://instantusername.com/#/"
+        },
+        {
+            "name":"knowem",
+            "url":"https://knowem.com/"
         }],
         "name":"Username",
         "type":"folder"
@@ -136,6 +140,10 @@
         {
             "name":"IP classification",
             "url":"https://scamalytics.com/ip"
+        },
+        {
+            "name":"IP intelligence",
+            "url":"https://getipintel.net/"
         }],
         "name":"IP address",
         "type":"folder"
