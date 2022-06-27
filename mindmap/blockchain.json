@@ -70,6 +70,10 @@
     {
         "name":"Blockchain tool collection",
         "url":"https://www.cypherhunter.com/"
+    },
+    {
+        "name":"Cryptocurrency alerting",
+        "url":"https://cryptocurrencyalerting.com/"
     }],  
     "name": "Blockchain forensics",
     "type": "folder"

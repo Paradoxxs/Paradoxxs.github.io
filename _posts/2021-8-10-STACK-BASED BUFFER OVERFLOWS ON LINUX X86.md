@@ -1,5 +1,3 @@
-# STACK-BASED BUFFER OVERFLOWS ON LINUX X86
-
 For code to be executed in CPU it need to first reverse a stuck or buffer in the memory.
 The idea behind Buffer overflow is inserting more data input a input field then the program expected, there by overflowing the buffer that have been created and write to other registers. The goal here for a hacker is to overwrite the return address with code to execute commands as the program.
 

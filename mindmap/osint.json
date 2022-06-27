@@ -138,6 +138,11 @@
             "url":"https://dev.maxmind.com/geoip/geolite2-free-geolocation-data?lang=en"
         },
         {
+            "name":"geolocate IP address using IPdb",
+            "description":"Will try to locate ip address",
+            "url":"https://db-ip.com/"
+        },
+        {
             "name":"IP classification",
             "url":"https://scamalytics.com/ip"
         },
@@ -329,6 +334,14 @@
         {
                 "name":"pastebin dumps",
                 "url":"https://psbdmp.ws/"
+        },
+        {
+            "name":"Breach directory",
+            "url":"https://www.breachdirectory.org/"
+        },
+        {
+            "name":"hashmob",
+            "url":"https://hashmob.net/"
         }],
     "name":"Data dumps",
     "type":"folder"
