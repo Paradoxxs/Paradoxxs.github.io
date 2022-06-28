@@ -35,6 +35,11 @@
             {
                 "name":"Bitcoin whois",
                 "url":"https://www.bitcoinwhoswho.com/"
+            },
+            {
+                "name":"Walletexplorer",
+                "Description":"Bitcoin explorer with address grouping and wallet labeling",
+                "url":"https://www.walletexplorer.com/"
             }],
             "name":"Bitcoin",
             "type":"folder"

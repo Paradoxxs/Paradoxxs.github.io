@@ -21,6 +21,10 @@
         {
             "name":"Censys search",
             "url":"https://search.censys.io/"
+        },
+        {
+            "name":"Scam search",
+            "url":"https://scamsearch.io/"
         }],
         "name":"Search engine",
         "type":"folder"
@@ -33,7 +37,7 @@
             "url":"https://epieos.com/"
         },
         {
-            "name":"Identify email of domain",
+            "name":"Identify email for domain",
             "tool":"https://hunter.io/"
         },
         {
@@ -78,6 +82,16 @@
         {
             "name":"User Recon",
             "url":"https://github.com/wishihab/userrecon"
+        },
+        {
+            "name":"Sherlock",
+            "description":"Hunt social media account by username",
+            "url":"https://github.com/sherlock-project/sherlock"
+        },
+        {
+            "name":"Maigret",
+            "description":"Hunt social media account by username fork of Sherlock",
+            "url":"https://github.com/soxoj/maigret"
         }],
         "name":"Username",
         "type":"folder"
@@ -153,6 +167,11 @@
         {
             "name":"IP intelligence",
             "url":"https://getipintel.net/"
+        },
+        {
+            "name":"GEO-recon",
+            "description":"Geo locate IP address",
+            "url":"https://github.com/radioactivetobi/geo-recon"
         }],
         "name":"IP address",
         "type":"folder"
@@ -307,6 +326,11 @@
             "url":"https://faviconhash.com/"
         },
         {
+            "name":"Fav-up",
+            "description":"Tool for lookup favicon on shodan",
+            "url":"https://github.com/pielco11/fav-up"
+        },
+        {
             "name":"Security header",
             "description":"List of security instruction. The important header is 'Content-security-policy' that is used to identifies what domain are allowed to serve content on the site, the goal is identify site with an security header that allow content from the domain in question.",
             "tool":"identify: Securityheader.io, recon: censys.io"
@@ -364,6 +388,10 @@
         {
             "name":"snusbase",
             "url":"https://snusbase.com/"
+        },
+        {
+            "name":"Leak peek",
+            "url":"https://leakpeek.com/"
         }],
     "name":"Data dumps",
     "type":"folder"
@@ -414,6 +442,20 @@
                 "name":"This person does not exists",
                 "description":"AI generated faces",
                 "url":"https://this-person-does-not-exist.com/en"
+            },
+            {
+                "name":"Soial enginner toolkit (SET)",
+                "url":"https://github.com/trustedsec/social-engineer-toolkit"
+            },
+            {
+                "name":"Botometer",
+                "description":"check twitter account, scores in based on how likely it an bot",
+                "url":"https://botometer.osome.iu.edu/"
+            },
+            {
+                "name":"Social-analyzer",
+                "description":"Analyzing and finding a person profile acress multiple social media",
+                "url":"https://github.com/qeeqbox/social-analyzer"
             }],
         "name":"SOCINT",
         "type":"folder"
@@ -421,6 +463,14 @@
     {
         "children":[
             {
+                "name":"final Recon",
+                "description":"Performs types of OSINT tasks",
+                "url":"https://github.com/thewhiteh4t/FinalRecon"
+            },
+            {
+                "name":"FOCA",
+                "description":"Find metadata and hidden info within documents",
+                "url":"https://github.com/ElevenPaths/FOCA"
             }],
         "name":"Automation",
         "type":"folder"
@@ -433,6 +483,79 @@
                 "url":"https://hashes.com/en/decrypt/hash"
             }],
         "name":"Tools",
+        "type":"folder"
+    },
+    {
+        "children": [
+            {
+                "name":"Spiderfoot",
+                "description":"Automation toolkit that automate analysis of multiple kind of data.",
+                "url":"https://github.com/smicallef/spiderfoot?ref=d"
+            },
+            {
+                "name":"Creepy",
+                "description":"Geolocation OSINT toolkit",
+                "url":"https://www.geocreepy.com/"
+            }
+        ],
+        "name":"Automation",
+        "type":"folder"
+    },
+    {
+        "children": [
+            {
+                "name":"Skiptracer",
+                "description":"",
+                "url":"https://gitlab.com/illwill/skiptracer"
+            },
+            {
+                "name":"Photon",
+                "description":"fast crawler designed for OSINT",
+                "url":"https://github.com/s0md3v/Photon"
+            }
+        ],
+        "name":"Scraping / Crawler",
+        "type":"folder"
+    },
+    {
+        "children": [
+            {
+                "children":[
+                    {
+                        "name":"GoFullPage",
+                        "descirption":"Take screen capture of the entrie webpage",
+                        "url":"https://chrome.google.com/webstore/detail/gofullpage-full-page-scre/fdpohaocaechififmbbbbbknoalclacl"
+                    },
+                    {
+                        "name":"EXIF viewer classic",
+                        "descirption":"Quick access to exif data of images in browser",
+                        "url":"https://chrome.google.com/webstore/detail/exif-viewer-classic/nafpfdcmppffipmhcpkbplhkoiekndck"
+                    },
+                    {
+                        "name":"SingleFile",
+                        "descirption":"Save page into a single HTML file",
+                        "url":"https://chrome.google.com/webstore/detail/singlefile/mpiodijhokgodhhofbcjdecpffjipkle"
+                    },
+                    {
+                        "name":"User-agent switcher and manager",
+                        "descirption":"Spoofing of user-agent string",
+                        "url":"https://chrome.google.com/webstore/detail/user-agent-switcher-and-m/bhchdcejhohfmigjafbampogmaanbfkg"
+                    }
+                ],
+                "name":"Chromiume",
+                "type":"folder"
+            },
+            {
+                "children":[
+                    {
+                        
+                    }
+                ],
+                "name":"Firefox",
+                "type":"folder"
+            }
+        ],
+        "name":"Browser extension",
         "type":"folder"
     },
     {
