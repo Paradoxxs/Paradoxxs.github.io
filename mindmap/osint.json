@@ -74,6 +74,10 @@
         {
             "name":"knowem",
             "url":"https://knowem.com/"
+        },
+        {
+            "name":"User Recon",
+            "url":"https://github.com/wishihab/userrecon"
         }],
         "name":"Username",
         "type":"folder"
@@ -151,6 +155,16 @@
             "url":"https://getipintel.net/"
         }],
         "name":"IP address",
+        "type":"folder"
+    },
+    {
+        "children": [
+            {
+                "name":"ANS lookup",
+                "url":"https://asnlookup.com/"
+            }
+        ],
+        "name":"ANS number",
         "type":"folder"
     },
     {
@@ -277,6 +291,10 @@
         {
             "name":"searchcode",
             "url":"https://searchcode.com/"
+        },
+        {
+            "name":"Gitrob - looks for sensitive within respoitories",
+            "url":"https://github.com/michenriksen/gitrob"
         }],
     "name":"Source code",
     "type":"folder"
@@ -342,6 +360,10 @@
         {
             "name":"hashmob",
             "url":"https://hashmob.net/"
+        },
+        {
+            "name":"snusbase",
+            "url":"https://snusbase.com/"
         }],
     "name":"Data dumps",
     "type":"folder"
