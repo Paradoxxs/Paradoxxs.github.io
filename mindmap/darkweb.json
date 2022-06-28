@@ -17,23 +17,41 @@
     {
         "children": [
             {
-                "name":"0day",
-                "url":"http://torbox36ijlcevujx7mjb4oiusvwgvmue7jfn2cvutwa6kl6to3uyqad.onion/"
+                "name":"TOR - The onion router",
+                "url":"https://www.torproject.org/"
+            },
+            {
+                "name":"I2P",
+                "url":"https://geti2p.net/en/"
+            },
+            {
+                "name":"ZeroNet",
+                "url":"https://zeronet.io/"
+            },
+            {
+                "name":"Freenet",
+                "url":"https://freenetproject.org/"
             }],
-        "name":"Exploits",
+        "name":"Anoymous networks",
         "type":"folder"
     },
     {
         "children": [
             {
-                "name":"Cyber security - CryptBB",
-                "url":"http://cryptbbtg65gibadeeo2awe3j7s6evg7eklserehqr4w4e2bis5tebid.onion/"
+                "name":"OnionScan",
+                "url":"https://freenetproject.org/"
             },
             {
-                "name":"darknetlive",
-                "url":"https://darknetlive.com/forums/"
+                "name":"onioff",
+                "description":"Inspecting onions url",
+                "url":"https://github.com/k4m4/onioff"
+            },
+            {
+                "name":"TOR Bot",
+                "description":"Crawls onion sites.",
+                "url":"https://github.com/DedSecInside/TorBot"
             }],
-        "name":"Forums",
+        "name":"Tor Tools",
         "type":"folder"
     }
     ],  
