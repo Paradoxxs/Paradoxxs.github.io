@@ -444,6 +444,10 @@
                 "url":"https://this-person-does-not-exist.com/en"
             },
             {
+                "name":"Fake identity generator",
+                "url":"https://www.fakenamegenerator.com/"
+            },
+            {
                 "name":"Soial enginner toolkit (SET)",
                 "url":"https://github.com/trustedsec/social-engineer-toolkit"
             },
@@ -548,7 +552,7 @@
             {
                 "children":[
                     {
-                        
+
                     }
                 ],
                 "name":"Firefox",
