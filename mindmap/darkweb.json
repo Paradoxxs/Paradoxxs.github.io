@@ -9,6 +9,10 @@
         {
             "name":"Fresh onions",
             "url":"http://freshonifyfe4rmuh6qwpsexfhdrww7wnt5qmkoertwxmcuvm4woo4ad.onion/"
+        },
+        {
+            "name":"Onion link list",
+            "url":"http://donionsixbjtiohce24abfgsffo2l4tk26qx464zylumgejukfq2vead.onion/onions.php"
         }],
         "name":"search engine",
         "type":"folder"
