@@ -460,6 +460,15 @@
                 "name":"Social-analyzer",
                 "description":"Analyzing and finding a person profile acress multiple social media",
                 "url":"https://github.com/qeeqbox/social-analyzer"
+            },
+            {
+                "name":"IFTTT",
+                "description":"IF This Then that, can be used to create small logic statements. Can be used with sock puppet to make it appear to be real, to other users.",
+                "url":"https://ifttt.com/"
+            },
+            {
+                "name":"Tweetdeck monitors",
+                "url":"https://tweetdeck.twitter.com/"
             }],
         "name":"SOCINT",
         "type":"folder"
