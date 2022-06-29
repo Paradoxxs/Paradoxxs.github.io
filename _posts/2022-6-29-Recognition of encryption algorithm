@@ -6,16 +6,19 @@ key indicators for recognsing encryption algorithms.
 
 #### RC4 - Stream cipher
 
-    - Indicators 
-        - Usage of 0x100 in two loops, first in the initialization stage and then scrambling stage.
-        - 1 to 256 bytes in length, it very common that the key have a length of 16 bytes
-    - Consist of three stages 
-        - Key-scheduling algorithm (initialization stage)
-            - Create substitution box with values from 0x00 to 0xFF
-        - Pseudo-random generation stage ( scrambling stage)
-            - Uses the key to scramble the substitution box, there by creating an stream of semi-random bytes
-        - XOR stage 
-            - XOR the input against the cream stream  
+#### Indicators
+
+ Usage of 0x100 in two loops, first in the initialization stage and then scrambling stage.
+ 1 to 256 bytes in length, it very common that the key have a length of 16 bytes
+
+#### Consist of three stages
+
+- Key-scheduling algorithm (initialization stage)
+   - Create substitution box with values from 0x00 to 0xFF
+- Pseudo-random generation stage ( scrambling stage)
+    - Uses the key to scramble the substitution box, there by creating an stream of semi-random bytes
+- XOR stage
+  - XOR the input against the cream stream  
 
 ### Salsa20
 
