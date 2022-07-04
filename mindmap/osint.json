@@ -220,6 +220,10 @@
         "name":"global phone number lookup API",
         "description":"API for looking up phone numbers",
         "url":"https://numverify.com/"
+    },
+    {
+        "name":"free carrier lookup",
+        "url":"https://freecarrierlookup.com/"
     }],
     "name":"Phone number",
     "type":"folder"
@@ -553,6 +557,10 @@
                         "name":"User-agent switcher and manager",
                         "descirption":"Spoofing of user-agent string",
                         "url":"https://chrome.google.com/webstore/detail/user-agent-switcher-and-m/bhchdcejhohfmigjafbampogmaanbfkg"
+                    },
+                    {
+                        "name":"Adblocker with ublock origin",
+                        "url":"https://chrome.google.com/webstore/detail/ublock-origin/cjpalhdlnbpafiamejdnhcphjbkeiagm?hl=da"
                     }
                 ],
                 "name":"Chromiume",
