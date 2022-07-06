@@ -49,6 +49,10 @@
             "name":"Email registered accounts with Holehe",
             "description":"",
             "url":"https://github.com/megadose/holehe"
+        },
+        {
+            "name":"Email used to register domains",
+            "url":"https://viewdns.info/reversewhois/"
         }],
         "name":"Email",
         "type":"folder"
@@ -57,10 +61,12 @@
     "children": [
         {
             "name":"usersearch.org",
+            "description":"links directly to the user profile",
             "url":"https://usersearch.org/index.php"
         },
         {
             "name":"whatsmyname",
+            "description":"links directly to the user profile, search on 383 sites. The sites also allow you to export the the findings to file.",
             "url":"https://whatsmyname.app/"
         },
         {
@@ -69,15 +75,13 @@
         },
         {
             "name":"Checkusernames",
+            "description":"links directly to the user profile",
             "url":"https://checkusernames.com/"
         },
         {
             "name":"instant username",
+            "description":"links directly to the user profile",
             "url":"https://instantusername.com/#/"
-        },
-        {
-            "name":"knowem",
-            "url":"https://knowem.com/"
         },
         {
             "name":"User Recon",
@@ -92,6 +96,11 @@
             "name":"Maigret",
             "description":"Hunt social media account by username fork of Sherlock",
             "url":"https://github.com/soxoj/maigret"
+        }
+        {
+            "name":"namecheckr",
+            "description":"Largest checker of usernames, but does not link to the user profile",
+            "url":"https://www.namecheckr.com/"
         }],
         "name":"Username",
         "type":"folder"
@@ -130,6 +139,10 @@
             "name":"Zone transfer",
             "description":"Will get all DNS records for an target domain",
             "tool":"https://hackertarget.com/zone-transfer/, dnsrecon, dnswalk"
+        },
+        {
+            "name":"Identify all domain register by name",
+            "url":"https://viewdns.info/reversewhois"
         }],
         "name":"Domain name",
         "type":"folder"

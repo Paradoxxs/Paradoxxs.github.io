@@ -16,19 +16,19 @@ to better understand their tactic technique and procedure to make better decisio
 with the goal to prevent the threat entirely or limit the damage caused.
 This is done by understanding the threat, what tool they use and how to mitigate them.
 
-### Cyber 
+### Cyber
 
 ### Threat 
 Threat is an actor is with capability and intent to hurt the target 
 
-### Intelligence 
+### Intelligence
 Collection and processing of information against an specific target or question and transforming in something actionable for the consumer. 
 
-#### Shermen kent 
+#### Shermen kent
 
 The father of western intelligence analysis, during the world war II he joined the *Office of Strategic service* (OSS), which would take become the CIA. During his time, he heavily focused on how to prefessionalize the analysis process instead of allowing rash decisions and judgement to take action. which is why he wrote the *Strategic intelligence for american world policy*
 
-##### Kent doctrine 
+##### Kent doctrine
   
 1. Focus on policymaker concerns
 2. Avoidance of personal policy agenda
@@ -38,7 +38,7 @@ The father of western intelligence analysis, during the world war II he joined t
 6. Systematic use of outsideexperts
 7. Colletive responsibility for judgement
 8. Effective communication of policy-support information and judgements
-9. Candid admission of mistakes 
+9. Candid admission of mistakes
 
 ## Intelligence level
 
