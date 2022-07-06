@@ -96,7 +96,7 @@
             "name":"Maigret",
             "description":"Hunt social media account by username fork of Sherlock",
             "url":"https://github.com/soxoj/maigret"
-        }
+        },
         {
             "name":"namecheckr",
             "description":"Largest checker of usernames, but does not link to the user profile",
