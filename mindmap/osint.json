@@ -138,8 +138,8 @@
         {
             "name":"Zone transfer",
             "description":"Will get all DNS records for an target domain",
-            "tool":"https://hackertarget.com/zone-transfer/, dnsrecon, dnswalk"
-        },
+            "url":"https://hackertarget.com/zone-transfer/"
+            },
         {
             "name":"Identify all domain register by name",
             "url":"https://viewdns.info/reversewhois"
