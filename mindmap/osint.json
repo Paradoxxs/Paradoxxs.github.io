@@ -578,6 +578,10 @@
                     {
                         "name":"Adblocker with ublock origin",
                         "url":"https://chrome.google.com/webstore/detail/ublock-origin/cjpalhdlnbpafiamejdnhcphjbkeiagm?hl=da"
+                    },
+                    {
+                        "name":"Instant data scraper",
+                        "url":"https://chrome.google.com/webstore/detail/instant-data-scraper/ofaokhiedipichpaobibbnahnkdoiiah"
                     }
                 ],
                 "name":"Chromiume",
