@@ -486,6 +486,10 @@
             {
                 "name":"Tweetdeck monitors",
                 "url":"https://tweetdeck.twitter.com/"
+            },
+            {
+                "name":"Socialpwned",
+                "url":"https://github.com/MrTuxx/SocialPwned"
             }],
         "name":"SOCINT",
         "type":"folder"
