@@ -43,7 +43,7 @@
         "children": [
             {
                 "name":"OnionScan",
-                "url":"https://freenetproject.org/"
+                "url":"https://github.com/s-rah/onionscan"
             },
             {
                 "name":"onioff",
