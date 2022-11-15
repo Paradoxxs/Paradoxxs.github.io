@@ -314,6 +314,10 @@
             "name":"UNPACME",
             "description":"automated malware unpacking service",
             "url":"https://analyze.intezer.com/"
+        },
+        {
+            "name":"Search Engine for Security Intelligence",
+            "url":"https://vulners.com/"
         }],
     "name":"Threat installigence",
     "type":"folder"
@@ -331,6 +335,10 @@
         {
             "name":"Gitrob - looks for sensitive within respoitories",
             "url":"https://github.com/michenriksen/gitrob"
+        },
+        {   
+            "name":"Search git repo source code",
+            "url":"https://grep.app/"
         }],
     "name":"Source code",
     "type":"folder"
