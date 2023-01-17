@@ -33,7 +33,7 @@ permalink: /mindmap/
     <button id="cloud" onclick="updateview('cloud.json')">Cloud</button>
     <button id="malware" onclick="updateview('malware.json')">Malware</button>
     <h3>Notes</h3>
-    Forensics mindmap focused on where to gather evidence.  The intention is to help people find locate critical evidence with easy.<br>
+    Forensics mindmap focused on where to gather evidence. The intention is to help people find locate that hold possible evidence.<br>
     <p>Inspired by the OSINT framework</p>
   </body>
 </html>
