@@ -436,6 +436,11 @@
             "name":"Bing",
             "descirption":"One reason to use bing reverse img search over google, is because google tries to tag the image and do a search on that instead",
             "url":"https://bing.com/"
+        },
+        {
+            "name":"pimeyes",
+            "descirption":"Uses AI to perform face recognition for image search",
+            "url":"https://pimeyes.com/"
         }],
     "name":"Image",
     "type":"folder"
