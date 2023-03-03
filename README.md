@@ -1,1 +1,1 @@
-# Paradoxxs cyber sec blog
+# Adam Tilmar
