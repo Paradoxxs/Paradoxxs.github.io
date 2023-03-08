@@ -3,7 +3,7 @@
 #
 
 # Name of your site (displayed in the header)
-name: Adam tilmar
+name: Adam Tilmar
 
 # Name of the author
 author: Adam Tilmar Jakobsen
@@ -48,8 +48,8 @@ google_analytics:
 
 # Your website URL (e.g. http://amitmerchant1990.github.io or http://www.amitmerchant.com)
 # Used for Sitemap.xml and your RSS feed
-url: https://paradoxxs.github.io/
-enforce_ssl: https://paradoxxs.github.io/
+url: http://Adamtilmar.com
+enforce_ssl: http://Adamtilmar.com
 
 # If you're hosting your site at a Project repository on GitHub pages
 # (http://yourusername.github.io/repository-name)
