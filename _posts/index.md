@@ -1,6 +1,6 @@
 ## Blog
 
-### Forensic 
+### Forensic
 
 [Forensic mindmap](https://paradoxxs.github.io/Forensic_mindmap/index.html)
 
