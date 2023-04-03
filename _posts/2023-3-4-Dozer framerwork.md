@@ -1,5 +1,3 @@
-# Drozer
-
 Drozer is a security and attack framework for Android.\
 It allows you to perform penetration testing on the application installed on a phone.\
 It does this by installing an agent on the device. You can download it from [here](https://github.com/FSecureLABS/drozer/releases).

@@ -1,5 +1,3 @@
-# How to make a release Android App debuggable
-
 This will make set an application on the play store to allow debug mode, This allows you to use the run-as command to gain access to the /data section for the application.\
 It should be noted that this method will delete the existing data on the device, as it requires the application to be uninstalled, because of mismatching signature.\
 The reason why you might want to make a production application debuggable is to help speed up the process the retrieving process when performing dynamic analysis, without having to perform advanced acquisition of the phone or root the device.
