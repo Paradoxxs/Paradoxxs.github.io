@@ -1,7 +1,3 @@
-# CTI framework & models
-
-## Model & Frameworks
-
 Models and frameworks are conceptual structures that are used to organize and understand data, by providing a way to structure complex information, there by making it easier to understand and manage information.
 
 ### Cyber kill chain

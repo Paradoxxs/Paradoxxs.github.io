@@ -4,12 +4,8 @@ key indicators for recognsing encryption algorithms.
 
 ### RC4
 
-#### RC4 - Stream cipher
-
-#### Indicators
-
- Usage of 0x100 in two loops, first in the initialization stage and then scrambling stage.
- 1 to 256 bytes in length, it very common that the key have a length of 16 bytes
+Usage of 0x100 in two loops, first in the initialization stage and then scrambling stage.
+1 to 256 bytes in length, it very common that the key have a length of 16 bytes
 
 #### Consist of three stages
 

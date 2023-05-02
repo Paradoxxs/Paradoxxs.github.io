@@ -1,5 +1,3 @@
-# Threat reporting
-
 The outcome of the threat research can come in one of many favors, everything from a report to new detection rules. Reporting can comes in many flavours the best I have found when it comes to incident reporting is [the dfir report](https://thedfirreport.com/). You get everything you need to ensure that you are able to detect the attack in your environment.\
 When it comes to creating detection rules the most common are _Snort, YARA and Sigma_
 

@@ -1,6 +1,3 @@
-# Solving the CSAW19 Beleaf Challenge
-
-## Introduction
 In this article, we will discuss how to solve the CSAW19 Beleaf challenge. The challenge involves finding the correct key (flag) from a given program. We will walk through the analysis of the program, the creation of a Ghidra script to help us find the flag, and the final solution. The program for this challenge can be found here: https://github.com/guyinatuxedo/nightmare/tree/master/modules/03-beginner_re/csaw19_beleaf
 
 1. Analyzing the Program

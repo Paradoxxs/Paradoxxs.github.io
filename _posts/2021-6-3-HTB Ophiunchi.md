@@ -1,4 +1,4 @@
-# Ophiunchi
+
 IP : 10.10.10.227 
 
 nmap show us there are two ports open 

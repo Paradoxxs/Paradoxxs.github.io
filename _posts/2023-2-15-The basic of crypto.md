@@ -1,7 +1,3 @@
-# The basic of cryptography
-
-## Cryptography
-
 Security is becoming and selling point for people, and this means we are faced with more and more encrypted network connections, chat, etc. This means for us that we need to be able to look at the implementation of encryption and being able to identify possible ways to decrypt it again. This book will not teach you to become a code breaker. This section will introduce the basics of cryptography.
 
 Cryptology is the study of cryptography and cryptanalysis, and it involves the use of mathematical algorithms and techniques to protect and secure information. All cryptography is based on mathematical problems, to goal is to have a problem that is easy to calculate but hard to reverse the math. E.g. factoring two prime numbers, is a relatively easy task to perform, but reversing the math to identify what two prime numbers were used to calculate the result is hard. Crypto has a wide range of applications in areas such as computer security, communications and etc. There exist three types of crypto algorithms, Hashing, symmetric and asymmetric

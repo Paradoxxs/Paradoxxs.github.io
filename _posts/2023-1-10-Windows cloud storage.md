@@ -1,5 +1,3 @@
-# Windows cloud storage forensics
-
 The usage of cloud storage are becoming a standard when examining computers, I have tried to list the locations of where you can find evidence of cloud storage on Windows.
 
 ## OneDrive

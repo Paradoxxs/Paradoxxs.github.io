@@ -1,4 +1,4 @@
-# Knife 
+
 #Linux #CTF #HTB 
 
 OS: Linux 

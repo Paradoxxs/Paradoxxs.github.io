@@ -1,5 +1,3 @@
-# Installing RITA on Firewalla gold
-
 Firewalla gold is already running  Bro/Zeek on the device. 
 What we need to do to make Rita work on FIrewalla is install mongodb and Rita, 
 Then point RIta to the Bro/Zeek logs using cron
