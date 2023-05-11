@@ -1,38 +1,34 @@
-Security is becoming and selling point for people, and this means we are faced with more and more encrypted network connections, chat, etc. This means for us that we need to be able to look at the implementation of encryption and being able to identify possible ways to decrypt it again. This book will not teach you to become a code breaker. This section will introduce the basics of cryptography.
+Security is increasingly becoming a selling point for people, which means we are faced with more and more encrypted network connections, chats, and so on. As a result, we need to understand encryption implementations and identify possible ways to decrypt them. This book will not teach you to become a codebreaker, but it will introduce the basics of cryptography.
 
-Cryptology is the study of cryptography and cryptanalysis, and it involves the use of mathematical algorithms and techniques to protect and secure information. All cryptography is based on mathematical problems, to goal is to have a problem that is easy to calculate but hard to reverse the math. E.g. factoring two prime numbers, is a relatively easy task to perform, but reversing the math to identify what two prime numbers were used to calculate the result is hard. Crypto has a wide range of applications in areas such as computer security, communications and etc. There exist three types of crypto algorithms, Hashing, symmetric and asymmetric
+Cryptology is the study of cryptography and cryptanalysis and involves using mathematical algorithms and techniques to protect and secure information. All cryptography is based on mathematical problems, with the goal of having a problem that is easy to calculate but hard to reverse. For example, factoring two prime numbers is a relatively simple task, but reversing the math to identify the two prime numbers used to calculate the result is difficult. Cryptography has a wide range of applications in areas such as computer security and communications. There are three types of cryptographic algorithms: hashing, symmetric, and asymmetric.
 
-| Feature/Algorithmn       | Hash              | Symmetric           | Aymmetric              |
-| ------------------------ | ----------------- | ------------------- | ---------------------- |
-| number of keys           | 0                 | 1                   | 2                      |
-| Speed                    | Fast              | Fast                | Relative slow          |
-| Complexity               | Medium            | Medium              | High                   |
-| Key management & sharing | N/A               | Challenging         | Easy & Secure          |
-| Examples                 | MD5, SHA1, SHA256 | AES, Blowfish, 3DES | RSA, DSA, Diffiehelman |
+| Feature/Algorithm         | Hash              | Symmetric           | Asymmetric          |
+| ------------------------  | ----------------- | ------------------- | ------------------- |
+| Number of keys            | 0                 | 1                   | 2                   |
+| Speed                     | Fast              | Fast                | Relatively slow     |
+| Complexity                | Medium            | Medium              | High                |
+| Key management & sharing  | N/A               | Challenging         | Easy & Secure       |
+| Examples                  | MD5, SHA1, SHA256 | AES, Blowfish, 3DES | RSA, DSA, Diffie-Hellman |
 
-* Hashing is one-way cryptography as it does not allow the hash value to be reversed back again. Common algorithms are MD5, SHA1, and SHA256. Hashing is often used for integrity checks to ensure the data have not been altered. and for storing passwords. For additional security when hashing passwords, an salt is added, which is a random piece of data added to the hashing input to create uniqueness.
-* Symmetric encryption uses a single key for both the encryption and decryption of content.\
-  The problem with symmetric encryption is how to exchange the key with the other party since there does not exist a secure channel to use before the key is shared.
-* Asymmetric encryption is a cryptographic system that uses key pair: a public key, which may be distributed, and a private key, which should be kept private. The generation of these keys depends on cryptographic algorithms. Any content that is encrypted with the private key can be decrypted with the public key and vice versa.
-
+* Hashing is a one-way cryptographic method that does not allow the hash value to be reversed. Common algorithms include MD5, SHA1, and SHA256. Hashing is often used for integrity checks to ensure that data has not been altered and for storing passwords. To enhance security when hashing passwords, a salt is added, which is a random piece of data that creates uniqueness.
+* Symmetric encryption uses a single key for both the encryption and decryption of content. The problem with symmetric encryption is the challenge of exchanging the key with the other party securely, as there is no secure channel available before the key is shared.
+* Asymmetric encryption is a cryptographic system that uses a key pair: a public key, which may be distributed, and a private key, which should be kept private. The generation of these keys depends on cryptographic algorithms. Any content encrypted with the private key can be decrypted with the public key and vice versa.
 
 ### Ciphers
 
-Stream cipher is when the plain text is combined with a digital stream (keystream), where each bit is encrypted one at the time, with the corresponding digit of the keystream.\
-Block cipher key is used to encrypt a block of data as a group instead one bit at the time.
+A stream cipher combines the plaintext with a digital stream (keystream), where each bit is encrypted one at a time with the corresponding digit of the keystream. In contrast, a block cipher key is used to encrypt a block of data as a group instead of one bit at a time.
 
 | Type                        | Initialization vector | Error propagation |
 | --------------------------- | --------------------- | ----------------- |
-| Electornic code book (ECB)  | Block                 | No                |
+| Electronic codebook (ECB)   | Block                 | No                |
 | Cipher block chaining (CBC) | Block                 | Yes               |
 | Cipher feedback (CFB)       | Stream                | Yes               |
 | Output feedback (OFB)       | Stream                | Yes               |
 | Counter mode (CTR)          | Stream                | Yes               |
 
-### Crypto analysis
+### Cryptanalysis
 
-The most common place where you will be faced with cryptographic challenges is either with encrypted communication applications, where the data stored within the application databases are also encrypted. And with ransomware where if the goal is to look for a possible hard-coded key or identify a weakness in the encryption to identify a method of decrypting everything without paying the ransomware. When it comes to decrypting it is always simpler if you have the key that was used to encrypt the content. This is why look if the developer has either hardcoded the encryption key or is retrieved from a place you also have access to, such as a local database.
-
+The most common scenarios where you will face cryptographic challenges are in encrypted communication applications, where data stored within the application databases is also encrypted, and in ransomware cases. In the latter, the goal is to look for a possible hardcoded key or identify a weakness in the encryption to decrypt everything without paying the ransom. Decrypting is always simpler if you have the key used for encryption. This is why you should look for a hardcoded encryption key or one that can be retrieved from a place you have access to, such as a local database.
 Here example of AES implementation within android notices the hardcoded key that is used to encrypt the content:
 
 ```
@@ -114,10 +110,6 @@ Logic table
 |     | 0 | 1 |
 | 0   | 0 | 1 |
 | 1   | 1 | 0 |
-
-
-
-
 
 
 When it comes to malware it is more difficult as you are not able to decompile it back into code. forcing you to either look at the assembly code or pseudo _c_ code. One of the most commonly used algorithms is RC4. This might be because of the efficiency as a stream cipher and relatively easy implementation. RC4 uses a symmetric key stream cipher to encrypt and decrypt the plaintext. The whole process consists of three stages, and is relatively easy to identify, by its usage of _0x100_ (_256_) in two loops. The first is in the initialization stage and then the next is the scrambling stage. It is common for the key to have a length of 16 bytes.
@@ -237,50 +229,3 @@ Let's start by covering some of the basic terminologies within cryptography.
 | Key exchange                  | Technique for two parties to establish an symmetric encryption key when there is no secure channel.                                                                |
 | Transposition                 | Rearrange the letters of a paintext message                                                                                                                        |
 | Entropy                       | The amount of randomness in the data set.                                                                                                                          |
-
-
-
-
-
-#### Salsa20
-
-Salsa20 uses a fixed-length key and a fixed-length nonce (a number that is used only once) to encrypt and decrypt data. The key and nonce are used to initialize a state array, which is then used to generate a keystream that is combined with the plaintext (in the case of encryption) or the ciphertext (in the case of decryption) to produce the encrypted/decrypted output.
-
-The algorithms can be recognized based on the constant iteration with two strings.
-
-**pseudocode**
-
-Main component of the algoritm is the QuaterRound with takes 4 word input and produces 4 word output
-
-```
-Define QR(a, b, c, d)
-( b ^= ROTL(a + d, 7)
-c ^= ROTL(b + a, 9)
-d ^= ROTL(c + b,13)
-a ^= ROTL(d + c,18))
-```
-
-### Asymmetric algorithm
-
-#### RSA
-
-It every common for authors to use the WinCrypt API as it simple, reliable and secure
-
-**Math**
-
-```
-c = ciphertext
-p and q = prime numbers
-n = p * q
-phi = (p1)*(q1)  
-d = inverse(e, phi)  
-m = pow(c,d,n)
-```
-
-**Weakness**
-
-Small e value can be a problem, the same goes for the n value if the n value is small we can figure out what the two prime number that was multiplied together to the result, sites like factordb.com can help with this problem.
-
-#### Elliptic Curve (ECC)
-
-Because of the difficult of writing the algorithm correctly, you are usually be able to find the open source repository that was used to implement the algorithm, e.g. [curve25519donna](https://github.com/agl/curve25519donna)

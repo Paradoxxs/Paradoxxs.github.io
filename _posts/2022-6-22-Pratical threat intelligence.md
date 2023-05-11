@@ -1,4 +1,4 @@
-Intelligence lifecycle, is an very high level process that can be mapped to multiple sources, SIGINT, HUMINT, etc.
+The intelligence lifecycle is a high-level process that can be mapped to multiple sources, such as SIGINT, HUMINT, etc. It consists of six stages:
 
 1. Direction
 2. Collection
@@ -7,38 +7,34 @@ Intelligence lifecycle, is an very high level process that can be mapped to mult
 5. Dissemination
 6. Feedback
 
-The question is how does this process map the cyber threat intelligence (CTI)
-and what action should be taken in the different stages.
+The question is how this process maps to cyber threat intelligence (CTI) and what actions should be taken during the different stages. Not all the stages are unique to cyber intelligence; specifically, direction, dissemination, and feedback are similar across all types of intelligence. What all these stages have in common is their focus on the consumer.
 
-Not all the stages are unqiue too cyber, specific direction, dissemination and feedback are very similar across all type of intelligence.
-What all these stages have in common is they are all about the consumer.
+Direction is about the questions the consumer has for the intelligence team. No matter what source you are working with, if the actions taken are not based on the requirements, you are doing intelligence for intelligence's sake.
 
-Direction is all about the questions the consumer have for the intelligence team, so matter what source you are part of if the action is not based on the requirement, you are doing intelligence for intelligence sake.
+Similarly, the dissemination of generated intelligence is critical. It is essential to deliver the intel in a format that users understand and can take action upon; otherwise, all previous efforts will have been wasted.
 
-The other similar is Dissemination of the intelligence that have been generated. It key here that the intel get devlived in a form that they userstand and are able to take action, if that is not the case, then all the previous work will have been done for nothing.
-
-Cyber threat intelligence cycle:
+Here is how the intelligence lifecycle maps to the Cyber Threat Intelligence (CTI) process:
 
 1. Direction
-    - Define the requirement for the intelligence team, what question should they answer.
+    - Define the requirements for the intelligence team, focusing on the questions they should answer.
 2. Collection
-    - Reading threat reports
-    - Mitre attack techniques, and analysis what tactics are related to the threat actor within your requiement, and then how well you are protecting against these tatics.
-    - Threat hunting, take the tatics you discovered in your previous step and see if they are present within your organization, if they are found what are the context around them detection.
-    - IR, is a great place to intelligence as they are directly related to your organization. And you know the context of all the data.
+    - Read threat reports.
+    - Analyze MITRE ATT&CK techniques related to threat actors within your requirements and assess your protection against these tactics.
+    - Perform threat hunting based on the tactics discovered in the previous step, and determine if they are present within your organization. If found, analyze the context surrounding their detection.
+    - Incident response (IR) is a valuable source of intelligence, as it is directly related to your organization, and you know the context of all the data.
 3. Processing
-    - Take the collected information, unify the data and stored it in an analysis bucket for analysis.
+    - Unify the collected information and store it in an analysis bucket for further examination.
 4. Analysis
-    - Payload analysis
-    - Identity TTP
-    - Previous activity seen from actor.
-    - Pivot on the information discovered  
-    - Identity overlapping infrastructure.
+    - Analyze payloads.
+    - Identify TTPs (Tactics, Techniques, and Procedures).
+    - Review previous activity seen from the threat actor.
+    - Pivot on the information discovered.
+    - Identify overlapping infrastructure.
 5. Dissemination
-    - Create detection rules on the new tactics discovered
-    - Share IOC
-    - Report
+    - Create detection rules based on the new tactics discovered.
+    - Share IOCs (Indicators of Compromise).
+    - Generate reports.
 6. Feedback
-    - Iterate & improve the process
+    - Iterate and improve the process.
 
-These are just some of the steps that are take during the Cyber threat intelligence, the goal of this article to take the intelligence cycle and map some of the action during the different stages.
+These are just some of the steps taken during the Cyber Threat Intelligence process. The goal of this article is to map the intelligence lifecycle to the various actions taken during the different stages, providing a better understanding of CTI and its components.

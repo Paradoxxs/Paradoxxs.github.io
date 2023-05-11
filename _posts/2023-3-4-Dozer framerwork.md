@@ -1,33 +1,30 @@
-Drozer is a security and attack framework for Android.\
-It allows you to perform penetration testing on the application installed on a phone.\
-It does this by installing an agent on the device. You can download it from [here](https://github.com/FSecureLABS/drozer/releases).
+Drozer is a security and attack framework for Android. It allows you to perform penetration testing on the application installed on a phone by installing an agent on the device. You can download it from [here](https://github.com/FSecureLABS/drozer/releases).
 
-The utility of this is very narrow, I have used it a couple of times to find a new method of extracting information from the application, that was otherwise not available using Drozer. I will not go into specifics on how to find vulnerabilities within applications, as this is out of the scope of this book, I thought you should beware that the tool existed.
+The utility of Drozer is quite narrow, as it is primarily used to find new methods of extracting information from applications that are not available through other means. While I won't go into specifics on how to find vulnerabilities within applications, it's important to be aware that the tool exists.
 
-It can be a bit of a hassle of installing the application as it runs on python2. Here a trouble shooting Drozer install guide (https://blog.krybot.com/a?ID=00750-1d57cbc1-cea0-4750-a9c5-343358bf43d3)
+Installing Drozer can be a bit of a hassle since it runs on Python 2. You can find a troubleshooting guide for Drozer installation [here](https://blog.krybot.com/a?ID=00750-1d57cbc1-cea0-4750-a9c5-343358bf43d3).
 
-The first step is to install Drozer agent on the phone using ADB
+The first step is to install the Drozer agent on the phone using ADB:
 
 ```
 adb install .\drozer-agent-2.3.4.apk
 ```
 
-Once you start Drozer server on the phone. It will start running a service on port _31415_, to allow your host to communicate with the phone.\
-You need to port forward the service from the phone to the host device, this can be accomplished using ADB.
-
-Port forward Android device to the computer
+Once you start the Drozer server on the phone, it will run a service on port 31415 to allow your host to communicate with the phone. You'll need to port forward the service from the phone to the host device using ADB:
 
 ```
 adb forward tcp:31415 tcp:31415
 ```
 
-Once forwarded you need to connect the console to the device.\\
-
-Connect to the drozer agent
+Once forwarded, you need to connect the console to the device:
 
 ```
 drozer console connect
 ```
+
+Drozer has several commands you can use to interact with the device, retrieve information about applications, and test for potential vulnerabilities. Some examples of these commands include listing details about the application, reading the app manifest, listing possible attack surfaces for the app, and testing for SQL injection.
+
+Mastering reverse engineering applications requires practice and understanding the thought patterns of application developers. With experience, you'll become proficient in identifying and exploiting vulnerabilities in Android applications using tools like Drozer.
 
 **Possible commands**
 
