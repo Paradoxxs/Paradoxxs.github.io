@@ -55,28 +55,13 @@ table td, table td * {vertical-align: top;}
 </td>
 <td width="800">
 
-<script type="text/javascript">
-function doPopAll(PopAll)
-{var pop = document.getElementById("PopAll");
-for (j = 1; j <= 100; j++){
-if (j < 10){
-j = "0" + j.toString();}
-else {j = j.toString();}
-console.log(j)
-item = document.getElementById("Search" + j);
-if (item != null){
-item.value = pop.value;}}}
-</script>
-<form onsubmit="doPopAll(this.PopAll.value); return false;">
-<input type="text" id="PopAll" name="PopAll" size="30" placeholder="Name"/>
-<input type="submit" style="width:140px" value="Populate All" /><br></form><br>
 
 <script type="text/javascript">
-function doSearch01(Search01)
+function doSearch01()
 {window.open('https://cipher387.github.io/osintmap/');}
 </script>
-<form onsubmit="doSearch01(this.Search01.value); return false;">
-<input type="submit" style="width:140px" value="Pacer" /><br></form>
+<form onsubmit="doSearch01();">
+<input type="submit" style="width:600px" value="World map" /><br></form>
 
 </td>
 </tr>
