@@ -69,9 +69,17 @@ item.value = pop.value;}}}
 </script>
 <form onsubmit="doPopAll(this.PopAll.value); return false;">
 <input type="text" id="PopAll" name="PopAll" size="30" placeholder="Bitcoin Address"/>
-<input type="submit" style="width:120px" value="Populate All" /><br></form><br>
+<input type="submit" style="width:200px" value="Populate All Bitcoin address" /><br></form>    
 
+<p>Graph explorer</p>
 
+<script type="text/javascript">
+function doSearch29(Search29)
+{window.open('https://oxt.me/graph/transaction/' + Search29, 'Search29window');}
+</script>
+<form onsubmit="doSearch29(this.Search29.value); return false;">
+<input type="text" id="transaction29" name="Search29" size="30" placeholder="Bitcoin transaction Address" value="" />
+<input type="submit" style="width:120px" value="oxt.me graph" /></form>
 
 <script type="text/javascript">
 function doSearch27(Search27)
@@ -80,6 +88,9 @@ function doSearch27(Search27)
 <form onsubmit="doSearch27(this.Search27.value); return false;">
 <input type="text" id="Search27" name="Search27" size="30" placeholder="Bitcoin Address" value="" />
 <input type="submit" style="width:120px" value="Breadcrumps" /><br></form>
+
+
+<p>Wallet explorer</p>
 
 <script type="text/javascript">
 function doSearch01(Search01)
@@ -192,11 +203,22 @@ function doSearch14(Search14)
 </script>
 <form onsubmit="doSearch14(this.Search14.value); return false;">
 <input type="text" id="Search14" name="Search14" size="30" placeholder="Bitcoin Address" value="" />
-<input type="submit" style="width:120px" value="BC BTC" /></form><br>
+<input type="submit" style="width:120px" value="BC BTC" /></form>
+
+<script type="text/javascript">
+function doSearch28(Search28)
+{window.open('https://oxt.me/address/' + Search28, 'Search28window');}
+</script>
+<form onsubmit="doSearch28(this.Search28.value); return false;">
+<input type="text" id="Search28" name="Search28" size="30" placeholder="Bitcoin Address" value="" />
+<input type="submit" style="width:120px" value="oxt.me" /></form><br>
+
+
 
 
 
 <input type='text' placeholder='Unix Time' size="30" id='timestamp'>&nbsp;<input type='button' id='convert' style="width:120px" value='Conversion' onclick='convert();'>
+<br>
 <br>
 <span id='datetime'></span>
 <script>function convert(){
@@ -268,6 +290,9 @@ function doSearch21(Search21)
 <form onsubmit="doSearch21(this.Search21.value); return false;">
 <input type="text" name="Search21" size="30" placeholder="Dash Address" value="" />
 <input type="submit" style="width:120px" value="BC Dash" /><br></form><br>
+
+
+<p>Conversion Rate</p>
 
 <script type="text/javascript">
 function doSearch22(Search22)
