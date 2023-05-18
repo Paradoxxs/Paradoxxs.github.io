@@ -28,65 +28,58 @@ These functions are the building blocks of Rossmo formula.
 Let's go through each function:
 
 ```python
-def manhattan(A, B):
-    return abs(A[0] - B[0]) + abs(A[1] - B[1])
+def calculate_manhattan_distance(point_A, point_B):
+    return abs(point_A[0] - point_B[0]) + abs(point_A[1] - point_B[1])
+
 ```
 Calculates the Manhattan distance between two points in a plane. The Manhattan distance, also known as Taxicab geometry or L1 distance, calculates the distance that would be traveled to get from one data point to the other if a grid-like path is followed. The Manhattan distance between two items is the sum of the differences of their corresponding components. Here, `A` and `B` represent two points, where each is a list containing the x and y coordinates.
 
 ```py
-def nearest(A, L):
-    n = len(L)
-    m = A
-    d = 0
-    p = 0
-    j = 0
-    while True:
-      if A[0] != L[j][0] or A[1] != L[j][1]:
-        #m = L[j]
-        d = manhattan(A,L[j])
-        p = j
-        break 
-      else: j += 1
-    for i in range(len(L)):
-      dis = manhattan(A,L[i])
-      if dis != 0 and dis < d:
-        d = dis
-        p = i
-    return L[p]
+def find_nearest_neighbor(target_point, list_of_points):
+    shortest_distance = float('inf')  # initializing shortest_distance to infinity
+    nearest_point = None
+    for point in list_of_points:
+        if target_point != point:  # ensuring we don't compare the point to itself
+            distance = calculate_manhattan_distance(target_point, point)
+            if distance < shortest_distance:
+                shortest_distance = distance
+                nearest_point = point
+    return nearest_point
 ```
-Finds the nearest point to a given point `A` from a list `L` of points using the Manhattan distance. `A` is a point and `L` is a list of points. For each point in `L`, it computes the Manhattan distance to `A`, and keeps track of the smallest distance it found. It finally returns the point in `L` that had the smallest distance to `A`.
+Finds the nearest point to a given point `target pont` from a `list of points` using the Manhattan distance. For each point in the list, the distance to the `target point` is calculated. It finally returns the point in the `list` that had the smallest distance to `Target`.
 
 ```py
-def radius_buffer(L):
-    s = 0
-    n = len(L)
-    for i in range(n):
-      M = L.copy()
-      del M[i]
-      B = nearest(L[i], M)
-      s += manhattan(L[i],B)
-    return s/(2*n)
+
+def calculate_buffer_radius(crime_locations):
+    total_distance = 0
+    num_locations = len(crime_locations)
+    for point in crime_locations:
+        nearest_point = find_nearest_neighbor(point, crime_locations)
+        total_distance += calculate_manhattan_distance(point, nearest_point)
+    return total_distance / (2 * num_locations)
 ```
-Computes an average distance, referred to as a 'buffer radius'. It takes in a list `L` of points. For each point in the list, it computes the Manhattan distance to the nearest point in the list (excluding itself), sums these distances, and finally divides the sum by twice the number of points. This serves as an average radius buffer based on the crime locations.
+Computes an average distance, referred to as a 'buffer radius'. It takes in a list `crime_locaitons` of points. For each point in the list, it computes the Manhattan distance to the nearest point in the list (excluding itself), sums these distances, and finally divides the sum by twice the number of points. This serves as an average radius buffer based on the crime locations.
 
 ```py
-def proba(i, j, L):
-    proba = 0
-    f = 1/3
-    g = 2/3
-    B = radius_buffer(L)
-    for p in range(len(L)):
-      d = manhattan(L[p], [i,j])
-      if d > B:
-        proba += 1/(d**f)
-      else:
-        proba += B**(g-f)/((2*B - d)**g)
-    return proba
+def calculate_probability(target_x, target_y, crime_locations):  
+    probability = 0
+    buffer_radius = calculate_buffer_radius(crime_locations)
+    f = 1 / 3
+    g = 2 / 3
+    for crime_location in crime_locations:
+        distance = calculate_manhattan_distance(crime_location, [target_x, target_y])
+        if distance > buffer_radius:
+            probability += 1 / (distance ** f)
+        else:
+            probability += buffer_radius ** (g - f) / ((2 * buffer_radius - distance) ** g)
+    return probability
 
 ```
-This function calculates the Rossmo probability for a point `(i,j)` with respect to a list `L` of points. This function embodies the core of the Rossmo formula. `i` and `j` are the x and y coordinates of the point, and `L` is a list of points. For each point in `L`, it computes the Manhattan distance to `(i,j)`. If this distance is greater than the buffer radius, it adds `1/(d**f)` to the probability (where `f` is 1/3). If the distance is less than the buffer radius, it adds `B**(g-f)/((2*B - d)**g)` to the probability (where `g` is 2/3 and `B` is the buffer radius). It finally returns the computed probability. This probability value indicates the likelihood that a given grid point could be a potential base for the criminal, based on the Rossmo formula.
-These functions collectively serve to apply the Rossmo formula to a given set of locations (points), thereby identifying probable hotspots for a serial criminal's base.
 
+
+This function calculates the Rossmo probability for a point `(x,y)` with respect to a list of crime location. This function embodies the core of the Rossmo formula. For each location in `crime_locations`, it computes the Manhattan distance to `(x,y)`. If this distance is greater than the buffer radius, it adds `1/(d**f)` to the probability (where `f` is 1/3). If the distance is less than the buffer radius, it adds `B**(g-f)/((2*B - d)**g)` to the probability (where `g` is 2/3 and `B` is the buffer radius). It finally returns the computed probability. This probability value indicates the likelihood that a given grid point could be a potential base for the criminal, based on the Rossmo formula.
+
+These functions collectively serve to apply the Rossmo formula to a given set of locations (points), thereby identifying the probable hotspots for a serial criminal's base.
 
 
 ## Preparing the Data
