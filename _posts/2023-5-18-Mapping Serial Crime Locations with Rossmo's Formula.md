@@ -1,5 +1,3 @@
-# Applying the Rossmo Algorithm to Identify Serial Criminal Hotspots
-
 In today's post, we'll dive into an intriguing topic in criminal psychology and data science: the Rossmo Algorithm. Named after its creator, criminologist Kim Rossmo, this algorithm aims to predict a serial criminal's base of operations based on the geographical locations of their crimes. 
 
 For our study, we will use Python and a variety of libraries to create a heatmap of likely hotspots in Atlanta, GA. This data is based onAtlanta’s murders of 1979–1981. 
