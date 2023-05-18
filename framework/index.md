@@ -1,7 +1,7 @@
 ---
 layout: page
-title: mindmap
-permalink: /mindmap/
+title: Framework
+permalink: /framework/
 ---
 
 <html>
@@ -9,13 +9,13 @@ permalink: /mindmap/
     <meta http-equiv="Content-Type" content="text/html;charset=utf-8"/>
     <link type="text/css" rel="stylesheet" href="css/arf.css"/>
     <script type="text/javascript" src="js/d3.v3.min.js"></script>
-    <title>Forensics mindmap</title>
+    <title>Forensics framework</title>
   </head>
 
   <body>
     <div id="body">
       <div id="header">
-        Forensics mindmap
+        Forensics framework
           <hr/>
       </div>
     </div>
@@ -36,7 +36,7 @@ permalink: /mindmap/
     <button id="cloud" onclick="updateview('cloud.json')">Cloud</button>
     <button id="malware" onclick="updateview('malware.json')">Malware</button>
     <h3>Notes</h3>
-    Forensics mindmap focused on where to gather evidence.  The intention is to help people find locate critical evidence with easy.<br>
+    Forensics framework focused on where to gather evidence.  The intention is to help people find locate critical evidence with easy.<br>
       
     <p>Inspired by the OSINT framework</p>
 
