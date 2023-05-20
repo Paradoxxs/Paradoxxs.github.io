@@ -1,7 +1,7 @@
 ---
 layout: page
 title: Framework
-permalink: /framework/
+permalink: /Framework/
 ---
 
 <html>
