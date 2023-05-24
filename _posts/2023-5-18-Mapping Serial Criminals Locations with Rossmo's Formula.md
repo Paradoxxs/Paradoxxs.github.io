@@ -24,13 +24,30 @@ These points represent hypothetical crime scenes in Atlanta.
 
 ## Defining Rossmo formula
 
-These functions are the building blocks of Rossmo formula. 
+
+
+$$p_ij=k \sum_{n=1}^c[\frac{\varphi}{(|x_i-x_n|+|y_j-y_n|)^f}+\frac{(1-\varphi)(B^{8-f})}{(2B-|x_i-x_n|-|y_i-y_n|)^g}]$$
+
+
+Where:
+
+$ \varphi_{j,i} \begin{cases}
+    1 & if (|X_i-x_n|+|Y_j-y_n|)>B\\
+    0 & else
+\end{cases}$
+
+The first term of the formula is known as the "distance decay function". This term accounts for the principle that the probability of a crime occurring decreases as the distance from the crime location increases.
+Where $f$ defined the amount of decay 
+
+The second term deals with the concept of a buffer zone, which describes the idea of criminal not wanting to commit crimes in the area where they live. 
+
+
+Lets break down the formula into functions. 
 Let's go through each function:
 
 ```python
 def calculate_manhattan_distance(point_A, point_B):
     return abs(point_A[0] - point_B[0]) + abs(point_A[1] - point_B[1])
-
 ```
 Calculates the Manhattan distance between two points in a plane. The Manhattan distance, also known as Taxicab geometry or L1 distance, calculates the distance that would be traveled to get from one data point to the other if a grid-like path is followed. The Manhattan distance between two items is the sum of the differences of their corresponding components. Here, `A` and `B` represent two points, where each is a list containing the x and y coordinates.
 
@@ -47,9 +64,7 @@ def find_nearest_neighbor(target_point, list_of_points):
     return nearest_point
 ```
 Finds the nearest point to a given point `target pont` from a `list of points` using the Manhattan distance. For each point in the list, the distance to the `target point` is calculated. It finally returns the point in the `list` that had the smallest distance to `Target`.
-
 ```py
-
 def calculate_buffer_radius(crime_locations):
     total_distance = 0
     num_locations = len(crime_locations)
@@ -73,7 +88,6 @@ def calculate_probability(target_x, target_y, crime_locations):
         else:
             probability += buffer_radius ** (g - f) / ((2 * buffer_radius - distance) ** g)
     return probability
-
 ```
 
 
