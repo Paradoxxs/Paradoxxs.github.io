@@ -71,6 +71,7 @@ item.value = pop.value;}}}
 <input type="text" id="PopAll" name="PopAll" size="30" placeholder="IP Address"/>
 <input type="submit" style="width:120px" value="Populate All" /><br></form><br>
 
+<p>IPv4 only Search</p>
 <script type="text/javascript">
 function doSearch01(Search01)
 {window.open('http://viewdns.info/reverseip/?host=' + Search01 + '&t=1', 'Search01window');}
@@ -117,7 +118,34 @@ function doSearch06(Search06)
 </script>
 <form onsubmit="doSearch06(this.Search06.value); return false;">
 <input type="text" id="Search06" name="Search06" size="30" placeholder="IP Address" value="" />
-<input type="submit" style="width:120px" value="VDReverseDNS" /><br></form>
+<input type="submit" style="width:120px" value="VD ReverseDNS" /><br></form>
+
+<script type="text/javascript">
+function doSearch12(Search12)
+{window.open('https://thatsthem.com/ip/' + Search12, 'Search12window');}
+</script>
+<form onsubmit="doSearch12(this.Search12.value); return false;">
+<input type="text" id="Search12" name="Search12" size="30" placeholder="IP Address" value="" />
+<input type="submit" style="width:120px" value="That's Them" /><br></form>
+
+<script type="text/javascript">
+function doSearch13(Search13)
+{window.open('http://iknowwhatyoudownload.com/en/peer/?ip=' + Search13, 'Search13window');}
+</script>
+<form onsubmit="doSearch13(this.Search13.value); return false;">
+<input type="text" id="Search13" name="Search13" size="30" placeholder="IP Address" value="" />
+<input type="submit" style="width:120px" value="Torrents" /><br></form>
+
+<script type="text/javascript">
+function doSearch25(Search25)
+{window.open('https://dehashed.com/search?query=%22' + Search25 + '%22', 'Search25window');}
+</script>
+<form onsubmit="doSearch25(this.Search25.value); return false;">
+<input type="text" id="Search25" name="Search25" size="30" placeholder="IP Address" value="" />
+<input type="submit" style="width:120px" value="Dehashed" /><br></form><br>
+
+
+<p>IPv6 and IPv4 searches</p>
 
 <script type="text/javascript">
 function doSearch07(Search07)
@@ -168,14 +196,6 @@ function doSearch24(Search24)
 <input type="submit" style="width:120px" value="MXBlocklist" /><br></form>
 
 <script type="text/javascript">
-function doSearch10(Search10)
-{window.open('http://www.bing.com/search?q=ip%3A' + Search10, 'Search10window');}
-</script>
-<form onsubmit="doSearch10(this.Search10.value); return false;">
-<input type="text" id="Search10" name="Search10" size="30" placeholder="IP Address" value="" />
-<input type="submit" style="width:120px" value="Bing IP" /><br></form>
-
-<script type="text/javascript">
 function doSearch11(Search11)
 {window.open('https://www.iplocation.net/ip-lookup?query=' + Search11 + '&submit=IP+Lookup', 'Search11window');}
 </script>
@@ -183,21 +203,6 @@ function doSearch11(Search11)
 <input type="text" id="Search11" name="Search11" size="30" placeholder="IP Address" value="" />
 <input type="submit" style="width:120px" value="IPLocation" /><br></form>
 
-<script type="text/javascript">
-function doSearch12(Search12)
-{window.open('https://thatsthem.com/ip/' + Search12, 'Search12window');}
-</script>
-<form onsubmit="doSearch12(this.Search12.value); return false;">
-<input type="text" id="Search12" name="Search12" size="30" placeholder="IP Address" value="" />
-<input type="submit" style="width:120px" value="That's Them" /><br></form>
-
-<script type="text/javascript">
-function doSearch13(Search13)
-{window.open('http://iknowwhatyoudownload.com/en/peer/?ip=' + Search13, 'Search13window');}
-</script>
-<form onsubmit="doSearch13(this.Search13.value); return false;">
-<input type="text" id="Search13" name="Search13" size="30" placeholder="IP Address" value="" />
-<input type="submit" style="width:120px" value="Torrents" /><br></form>
 
 <script type="text/javascript">
 function doSearch14(Search14)
@@ -247,13 +252,6 @@ function doSearch19(Search19)
 <input type="text" id="Search19" name="Search19" size="30" placeholder="IP Address" value="" />
 <input type="submit" style="width:120px" value="Shodan History" /><br></form>
 
-<script type="text/javascript">
-function doSearch21(Search21)
-{window.open('https://www.threatcrowd.org/ip.php?ip=' + Search21, 'Search21window');}
-</script>
-<form onsubmit="doSearch21(this.Search21.value); return false;">
-<input type="text" id="Search21" name="Search21" size="30" placeholder="IP Address" value="" />
-<input type="submit" style="width:120px" value="ThreatCrowd" /><br></form>
 
 <script type="text/javascript">
 function doSearch22(Search22)
@@ -271,13 +269,7 @@ function doSearch30(Search30)
 <input type="text" id="Search30" name="Search30" size="30" placeholder="IP Address" value="" />
 <input type="submit" style="width:120px" value="LeakIX" /><br></form>
 
-<script type="text/javascript">
-function doSearch25(Search25)
-{window.open('https://dehashed.com/search?query=%22' + Search25 + '%22', 'Search25window');}
-</script>
-<form onsubmit="doSearch25(this.Search25.value); return false;">
-<input type="text" id="Search25" name="Search25" size="30" placeholder="IP Address" value="" />
-<input type="submit" style="width:120px" value="Dehashed" /><br></form><br>
+
 
 <script type="text/javascript">
 function doall(all)
