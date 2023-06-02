@@ -29,7 +29,7 @@ permalink: /Framework/
     <button id="ios" onclick="updateview('ios.json')">IOS</button>
     <button id="mac" onclick="updateview('mac.json')">Mac</button>
     <button id="linux" onclick="updateview('linux.json')">Linux</button>
-    <button id="network" onclick="updateview('network.json'))">Network</button>
+    <button id="network" onclick="updateview('network.json')">Network</button>
     <button id="osint" onclick="updateview('osint.json')">OSINT</button>
     <button id="darkweb" onclick="updateview('darkweb.json')">Darkweb</button>
     <button id="blockchain" onclick="updateview('blockchain.json')">Blockchain</button>
