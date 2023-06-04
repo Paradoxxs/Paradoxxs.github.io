@@ -90,7 +90,7 @@ function doSearch27(Search27)
 <input type="submit" style="width:120px" value="Breadcrumps" /><br></form>
 
 
-<p>Wallet explorer</p>
+<p>Bitcoin Wallet explorer</p>
 
 <script type="text/javascript">
 function doSearch01(Search01)
@@ -214,7 +214,27 @@ function doSearch28(Search28)
 <input type="submit" style="width:120px" value="oxt.me" /></form><br>
 
 
+<h3>Ethereum<h3>
 
+<p>Smart contract</p>
+<script type="text/javascript">
+function doether1(ether1)
+{window.open('https://eveem.org/code/' + ether1, 'ether1window');}
+</script>
+<form onsubmit="doether1(this.ether1.value); return false;">
+<input type="text" id="ether1" name="ether1" size="30" placeholder="Ethereum Address" value="" />
+<input type="submit" style="width:120px" value="Eveem.org" /></form><br>
+
+<script type="text/javascript">
+function doether2(ether2)
+{window.open('https://blockchair.com/ethereum/address/' + ether2, 'Search16window');}
+</script>
+<form onsubmit="doether2(this.ether2.value); return false;">
+<input type="text" name="ether2" size="30" placeholder="Ethereum Address" value="" />
+<input type="submit" style="width:120px" value="BC Ethereum" /><br></form>
+
+
+<h3>Other</h3>
 
 
 <input type='text' placeholder='Unix Time' size="30" id='timestamp'>&nbsp;<input type='button' id='convert' style="width:120px" value='Conversion' onclick='convert();'>
@@ -243,13 +263,7 @@ function doSearch15(Search15)
 <input type="text" name="Search15" size="30" placeholder="Wallet ID" value="" />
 <input type="submit" style="width:120px" value="WalletExplorer" /><br></form>
 
-<script type="text/javascript">
-function doSearch16(Search16)
-{window.open('https://blockchair.com/ethereum/address/' + Search16, 'Search16window');}
-</script>
-<form onsubmit="doSearch16(this.Search16.value); return false;">
-<input type="text" name="Search16" size="30" placeholder="Ethereum Address" value="" />
-<input type="submit" style="width:120px" value="BC Ethereum" /><br></form>
+
 
 <script type="text/javascript">
 function doSearch17(Search17)
