@@ -246,8 +246,21 @@ function doether1(ether1)
 
 
 
-<h3>Other</h3>
+<p>Other</p>
 
+
+<p>Look up swift code</p>
+<script type="text/javascript">
+function doother1(other1)
+{window.open('https://www2.swift.com/bsl/?bicSearch_bic=' + other1, 'other1window');}
+</script>
+<form onsubmit="doother1(this.ether1.value); return false;">
+<input type="text" id="other1" name="other1" size="30" placeholder="BIC search" value="" />
+<input type="submit" style="width:120px" value="Swift.com" /></form><br>
+
+
+
+https://www2.swift.com/bsl/?bicSearch_bic=PBERIT22
 
 <input type='text' placeholder='Unix Time' size="30" id='timestamp'>&nbsp;<input type='button' id='convert' style="width:120px" value='Conversion' onclick='convert();'>
 <br>
