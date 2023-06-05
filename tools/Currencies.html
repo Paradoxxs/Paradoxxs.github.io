@@ -213,17 +213,17 @@ function doSearch28(Search28)
 <input type="text" id="Search28" name="Search28" size="30" placeholder="Bitcoin Address" value="" />
 <input type="submit" style="width:120px" value="oxt.me" /></form><br>
 
+<p>Search bitcoin by time</p>
 
-<h3>Ethereum<h3>
-
-<p>Smart contract</p>
 <script type="text/javascript">
-function doether1(ether1)
-{window.open('https://eveem.org/code/' + ether1, 'ether1window');}
-</script>
-<form onsubmit="doether1(this.ether1.value); return false;">
-<input type="text" id="ether1" name="ether1" size="30" placeholder="Ethereum Address" value="" />
-<input type="submit" style="width:120px" value="Eveem.org" /></form><br>
+    function dobitcoin1(bitcoin1)
+    {window.open('https://blockchair.com/bitcoin/outputs?q=time(' + bitcoin1 + ")", 'bitcoin1window');}
+    </script>
+    <form onsubmit="dobitcoin1(this.bitcoin1.value); return false;">
+    <input type="text" id="bitcoin1" name="bitcoin1" size="30" placeholder="2023-06-01..2023-06-03" value="" />
+    <input type="submit" style="width:120px" value="blockchair date search" /></form><br>
+
+<p>Ethereum<p>
 
 <script type="text/javascript">
 function doether2(ether2)
@@ -232,6 +232,18 @@ function doether2(ether2)
 <form onsubmit="doether2(this.ether2.value); return false;">
 <input type="text" name="ether2" size="30" placeholder="Ethereum Address" value="" />
 <input type="submit" style="width:120px" value="BC Ethereum" /><br></form>
+
+
+<p>Smart contract</p>
+
+<script type="text/javascript">
+function doether1(ether1)
+{window.open('https://eveem.org/code/' + ether1, 'ether1window');}
+</script>
+<form onsubmit="doether1(this.ether1.value); return false;">
+<input type="text" id="ether1" name="ether1" size="30" placeholder="Ethereum Address" value="" />
+<input type="submit" style="width:120px" value="Eveem.org" /></form><br>
+
 
 
 <h3>Other</h3>
