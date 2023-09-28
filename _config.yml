@@ -12,7 +12,7 @@ author: Adam Tilmar Jakobsen
 description: Blog
 
 # URL of your avatar or profile pic (you could use your GitHub profile pic)
-avatar: images/icon.png
+avatar: https://adamtilmar.com/images/icon.png
 
 #
 # Flags below are optional
@@ -26,7 +26,7 @@ footer-links:
   flickr:
   github: Paradoxxs/
   instagram:
-  linkedin: 
+  linkedin: adam-nørgaard
   pinterest:
   rss: 
   twitter: 
