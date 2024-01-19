@@ -389,6 +389,10 @@
         {
             "name":"Leak peek",
             "url":"https://leakpeek.com/"
+        },
+        {
+            "name":"0t rocks",
+            "url":"https://search.0t.rocks/"
         }],
     "name":"Data dumps",
     "type":"folder"

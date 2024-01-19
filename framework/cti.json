@@ -44,6 +44,10 @@
         {
             "name":"Phishtank",
             "url":"https://phishtank.org/"
+        },
+        {
+            "name":"Sophos IOC",
+            "url":"https://github.com/sophoslabs/IoCs"
         }],
         "name":"Sources",
         "type":"folder"
