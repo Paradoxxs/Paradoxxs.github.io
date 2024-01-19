@@ -54,6 +54,11 @@
                 "name":"TOR Bot",
                 "description":"Crawls onion sites.",
                 "url":"https://github.com/DedSecInside/TorBot"
+            },
+            {
+                "name":"Tor spider",
+                "description":"Beautifulsoup and Tor spider",
+                "url":"https://github.com/absingh31/Tor_Spider"
             }],
         "name":"Tor Tools",
         "type":"folder"

@@ -16,6 +16,7 @@
         },
         {
             "name":"Brave search",
+            "description":"Uses gpt.censys.io to help create queries",
             "url":"https://search.brave.com/"
         },
         {
@@ -25,6 +26,10 @@
         {
             "name":"Scam search",
             "url":"https://scamsearch.io/"
+        },
+        {
+            "name":"ZoomEye",
+            "url":"https://www.zoomeye.org/"
         }],
         "name":"Search engine",
         "type":"folder"
@@ -278,57 +283,6 @@
     {
     "children": [
         {
-            "name":"Alienvault",
-            "url":"https://otx.alienvault.com/dashboard/new"
-        },
-        {
-            "name":"SecurityTrails",
-            "url":"https://securitytrails.com/"
-        },
-        {
-            "name":"RiskIQ community",
-            "url":"https://community.riskiq.com/"
-        },
-        {
-            "name":"Virustotal",
-            "description":"public avilable anti-virus scanner.",
-            "url":"https://www.virustotal.com/"
-        },
-        {
-            "name":"hybrid-analysis",
-            "description":"Sandbox for analysis files",
-            "url":"https://hybrid-analysis.com/"
-        },
-        {
-            "name":"Any run",
-            "description":"Sandbox that used to execute malicous files",
-            "url":"https://any.run/"
-        },
-        {
-            "name":"urlscan.io",
-            "description":"scan url for malicous use",
-            "url":"https://urlscan.io/"
-        },
-        {
-            "name":"Intezer analyze",
-            "description":"Scanner to automate file analysis for malware",
-            "url":"https://analyze.intezer.com/"
-        },
-        {
-            "name":"UNPACME",
-            "description":"automated malware unpacking service",
-            "url":"https://analyze.intezer.com/"
-        },
-        {
-            "name":"Search Engine for Security Intelligence",
-            "url":"https://vulners.com/"
-        }],
-    "name":"Threat installigence",
-    "type":"folder"
-    },
-    {
-    "children": [
-        {
             "name":"PublicWWW",
             "url":"https://publicwww.com/"
         },
@@ -350,16 +304,6 @@
     {
     "children": [
         {
-            "name":"favicon",
-            "description":"Get the hash of website favicon, which can used to find site that use the same favicon using shodan \n query: http.favicon.hash:{hash}",
-            "url":"https://faviconhash.com/"
-        },
-        {
-            "name":"Fav-up",
-            "description":"Tool for lookup favicon on shodan",
-            "url":"https://github.com/pielco11/fav-up"
-        },
-        {
             "name":"Security header",
             "description":"List of security instruction. The important header is 'Content-security-policy' that is used to identifies what domain are allowed to serve content on the site, the goal is identify site with an security header that allow content from the domain in question.",
             "tool":"identify: Securityheader.io, recon: censys.io"
@@ -373,6 +317,30 @@
             "name":"Google analytic cookie tracking",
             "description":"google dorking the website google tracking code to find website that same code"
 
+        },
+        {
+            "children": [
+                {
+                    "name":"favicon",
+                    "description":"Get the hash of website favicon, which can used to find site that use the same favicon using shodan \n query: http.favicon.hash:{hash}",
+                    "url":"https://faviconhash.com/"
+                },
+                {
+                    "name":"Fav-up",
+                    "description":"Tool for lookup favicon on shodan",
+                    "url":"https://github.com/pielco11/fav-up"
+                },
+                {
+                    "name":"Favicon hasher",
+                    "url":"https://faviconhasher.codejavu.tech/"
+                },
+                {
+                    "name":"Bashsiz",
+                    "url":"https://github.com/MortezaBashsiz/CFScanner"
+                }
+            ],
+            "name":"Cloud flare",
+            "type":"folder"
         },
         {
             "children": [

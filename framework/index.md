@@ -32,6 +32,7 @@ permalink: /framework/
     <button id="network" onclick="updateview('network.json')">Network</button>
     <button id="osint" onclick="updateview('osint.json')">OSINT</button>
     <button id="darkweb" onclick="updateview('darkweb.json')">Darkweb</button>
+    <button id="CTI" onclick="updateview('cti.json')">CTI</button>
     <button id="blockchain" onclick="updateview('blockchain.json')">Blockchain</button>
     <button id="cloud" onclick="updateview('cloud.json')">Cloud</button>
     <button id="malware" onclick="updateview('malware.json')">Malware</button>

@@ -1,0 +1,166 @@
+{
+    "children": [
+    {
+        "children": [
+        {
+            "name":"Deep dark CTI",
+            "url":"https://github.com/fastfire/deepdarkCTI"
+        },
+        {
+            "name":"DigitalSide",
+            "url":"https://osint.digitalside.it/"
+        },
+        {
+            "name":"phishunt",
+            "url":"https://phishunt.io/"
+        },
+        {
+            "name":"Firehol - IP feed",
+            "url":"https://iplists.firehol.org/"
+        },
+        {
+            "name":"Honeydb",
+            "url":"https://honeydb.io/"
+        },
+        {
+            "name":"Abuse ch",
+            "url":"https://abuse.ch/"
+        },
+        {
+            "name":"ORKL",
+            "url":"https://orkl.com/"
+        },
+        { 
+            "name":"ETDA - Threat groups",
+            "url":"https://apt.etda.or.th/cgi-bin/listgroups.cgi"
+        },
+        {   "name":"Ransomware watch",
+            "url":"https://ransomwatch.telemetry.ltd/#/recentposts"
+        },
+        {
+            "name":"inquest",
+            "url":"https://labs.inquest.net/"
+        },
+        {
+            "name":"Phishtank",
+            "url":"https://phishtank.org/"
+        }],
+        "name":"Sources",
+        "type":"folder"
+        
+    },
+    {
+    "children": [
+        {
+            "name":"Alienvault",
+            "url":"https://otx.alienvault.com/dashboard/new"
+        },
+        {
+            "name":"SecurityTrails",
+            "url":"https://securitytrails.com/"
+        },
+        {
+            "name":"RiskIQ community",
+            "url":"https://community.riskiq.com/"
+        },
+        {
+            "name":"Virustotal",
+            "description":"public avilable anti-virus scanner.",
+            "url":"https://www.virustotal.com/"
+        },
+        {
+            "name":"hybrid-analysis",
+            "description":"Sandbox for analysis files",
+            "url":"https://hybrid-analysis.com/"
+        },
+        {
+            "name":"Any run",
+            "description":"Sandbox that used to execute malicous files",
+            "url":"https://any.run/"
+        },
+        {
+            "name":"urlscan.io",
+            "description":"scan url for malicous use",
+            "url":"https://urlscan.io/"
+        },
+        {
+            "name":"Intezer analyze",
+            "description":"Scanner to automate file analysis for malware",
+            "url":"https://analyze.intezer.com/"
+        },
+        {
+            "name":"UNPACME",
+            "description":"automated malware unpacking service",
+            "url":"https://analyze.intezer.com/"
+        },
+        {
+            "name":"Search Engine for Security Intelligence",
+            "url":"https://vulners.com/"
+        }],
+    "name":"Threat installigence sources",
+    "type":"folder"
+    },
+    {
+        "children": [
+            {
+                "name":"Crist",
+                "url":"https://crits.github.io/"
+            },
+            {
+                "name":"MISP",
+                "url":"https://www.misp-project.org/"
+            },
+            {
+                "name":"Yeti",
+                "url":"https://yeti-platform.io/"
+            },
+            {
+                "name":"Time sketch",
+                "url":"https://github.com/google/timesketch"
+            },
+            {
+                "name":"OpenCTI",
+                "url":"https://github.com/OpenCTI-Platform/opencti"
+            },
+            {
+                "name":"Synapse",
+                "url":"https://github.com/vertexproject/synapse"
+            },
+            {
+                "name":"Aleph",
+                "url":"https://github.com/alephdata/aleph"
+            }],
+        "name":"Analysis bucket",
+        "type":"folder"
+    },
+    {
+        "children": [
+            {
+                "name":"Ransomware chat",
+                "url":"https://github.com/Casualtek/Ransomchats"
+            }
+        ],
+        "name":"Threat actor",
+        "type":"folder"
+    },
+    {
+        "children": [
+            {
+                "name":"HINTS",
+                "description":"HUMINT tool set",
+                "url":"https://github.com/LiveGray/HINTS"
+            },
+            {
+                "name":"Fraudset glossery",
+                "description":"Glossery of the terms used by threat actors",
+                "url":"https://docs.google.com/spreadsheets/d/1-ICFqnnm0DryaVfCdp7NwleGG03pJorT63bEMPBmji8/edit#gid=439383555"
+            }
+        ],
+        "name":"Humint",
+        "type":"folder"
+    }
+    ],  
+    "name": "CTI",
+    "type": "folder"
+}
+
