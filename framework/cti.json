@@ -150,6 +150,201 @@
     {
         "children": [
             {
+                "children":[
+                    {
+                        "name":"Cobalt strike",
+                        "description":"product:'Cobalt Strike Beacon'",
+                        "url":"https://www.shodan.io/search?query=product%3A%22Cobalt+Strike+Beacon%22"
+                    },
+                    {
+                        "name":"Cobalt strike watermark",
+                        "description":"watermark:#  Replace # with Cobalt strike watermark",
+                        "url":"https://www.shodan.io/search?query=watermark:1234567890"
+                    },
+                    {
+                        "name":"Cobalt strike foren.zik certificate",
+                        "description":"ssl:foren.zik",
+                        "url":"https://www.shodan.io/search?query=ssl%3Aforen.zik"
+                    },
+                    {
+                        "name":"Cobalt strike ssl cert",
+                        "description":"ssl.cert.serial:146473198",
+                        "url":"https://www.shodan.io/search?query=ssl.cert.serial%3A146473198"
+                    }
+                ],
+                "name":"Cobalt strike",
+                "type":"folder"
+            },
+            {
+                "children":[
+                    {
+                        "name":"Shodan: Muddy C2 GO",
+                        "description":"'HTTP/1.1 404 Not Found' 'Server: web.go' 'Content-Length: 14' 'Content-Type: text/html; charset=utf-8' port:443'",
+                        "url":"https://www.shodan.io/search?query=%22HTTP%2F1.1+404+Not+Found%22+%22Server%3A+web.go%22+%22Content-Length%3A+14%22+%22Content-Type%3A+text%2Fhtml%3B+charset%3Dutf-8%22+port%3A443"
+                    }
+                ],
+                "name":"Muddy C2 GO",
+                "type":"folder"
+            },
+            {
+                "children":[
+                    {
+                        "name":"Mythic",
+                        "description":"ssl:Mythic port:7443",
+                        "url":"https://www.shodan.io/search?query=ssl%3AMythic+port%3A7443"
+                    },
+                    {
+                        "name":"Mystic Stealer html hash",
+                        "description":"http.html_hash:-1773932172",
+                        "url":"https://www.shodan.io/search?query=http.html_hash%3A-1773932172"
+                    },
+                    {
+                        "name":"Mystic Stealer favicon",
+                        "description":"http.favicon.hash:-859291042",
+                        "url":"https://www.shodan.io/search?query=http.favicon.hash%3A-859291042"
+                    }
+
+                ],
+                "name":"Mythic",
+                "type":"folder"
+            },
+            {
+                "children":[
+                    {
+                        "name":"Meduza stealer",
+                        "description":"icon_hash='-559608920'",
+                        "url":"https://en.fofa.info/result?qbase64=aWNvbl9oYXNoPSItNTU5NjA4OTIwIg%3D%3D"
+                    },
+                    {
+                        "name":"shodan: Meduza stealer",
+                        "description":"hash:110862368",
+                        "url":"https://www.shodan.io/search?query=hash%3A110862368"
+                    }
+                ],
+                "name":"Meduza stealer",
+                "type":"folder"
+            },
+            {
+                "children": [
+                    {
+                        "name":"Shodan Silver C2",
+                        "description":"product:'Sliver C2'",
+                        "url":"https://www.shodan.io/search?query=product%3A%22Sliver+C2%22"
+                    },
+                    {
+                        "name":"Shodan silver C2",
+                        "description":"ssl:multiplayer ssl:operators",
+                        "url":"https://www.shodan.io/search?query=product%3A%22Sliver+C2%22"
+                    },
+                    {
+                        "name":"Shodan Silver C2",
+                        "description":"ssl:multiplayer ssl:operators ssl.jarm:'00000000000000000043d43d00043de2a97eabb398317329f027c66e4c1b01'",
+                        "url":"https://www.shodan.io/search?query=ssl%3Amultiplayer+ssl%3Aoperators+ssl.jarm%3A%2200000000000000000043d43d00043de2a97eabb398317329f027c66e4c1b01%22"
+                    }
+                ],
+                "name":"Silver C2",
+                "type":"folder"
+            },
+            {
+                "children": [
+                    {
+                        "name":"Censys: caldera",
+                        "descirption":"services.software.product: caldera",
+                        "url":"https://search.censys.io/search?resource=hosts&sort=RELEVANCE&per_page=25&virtual_hosts=EXCLUDE&q=services.software.product%3A+caldera"
+                    },
+                    {
+                        "name":"Censys: caldera sha1",
+                        "descirption":"services.http.response.body_hashes='sha1:7ce2b516163dd9731773de41c95cb64c3d6797c3'",
+                        "url":"https://search.censys.io/search?resource=hosts&sort=RELEVANCE&per_page=25&virtual_hosts=EXCLUDE&q=services.http.response.body_hashes%3D%22sha1%3A7ce2b516163dd9731773de41c95cb64c3d6797c3%22"
+                    },
+                    {
+                        "name":"Censys: caldera favicon hash",
+                        "descirption":"services.http.response.favicons.md5_hash=5508e5abca6493613e11c72f4296ebf4'",
+                        "url":"https://search.censys.io/search?resource=hosts&sort=RELEVANCE&per_page=25&virtual_hosts=EXCLUDE&q=services.http.response.favicons.md5_hash%3D%225508e5abca6493613e11c72f4296ebf4%22"
+                    },
+                    {
+                        "name":"Shodan Caldera html hash",
+                        "descirption":"http.html_hash:-1702274888",
+                        "url":"https://www.shodan.io/search?query=http.html_hash%3A-1702274888"
+                    },
+                    {
+                        "name":"Shodan Caldera favicon hash",
+                        "descirption":"http.favicon.hash:-636718605",
+                        "url":"https://www.shodan.io/search?query=http.favicon.hash%3A-636718605"
+                    }
+                ],
+                "name":"Caldera",
+                "type":"folder"
+            },
+            {
+                "children":[
+                    {
+                        "name":"Brute ratel c4 html hash",
+                        "description":"http.html\\_hash:-1957161625",
+                        "url":"https://www.shodan.io/search?query=http.html\_hash%3A-1957161625"
+                    },
+                    {
+                        "name":"Brute ratel c4 shodan",
+                        "description":"product:'Brute Ratel C4'",
+                        "url":"https://www.shodan.io/search?query=product%3A%22Brute+Ratel+C4%22"
+                    }
+                ],
+                "name":"Brute Ratel C4",
+                "type":"folder"
+            },
+            {
+                "children":[
+                    {
+                        "name":"Covenant",
+                        "description":"ssl:'Covenant' http.component:'Blazor'",
+                        "url":"https://www.shodan.io/search?query=ssl%3A%E2%80%9DCovenant%E2%80%9D%20http.component%3A%E2%80%9DBlazor%E2%80%9D"
+                    },
+                    {
+                        "name":"Covenant falcon",
+                        "description":"http.favicon.hash:-737603591",
+                        "url":"https://www.shodan.io/search?query=http.favicon.hash%3A-737603591"
+                    }
+                ],
+                "name":"Covenant",
+                "type":"folder"
+            },
+            {
+                "name":"MSF",
+                "description":"ssl:'MetasploitSelfSignedCA'",
+                "url":"https://www.shodan.io/search?query=ssl%3A%22MetasploitSelfSignedCA%22"
+            },
+            {
+                "name":"DeimosC2",
+                "description":"http.html\\_hash:-14029177",
+                "url":"https://www.shodan.io/search?query=http.html%5C_hash:-14029177"
+            },
+            {
+                "name":"PoshC2",
+                "description":"ssl:'P18055077'",
+                "url":"https://www.shodan.io/search?query=ssl%3A%22P18055077%22"
+            },
+            {
+                "name":"Havoc C2",
+                "description":"ssl:postalCode=3540 ssl.jarm:'3fd21b20d00000021c43d21b21b43de0a012c76cf078b8d06f4620c2286f5e'",
+                "url":"https://www.shodan.io/search?query=ssl%3ApostalCode%3D3540+ssl.jarm%3A%223fd21b20d00000021c43d21b21b43de0a012c76cf078b8d06f4620c2286f5e%22"
+            },
+            {
+                "name":"Powersploit",
+                "description":"http.html:'PowerSploit'",
+                "url":"https://www.shodan.io/search?query=http.html%3A%22PowerSploit%22"
+            },
+            {
+                "name":"Panda C2",
+                "description":"http.html:'PANDA' http.html:'layui'",
+                "url":"https://www.shodan.io/search?query=http.html%3A%22PANDA%22+http.html%3A%22layui%22"
+            }
+        ],
+        "name":"Tracking threat actor C2",
+        "type":"folder"
+    },
+    {
+        "children": [
+            {
                 "name":"HINTS",
                 "description":"HUMINT tool set",
                 "url":"https://github.com/LiveGray/HINTS"

@@ -30,6 +30,10 @@
         {
             "name":"ZoomEye",
             "url":"https://www.zoomeye.org/"
+        },
+        {
+            "name":"fofa.info",
+            "url":"https://en.fofa.info/"
         }],
         "name":"Search engine",
         "type":"folder"

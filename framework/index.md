@@ -36,6 +36,7 @@ permalink: /framework/
     <button id="blockchain" onclick="updateview('blockchain.json')">Blockchain</button>
     <button id="cloud" onclick="updateview('cloud.json')">Cloud</button>
     <button id="malware" onclick="updateview('malware.json')">Malware</button>
+    <button id="opsec" onclick="updateview('opsec.json')">Opsec</button>
     <h3>Notes</h3>
     Forensics framework focused on where to gather evidence.  The intention is to help people find locate critical evidence with easy.<br>
       
