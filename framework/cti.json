@@ -279,11 +279,6 @@
             {
                 "children":[
                     {
-                        "name":"Brute ratel c4 html hash",
-                        "description":"http.html\\_hash:-1957161625",
-                        "url":"https://www.shodan.io/search?query=http.html\_hash%3A-1957161625"
-                    },
-                    {
                         "name":"Brute ratel c4 shodan",
                         "description":"product:'Brute Ratel C4'",
                         "url":"https://www.shodan.io/search?query=product%3A%22Brute+Ratel+C4%22"
