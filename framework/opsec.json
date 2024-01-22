@@ -1,11 +1,39 @@
 {
     "children": [
         {
+            "name":"whoer",
+            "description":"Check the information leaked by browser",
+            "url":"https://whoer.net/"
+        },
+        {
+            "name":"deviceinfo.me",
+            "description":"Test browser security",
+            "url":"https://www.deviceinfo.me/"
+        },
+        {
             "children": [
                 {
-                    "name":"WIP"
-                }],
-            "name":"Persona",
+                    "name":"User-agent",
+                    "url":"https://chromewebstore.google.com/detail/user-agent-switcher/kchfmpdcejfkipopnolndinkeoipnoia?hl=da&pli=1"
+                },
+                {
+                    "name":"Privacy badger",
+                    "url":"https://chromewebstore.google.com/detail/privacy-badger/pkehgijcmpdhfbdbbnkijodmdjhbjlgp?hl=da&pli=1"
+                },
+                {
+                    "name":"Canvas fingerprint defender",
+                    "url":"https://chromewebstore.google.com/detail/canvas-fingerprint-defend/lanfdkkpgfjfdikkncbnojekcppdebfp?hl=da&pli=1"
+                },
+                {
+                    "name":"Script safe",
+                    "url":"https://chromewebstore.google.com/detail/scriptsafe/oiigbmnaadbkfbmpbfijlflahbdbdgdf?hl=da&pli=1"
+                },
+                {
+                    "name":"Location guard",
+                    "url":"https://chromewebstore.google.com/detail/location-guard/cfohepagpmnodfdmjliccbbigdkfcgia?hl=da&pli=1"
+                }
+            ],
+            "name":"Chrome extension",
             "type":"folder"
         }
         ],  
