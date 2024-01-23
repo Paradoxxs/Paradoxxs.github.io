@@ -35,6 +35,43 @@
             ],
             "name":"Chrome extension",
             "type":"folder"
+        },
+        {
+            "children":[
+            {
+                "name":"This person does not exists",
+                "description":"AI generated faces",
+                "url":"https://this-person-does-not-exist.com/en"
+            },
+            {
+                "name":"Fake identity generator",
+                "url":"https://www.fakenamegenerator.com/"
+            },
+            {
+                "name":"human_generator",
+                "description":"AI generated humans",
+                "url":"https://generated.photos/human-generator/new"
+            }],
+            "name":"Persona",
+            "type":"folder"
+        },
+        {
+            "children":[{
+                "name":"O&O shutup",
+                "description":"Takes control of win10+ privacy",
+                "url":"https://www.oo-software.com/en/shutup10"
+            }],
+            "name":"Windows",
+            "type":"folder"
+        },
+        {
+            "children":[{
+                "name":"BugMeNot",
+                "description":"Shared login for websites",
+                "url":"https://bugmenot.com/"
+            }],
+            "name":"Other",
+            "type":"folder"
         }
         ],  
         "name": "Opsec",

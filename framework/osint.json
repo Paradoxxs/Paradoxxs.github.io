@@ -3,10 +3,6 @@
     {
         "children": [
         {
-            "name":"Shodan",
-            "url":"https://www.shodan.io/"
-        },
-        {
             "name":"Google dorks",
             "url":"https://www.exploit-db.com/google-hacking-database"
         },
@@ -20,20 +16,8 @@
             "url":"https://search.brave.com/"
         },
         {
-            "name":"Censys search",
-            "url":"https://search.censys.io/"
-        },
-        {
-            "name":"Scam search",
-            "url":"https://scamsearch.io/"
-        },
-        {
             "name":"ZoomEye",
             "url":"https://www.zoomeye.org/"
-        },
-        {
-            "name":"fofa.info",
-            "url":"https://en.fofa.info/"
         }],
         "name":"Search engine",
         "type":"folder"
@@ -152,8 +136,13 @@
         {
             "name":"Identify all domain register by name",
             "url":"https://viewdns.info/reversewhois"
+        },
+        {
+            "name":"Lepus",
+            "url":"https://github.com/gfek/Lepus"
+
         }],
-        "name":"Domain name",
+        "name":"Domain",
         "type":"folder"
     },
     {
@@ -161,7 +150,6 @@
         {
             "name":"Greynoise.io",
             "url":"https://viz.greynoise.io/"
-
         },
         {
             "name":"ipinfo",
@@ -194,20 +182,21 @@
             "name":"GEO-recon",
             "description":"Geo locate IP address",
             "url":"https://github.com/radioactivetobi/geo-recon"
+        },
+        {
+            "children": [
+                {
+                    "name":"ANS lookup",
+                    "url":"https://asnlookup.com/"
+                }
+            ],
+            "name":"ANS number",
+            "type":"folder"
         }],
         "name":"IP address",
         "type":"folder"
     },
-    {
-        "children": [
-            {
-                "name":"ANS lookup",
-                "url":"https://asnlookup.com/"
-            }
-        ],
-        "name":"ANS number",
-        "type":"folder"
-    },
+
     {
         "children": [
             {
@@ -281,7 +270,7 @@
             "url":"https://github.com/cyberark/blobhunter"
         }],
 
-    "name":"Cloud",
+    "name":"Cloud bucket",
     "type":"folder"
     },
     {
@@ -325,7 +314,11 @@
         {
             "children": [
                 {
-                    "name":"favicon",
+                    "name":"Favicon technique",
+                    "description":"Looking at site the share the sammen favicon can lead to identifying the host IP of the site."
+                },
+                {
+                    "name":"faviconhash",
                     "description":"Get the hash of website favicon, which can used to find site that use the same favicon using shodan \n query: http.favicon.hash:{hash}",
                     "url":"https://faviconhash.com/"
                 },
@@ -341,6 +334,10 @@
                 {
                     "name":"Bashsiz",
                     "url":"https://github.com/MortezaBashsiz/CFScanner"
+                },
+                {
+                    "name":"Sub domains",
+                    "description":"Looking at sub domains can be used to identify the host IP, as it not uncommon to only protect the main domain with cloud flare"
                 }
             ],
             "name":"Cloud flare",
@@ -375,8 +372,8 @@
             "url":"https://intelx.io/"
         },
         {
-                "name":"pastebin dumps",
-                "url":"https://psbdmp.ws/"
+            "name":"pastebin dumps",
+            "url":"https://psbdmp.ws/"
         },
         {
             "name":"Breach directory",
@@ -437,26 +434,7 @@
     "type":"folder"
     },
     {
-    "children":[
-        {
-            "name":"Mitaka",
-            "description":"Allow for quick look up of data on various sites.",
-            "url":"https://chrome.google.com/webstore/detail/mitaka/bfjbejmeoibbdpfdbmbacmefcbannnbg"
-        }],
-    "name":"Helper tools",
-    "type":"folder"
-    },
-    {
         "children":[
-            {
-                "name":"This person does not exists",
-                "description":"AI generated faces",
-                "url":"https://this-person-does-not-exist.com/en"
-            },
-            {
-                "name":"Fake identity generator",
-                "url":"https://www.fakenamegenerator.com/"
-            },
             {
                 "name":"Soial enginner toolkit (SET)",
                 "url":"https://github.com/trustedsec/social-engineer-toolkit"
@@ -498,22 +476,12 @@
                 "name":"FOCA",
                 "description":"Find metadata and hidden info within documents",
                 "url":"https://github.com/ElevenPaths/FOCA"
-            }],
-        "name":"Automation",
-        "type":"folder"
-    },
-    {
-        "children":[
+            },
             {
                 "name":"Hash decrpytion",
                 "description":"Check the hash against known database",
                 "url":"https://hashes.com/en/decrypt/hash"
-            }],
-        "name":"Tools",
-        "type":"folder"
-    },
-    {
-        "children": [
+            },
             {
                 "name":"Spiderfoot",
                 "description":"Automation toolkit that automate analysis of multiple kind of data.",
@@ -523,27 +491,35 @@
                 "name":"Creepy",
                 "description":"Geolocation OSINT toolkit",
                 "url":"https://www.geocreepy.com/"
-            }
-        ],
-        "name":"Automation",
-        "type":"folder"
-    },
-    {
-        "children": [
-            {
-                "name":"Skiptracer",
-                "description":"",
-                "url":"https://gitlab.com/illwill/skiptracer"
             },
             {
-                "name":"Photon",
-                "description":"fast crawler designed for OSINT",
-                "url":"https://github.com/s0md3v/Photon"
-            }
-        ],
-        "name":"Scraping / Crawler",
+                "children": [
+                    {
+                        "name":"Beafutifulsoup4",
+                        "url":"https://pypi.org/project/beautifulsoup4/"
+                    },
+                    {
+                        "name":"Skiptracer",
+                        "description":"",
+                        "url":"https://gitlab.com/illwill/skiptracer"
+                    },
+                    {
+                        "name":"Photon",
+                        "description":"fast crawler designed for OSINT",
+                        "url":"https://github.com/s0md3v/Photon"
+                    },
+                    {
+                        "name":"Recon-ng",
+                        "url":"https://github.com/lanmaster53/recon-ng"
+                    }
+                ],
+                "name":"Scraping / Crawler",
+                "type":"folder"
+            }],
+        "name":"Tools",
         "type":"folder"
     },
+
     {
         "children": [
             {
@@ -575,6 +551,10 @@
                     {
                         "name":"Instant data scraper",
                         "url":"https://chrome.google.com/webstore/detail/instant-data-scraper/ofaokhiedipichpaobibbnahnkdoiiah"
+                    },
+                    {
+                        "name":"Mitaka - search for IP,domain,etc.",
+                        "url":"https://chromewebstore.google.com/detail/mitaka/bfjbejmeoibbdpfdbmbacmefcbannnbg"
                     }
                 ],
                 "name":"Chromiume",
@@ -596,7 +576,12 @@
     {
         "name":"Contry specific lookup sites",
         "description":"maps out sources for the different contry",
-        "url":"https://cipher387.github.io/osintmap/"
+        "url":"https://cybdetective.com/osintmap/"
+    },
+    {
+        "name":"License plates",
+        "description":"Allows search on license plate of vehicles",
+        "url":"https://platesmania.com/"
     }],  
 "name": "OSINT forensics",
 "type": "folder"

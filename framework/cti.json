@@ -1,57 +1,21 @@
 {
     "children": [
     {
-        "children": [
-        {
-            "name":"Deep dark CTI",
-            "url":"https://github.com/fastfire/deepdarkCTI"
-        },
-        {
-            "name":"DigitalSide",
-            "url":"https://osint.digitalside.it/"
-        },
-        {
-            "name":"phishunt",
-            "url":"https://phishunt.io/"
-        },
-        {
-            "name":"Firehol - IP feed",
-            "url":"https://iplists.firehol.org/"
-        },
-        {
-            "name":"Honeydb",
-            "url":"https://honeydb.io/"
-        },
-        {
-            "name":"Abuse ch",
-            "url":"https://abuse.ch/"
-        },
-        {
-            "name":"ORKL",
-            "url":"https://orkl.com/"
-        },
-        { 
-            "name":"ETDA - Threat groups",
-            "url":"https://apt.etda.or.th/cgi-bin/listgroups.cgi"
-        },
-        {   "name":"Ransomware watch",
-            "url":"https://ransomwatch.telemetry.ltd/#/recentposts"
-        },
-        {
-            "name":"inquest",
-            "url":"https://labs.inquest.net/"
-        },
-        {
-            "name":"Phishtank",
-            "url":"https://phishtank.org/"
-        },
-        {
-            "name":"Sophos IOC",
-            "url":"https://github.com/sophoslabs/IoCs"
-        }],
-        "name":"Sources",
+        "children":[
+            {
+                "name":"fofa.info",
+                "url":"https://en.fofa.info/"
+            },
+            {
+                "name":"Shodan",
+                "url":"https://www.shodan.io/"
+            },
+            {
+                "name":"Censys search",
+                "url":"https://search.censys.io/"
+            }],
+        "name":"Internet mapping search engines",
         "type":"folder"
-        
     },
     {
     "children": [
@@ -100,6 +64,57 @@
         {
             "name":"Search Engine for Security Intelligence",
             "url":"https://vulners.com/"
+        },
+        {
+            "name":"Scam search",
+            "url":"https://scamsearch.io/"
+        },
+        {
+            "name":"Deep dark CTI",
+            "url":"https://github.com/fastfire/deepdarkCTI"
+        },
+        {
+            "name":"DigitalSide",
+            "url":"https://osint.digitalside.it/"
+        },
+        {
+            "name":"phishunt",
+            "url":"https://phishunt.io/"
+        },
+        {
+            "name":"Firehol - IP feed",
+            "url":"https://iplists.firehol.org/"
+        },
+        {
+            "name":"Honeydb",
+            "url":"https://honeydb.io/"
+        },
+        {
+            "name":"Abuse ch",
+            "url":"https://abuse.ch/"
+        },
+        {
+            "name":"ORKL",
+            "url":"https://orkl.com/"
+        },
+        { 
+            "name":"ETDA - Threat groups",
+            "url":"https://apt.etda.or.th/cgi-bin/listgroups.cgi"
+        },
+        {   "name":"Ransomware watch",
+            "url":"https://ransomwatch.telemetry.ltd/#/recentposts"
+        },
+        {
+            "name":"inquest",
+            "url":"https://labs.inquest.net/"
+        },
+        {
+            "name":"Phishtank",
+            "url":"https://phishtank.org/"
+        },
+        {
+            "name":"Sophos IOC",
+            "url":"https://github.com/sophoslabs/IoCs"
         }],
     "name":"Threat installigence sources",
     "type":"folder"
