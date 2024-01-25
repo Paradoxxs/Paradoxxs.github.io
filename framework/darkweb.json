@@ -2,24 +2,6 @@
     "children": [
     {
         "children": [
-        {
-            "name":"AHMIA",
-            "url":"https://ahmia.fi/"
-        },
-        {
-            "name":"Fresh onions",
-            "url":"http://freshonifyfe4rmuh6qwpsexfhdrww7wnt5qmkoertwxmcuvm4woo4ad.onion/"
-        },
-        {
-            "name":"Onion link list",
-            "url":"http://donionsixbjtiohce24abfgsffo2l4tk26qx464zylumgejukfq2vead.onion/onions.php"
-        }],
-        "name":"search engine",
-        "type":"folder"
-        
-    },
-    {
-        "children": [
             {
                 "name":"TOR - The onion router",
                 "url":"https://www.torproject.org/"
@@ -36,32 +18,68 @@
                 "name":"Freenet",
                 "url":"https://freenetproject.org/"
             }],
-        "name":"Anoymous networks",
+        "name":"Anoymous networks (Darkweb)",
         "type":"folder"
     },
     {
         "children": [
-            {
-                "name":"OnionScan",
-                "url":"https://github.com/s-rah/onionscan"
-            },
-            {
-                "name":"onioff",
-                "description":"Inspecting onions url",
-                "url":"https://github.com/k4m4/onioff"
-            },
-            {
-                "name":"TOR Bot",
-                "description":"Crawls onion sites.",
-                "url":"https://github.com/DedSecInside/TorBot"
-            },
-            {
-                "name":"Tor spider",
-                "description":"Beautifulsoup and Tor spider",
-                "url":"https://github.com/absingh31/Tor_Spider"
-            }],
-        "name":"Tor Tools",
-        "type":"folder"
+        {
+            "children": [
+                {
+                    "name":"OnionScan",
+                    "url":"https://github.com/s-rah/onionscan"
+                },
+                {
+                    "name":"onioff",
+                    "description":"Inspecting onions url",
+                    "url":"https://github.com/k4m4/onioff"
+                },
+                {
+                    "name":"TOR Bot",
+                    "description":"Crawls onion sites.",
+                    "url":"https://github.com/DedSecInside/TorBot"
+                },
+                {
+                    "name":"Tor spider",
+                    "description":"Beautifulsoup and Tor spider",
+                    "url":"https://github.com/absingh31/Tor_Spider"
+                },
+                {
+                    "name":"Tor crawl",
+                    "url":"https://github.com/MikeMeliz/TorCrawl.py"
+                }],
+            "name":"Tools",
+            "type":"folder"
+        },
+        {
+        "children": [
+        {
+            "name":"AHMIA",
+            "descirption":"https://github.com/ahmia/ahmia-site",
+            "url":"https://ahmia.fi/"
+        },
+        {
+            "name":"Fresh onions",
+            "url":"http://freshonifyfe4rmuh6qwpsexfhdrww7wnt5qmkoertwxmcuvm4woo4ad.onion/"
+        },
+        {
+            "name":"Onion link list",
+            "url":"http://donionsixbjtiohce24abfgsffo2l4tk26qx464zylumgejukfq2vead.onion/onions.php"
+        },
+        {
+            "name":"Darkdump",
+            "url":"https://github.com/josh0xA/darkdump"
+        },
+        {
+            "name":"Vigilant Onion",
+            "url":"https://github.com/andreyglauzer/VigilantOnion"
+        }],
+    "name":"search engine",
+    "type":"folder"
+    }
+    ],
+    "name":"TOR",
+    "type":"folder"
     }
     ],  
     "name": "darkweb forensics",

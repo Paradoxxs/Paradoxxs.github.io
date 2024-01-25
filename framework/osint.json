@@ -119,15 +119,6 @@
             "description":"",
             "url":"https://host.io/"
         },
-        {  
-            "name":"Find website owned by the same person/org",
-            "url":"https://analyzeid.com/"
-        },
-        {
-            "name":"Find website with similar attributes",
-            "description":"Will find website that have similiar attributes such as IP, google analytist, etc",
-            "url":"https://spyonweb.com/"
-        },
         {
             "name":"Zone transfer",
             "description":"Will get all DNS records for an target domain",
@@ -169,10 +160,6 @@
             "name":"geolocate IP address using IPdb",
             "description":"Will try to locate ip address",
             "url":"https://db-ip.com/"
-        },
-        {
-            "name":"IP classification",
-            "url":"https://scamalytics.com/ip"
         },
         {
             "name":"IP intelligence",
@@ -310,6 +297,15 @@
             "name":"Google analytic cookie tracking",
             "description":"google dorking the website google tracking code to find website that same code"
 
+        },
+        {
+            "name":"Find website with similar attributes",
+            "description":"Will find website that have similiar attributes such as IP, google analytist, etc",
+            "url":"https://spyonweb.com/"
+        },
+        {  
+            "name":"Find website owned by the same person/org",
+            "url":"https://analyzeid.com/"
         },
         {
             "children": [
