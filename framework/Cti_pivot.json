@@ -1,0 +1,47 @@
+{
+    "children": [
+    {
+        "children": [
+        {
+            "name":"SSH fingerprint"
+        }],
+        "name":"SSH",
+        "type":"folder"
+    },
+    {
+    "children": [
+        {
+            "name":"SSL Jarm",
+            "url": "https://github.com/salesforce/jarm"
+        },
+        {
+            "name":"SSL hash"
+        },
+        {
+            "name":"issuer"
+        }],
+        "name":"ssl",
+        "type":"folder"
+    },
+    {
+        "children": [
+            {
+                "name":"header information"
+            }
+        ],
+        "name":"webpage",
+        "type":"folder"
+    },
+    {
+        "children": [
+            {
+                "name":"watermark"
+            }],
+        "name":"Cobolt strike",
+        "type":"folder"
+    }
+    ],  
+    "name": "CTI pivots",
+    "type": "folder"
+}
+
