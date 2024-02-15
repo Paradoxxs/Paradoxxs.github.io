@@ -37,6 +37,7 @@ permalink: /framework/
     <button id="cloud" onclick="updateview('cloud.json')">Cloud</button>
     <button id="malware" onclick="updateview('malware.json')">Malware</button>
     <button id="opsec" onclick="updateview('opsec.json')">Opsec</button>
+    <button id="pivot" onclick="updateview('pivot.json')">CTI pivot points</button>
     <h3>Notes</h3>
     Forensics framework focused on where to gather evidence.  The intention is to help people find locate critical evidence with easy.<br>
       

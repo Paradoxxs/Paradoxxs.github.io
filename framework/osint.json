@@ -294,7 +294,7 @@
             "url":"https://builtwith.com/"
         },
         {
-            "name":"Google analytic cookie tracking",
+            "name":"google analytics id",
             "description":"google dorking the website google tracking code to find website that same code"
 
         },
@@ -311,7 +311,7 @@
             "children": [
                 {
                     "name":"Favicon technique",
-                    "description":"Looking at site the share the sammen favicon can lead to identifying the host IP of the site."
+                    "description":"Looking at site that the shares the same favicon can lead to identifying the host IP of the site."
                 },
                 {
                     "name":"faviconhash",
@@ -336,7 +336,7 @@
                     "description":"Looking at sub domains can be used to identify the host IP, as it not uncommon to only protect the main domain with cloud flare"
                 }
             ],
-            "name":"Cloud flare",
+            "name":"Cloud flare bypass",
             "type":"folder"
         },
         {
