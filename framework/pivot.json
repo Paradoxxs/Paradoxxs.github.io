@@ -4,11 +4,14 @@
             "children": [
             {
                 "name":"Any kind of hash value"
+            },
+            {
+                "name":"ASN provider"
             }],
             "name":"General pivot points",
             "type":"folder"
     },
-    {
+    {   
         "children": [
         {
             "name":"SSH fingerprint"
@@ -28,6 +31,10 @@
         {   
             "name":"Unique issuer information",
             "description":"Look for TLS issuer that is self-signed sharing the same issuer information."
+        },
+        {
+            "name":"public key size",
+            "description":"Another key component that can be used for pivot is the public key size"
         }],
         "name":"TLS certificate",
         "type":"folder"
