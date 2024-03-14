@@ -30,8 +30,20 @@
             "url":"https://epieos.com/"
         },
         {
-            "name":"Identify email for domain",
+            "name":"hunter - Identify email for domain",
             "tool":"https://hunter.io/"
+        },
+        {
+            "name":"phonebook - Identify email for domain",
+            "tool":"https://phonebook.cz/"
+        },
+        {
+            "name":"voilanorbert - Identify email for domain",
+            "tool":"https://www.voilanorbert.com/"
+        },
+        {
+            "name":"clearbit - Identify email for domain",
+            "tool":"https://clearbit.com/"
         },
         {
             "name":"Email reputation",
@@ -390,6 +402,18 @@
         {
             "name":"0t rocks",
             "url":"https://search.0t.rocks/"
+        },
+        {
+            "name":"dehashed",
+            "url":"https://dehashed.com/"
+        },
+        {
+            "name":"weleakinfo",
+            "url":"https://weleakinfo.io/"
+        },
+        {
+            "name":"leak-lookup",
+            "url":"https://leak-lookup.com/"
         }],
     "name":"Data dumps",
     "type":"folder"
