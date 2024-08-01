@@ -360,11 +360,6 @@
     {
         "children": [
             {
-                "name":"HINTS",
-                "description":"HUMINT tool set",
-                "url":"https://github.com/LiveGray/HINTS"
-            },
-            {
                 "name":"Fraudset glossery",
                 "description":"Glossery of the terms used by threat actors",
                 "url":"https://docs.google.com/spreadsheets/d/1-ICFqnnm0DryaVfCdp7NwleGG03pJorT63bEMPBmji8/edit#gid=439383555"
