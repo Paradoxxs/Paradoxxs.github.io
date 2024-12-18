@@ -7,10 +7,10 @@ permalink: /books/
 
 <div style="display: flex; align-items: center;">
   <div style="flex: 2;">
-    <img src="../images/book front.png" style="width: 80%; max-width: 80%;">
+    <img src="../images/bookcover.png" style="width: 80%; max-width: 80%;">
   </div>
   <div style="flex: 4;">
-    <h1>Pratical cyber intelligence (WIP)</h1>
+    <h1>Pratical cyber intelligence</h1>
     <p>
 The book delves into the myriad tactics, techniques, and procedures essential for conducting cyber investigations and forensic analyses.
 
@@ -21,3 +21,13 @@ In essence, "Practical Cyber Investigation" aspires to serve as an invaluable re
 </div>
 
 
+<div style="display: flex; align-items: center;">
+  <div style="flex: 2;">
+
+  </div>
+  <div style="flex: 4;">
+    <h1>Zero trust - hand on (WIP)</h1>
+    <p>
+The goal of this book is to provide a hands-on approach to understanding and implementing zero trust architecture.</p>
+  </div>
+</div>
