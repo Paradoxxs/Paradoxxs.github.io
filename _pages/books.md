@@ -23,11 +23,12 @@ In essence, "Practical Cyber Investigation" aspires to serve as an invaluable re
 
 <div style="display: flex; align-items: center;">
   <div style="flex: 2;">
-
+  <img src="../images/zerotrust_cover.png" style="width: 80%; max-width: 80%;">
   </div>
   <div style="flex: 4;">
-    <h1>Zero trust - hand on (WIP)</h1>
+    <h1>Zero trust - hand on guide (WIP)</h1>
     <p>
-The goal of this book is to provide a hands-on approach to understanding and implementing zero trust architecture.</p>
+The goal of this book is to provide a hands-on approach to understanding and implementing zero trust architecture. This is achieved by using a Docker environment, that we will secure as we progresses through the book chapters.
+  </p>
   </div>
 </div>
