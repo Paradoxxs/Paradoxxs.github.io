@@ -15,7 +15,7 @@ permalink: /flowchart/
   <body>
     <div id="body">
       <div id="header">
-        Flowfart
+        Distribution selection flowchart
           <hr/>
       </div>
     </div>
