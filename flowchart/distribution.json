@@ -35,6 +35,20 @@
       ]
     },
     {
+      "name": "Count Data / Discrete Trials",
+      "type": "folder",
+      "children": [
+        {
+      "name": "Binomial (with replacement / put back population)",
+      "description": "Binomial(n_trials, p)"
+    },
+    {
+      "name": "Hypergeometric (without replacement / without put back into the population)",
+      "description": "Hypergeometric(N_population, K_successes, n_draws)"
+    }
+      ]
+    },
+    {
       "name": "Categorical / Multinomial Data",
       "type": "folder",
       "children": [
