@@ -1,0 +1,80 @@
+{
+  "name": "Bayesian Distribution Selection",
+  "type": "folder",
+  "children": [
+    {
+      "name": "Binary / Boolean Data",
+      "type": "folder",
+      "children": [
+        {
+          "name": "Bernoulli likelihood",
+          "description": "Bernoulli(p) — single trial success/failure"
+        },
+        {
+          "name": "Binomial likelihood",
+          "description": "Binomial(k_successes, n_trials, p)"
+        },
+        {
+          "name": "Beta prior",
+          "description": "Beta(α + successes, β + failures) — conjugate prior for p in Bernoulli/Binomial"
+        }
+      ]
+    },
+    {
+      "name": "Count Data / Events",
+      "type": "folder",
+      "children": [
+        {
+          "name": "Poisson likelihood",
+          "description": "Poisson(λ) — count per interval"
+        },
+        {
+          "name": "Gamma prior",
+          "description": "Gamma(α, β) — conjugate prior for λ in Poisson"
+        }
+      ]
+    },
+    {
+      "name": "Categorical / Multinomial Data",
+      "type": "folder",
+      "children": [
+        {
+          "name": "Multinomial likelihood",
+          "description": "Multinomial(n_trials, p_vector)"
+        },
+        {
+          "name": "Dirichlet prior",
+          "description": "Dirichlet(α_vector) — conjugate prior for category probabilities in Multinomial"
+        }
+      ]
+    },
+    {
+      "name": "Continuous Real‑Valued Data",
+      "type": "folder",
+      "children": [
+        {
+          "name": "Normal likelihood",
+          "description": "Normal(μ_mean, σ_std)"
+        },
+        {
+          "name": "Normal‑Inverse‑Gamma prior",
+          "description": "Conjugate prior for (μ_mean, σ_std)"
+        }
+      ]
+    },
+    {
+      "name": "Positive Continuous / Survival",
+      "type": "folder",
+      "children": [
+        {
+          "name": "Exponential likelihood",
+          "description": "Exponential(λ) — memoryless waiting time"
+        },
+        {
+          "name": "Weibull likelihood",
+          "description": "Weibull(k_shape, λ_scale)"
+        }
+      ]
+    }
+  ]
+}
