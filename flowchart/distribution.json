@@ -8,15 +8,17 @@
       "children": [
         {
           "name": "Bernoulli likelihood",
-          "description": "Bernoulli(p) — single trial success/failure"
+          "usage": "Bernoulli(p) — single trial success/failure"
         },
         {
           "name": "Binomial likelihood",
-          "description": "Binomial(k_successes, n_trials, p)"
+          "usage": "Binomial(k_successes, n_trials, p)",
+          "description":" Binomial distribution, used to calculate the probability of a certain number of successful outcomes, given a number of trials and the probability of the successful outcome."
         },
         {
           "name": "Beta prior",
-          "description": "Beta(α + successes, β + failures) — conjugate prior for p in Bernoulli/Binomial"
+          "usage": "Beta(α + successes, β + failures) — conjugate prior for p in Bernoulli/Binomial",
+          "description": "The beta distribution to estimate the probability of an event for which you’ve already observed a number of trials and the number of successful outcomes. "
         }
       ]
     },
@@ -26,11 +28,11 @@
       "children": [
         {
           "name": "Poisson likelihood",
-          "description": "Poisson(λ) — count per interval"
+          "usage": "Poisson(λ) — count per interval"
         },
         {
           "name": "Gamma prior",
-          "description": "Gamma(α, β) — conjugate prior for λ in Poisson"
+          "usage": "Gamma(α, β) — conjugate prior for λ in Poisson"
         }
       ]
     },
@@ -40,11 +42,11 @@
       "children": [
         {
       "name": "Binomial (with replacement / put back population)",
-      "description": "Binomial(n_trials, p)"
+      "usage": "Binomial(n_trials, p)"
     },
     {
       "name": "Hypergeometric (without replacement / without put back into the population)",
-      "description": "Hypergeometric(N_population, K_successes, n_draws)"
+      "usage": "Hypergeometric(N_population, K_successes, n_draws)"
     }
       ]
     },
@@ -54,11 +56,11 @@
       "children": [
         {
           "name": "Multinomial likelihood",
-          "description": "Multinomial(n_trials, p_vector)"
+          "usage": "Multinomial(n_trials, p_vector)"
         },
         {
           "name": "Dirichlet prior",
-          "description": "Dirichlet(α_vector) — conjugate prior for category probabilities in Multinomial"
+          "usage": "Dirichlet(α_vector) — conjugate prior for category probabilities in Multinomial"
         }
       ]
     },
@@ -68,11 +70,11 @@
       "children": [
         {
           "name": "Normal likelihood",
-          "description": "Normal(μ_mean, σ_std)"
+          "usage": "Normal(μ_mean, σ_std)"
         },
         {
           "name": "Normal‑Inverse‑Gamma prior",
-          "description": "Conjugate prior for (μ_mean, σ_std)"
+          "usage": "Conjugate prior for (μ_mean, σ_std)"
         }
       ]
     },
@@ -82,11 +84,11 @@
       "children": [
         {
           "name": "Exponential likelihood",
-          "description": "Exponential(λ) — memoryless waiting time"
+          "usage": "Exponential(λ) — memoryless waiting time"
         },
         {
           "name": "Weibull likelihood",
-          "description": "Weibull(k_shape, λ_scale)"
+          "usage": "Weibull(k_shape, λ_scale)"
         }
       ]
     }

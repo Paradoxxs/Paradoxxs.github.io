@@ -101,7 +101,7 @@ function update(source) {
 
 
   nodeEnter.append("svg:title")
-    .text(function(d) {return d.description + '\n' + "tools: " +  d.tool + '\n' + "Time: "  +  d.time;})
+    .text(function(d) {return d.description + '\n' + "usage: " +  d.tool;})
 
   // Transition nodes to their new position.
   var nodeUpdate = node.transition()
