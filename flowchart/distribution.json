@@ -13,7 +13,7 @@
         {
           "name": "Binomial likelihood",
           "usage": "Binomial(k_successes, n_trials, p)",
-          "description":" Binomial distribution, used to calculate the probability of a certain number of successful outcomes, given a number of trials and the probability of the successful outcome."
+          "description":" Binomial distribution, used to calculate the probability, of # number of successful outcomes. By doing # of trials, with given probability of a successful outcome."
         },
         {
           "name": "Beta prior",
