@@ -1,0 +1,669 @@
+{
+    "name": "Radicalization & Thought Reform Matrix",
+    "children": [
+        {
+            "name": "McCauley & Moskalenko - Pyramid of Radicalization",
+            "type": "folder",
+            "children": [
+                {
+                    "name": "Individual Level Radicalization",
+                    "type": "folder",
+                    "children": [
+                        {
+                            "name": "Personal Grievance",
+                            "description": "Individual experiences injustice or persecution (real or perceived)"
+                        },
+                        {
+                            "name": "Group Grievance",
+                            "description": "Identifying with a group perceived as victimized or threatened"
+                        },
+                        {
+                            "name": "Slippery Slope",
+                            "description": "Gradual progression from legal activism to illegal actions"
+                        },
+                        {
+                            "name": "Love/Friendship",
+                            "description": "Following romantic partner or close friend into extremism"
+                        },
+                        {
+                            "name": "Risk and Status Seeking",
+                            "description": "Attraction to adventure, danger, and elevated status within group"
+                        },
+                        {
+                            "name": "Unfreezing",
+                            "description": "Identity crisis or life disruption making individual susceptible to change"
+                        }
+                    ]
+                },
+                {
+                    "name": "Group Level Radicalization",
+                    "type": "folder",
+                    "children": [
+                        {
+                            "name": "Group Polarization",
+                            "description": "Like-minded individuals become more extreme through discussion"
+                        },
+                        {
+                            "name": "Group Competition",
+                            "description": "Inter-group conflict driving escalation and extremism"
+                        },
+                        {
+                            "name": "Group Isolation",
+                            "description": "Physical or ideological separation from mainstream society"
+                        },
+                        {
+                            "name": "Threat from Outside",
+                            "description": "Real or perceived external threat cohering and radicalizing group"
+                        },
+                        {
+                            "name": "Within-Group Competition",
+                            "description": "Members competing to show greater commitment and purity"
+                        },
+                        {
+                            "name": "Condensation",
+                            "description": "Group cohesion strengthening under pressure"
+                        }
+                    ]
+                },
+                {
+                    "name": "Mass Level Radicalization",
+                    "type": "folder",
+                    "children": [
+                        {
+                            "name": "Jujitsu Politics",
+                            "description": "Government overreaction creating sympathy and recruitment"
+                        },
+                        {
+                            "name": "Hate Speech",
+                            "description": "Mass media messages demonizing out-groups"
+                        },
+                        {
+                            "name": "Martyrdom",
+                            "description": "Glorification of those who died for the cause"
+                        },
+                        {
+                            "name": "Charismatic Leadership",
+                            "description": "Influential leaders mobilizing masses toward extremism"
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "name": "Lifton's Eight Criteria for Thought Reform",
+            "type": "folder",
+            "children": [
+                {
+                    "name": "1. Milieu Control",
+                    "type": "folder",
+                    "children": [
+                        {
+                            "name": "Information Control",
+                            "description": "Controlling all communication within environment and with outside world"
+                        },
+                        {
+                            "name": "Social Isolation",
+                            "description": "Limiting contact with family, friends, and outside perspectives"
+                        },
+                        {
+                            "name": "Echo Chamber Creation",
+                            "description": "Surrounding target with only approved messages and viewpoints"
+                        },
+                        {
+                            "name": "Media Restriction",
+                            "description": "Filtering or prohibiting access to news, books, and internet"
+                        }
+                    ]
+                },
+                {
+                    "name": "2. Mystical Manipulation",
+                    "type": "folder",
+                    "children": [
+                        {
+                            "name": "Planned Spontaneity",
+                            "description": "Orchestrating experiences that appear spontaneous or divinely inspired"
+                        },
+                        {
+                            "name": "Supernatural Claims",
+                            "description": "Leader or group claiming special divine or historical mission"
+                        },
+                        {
+                            "name": "Destiny Narrative",
+                            "description": "Members told they are chosen for important purpose"
+                        },
+                        {
+                            "name": "Manufactured Synchronicity",
+                            "description": "Creating 'meaningful coincidences' to appear providential"
+                        }
+                    ]
+                },
+                {
+                    "name": "3. Demand for Purity",
+                    "type": "folder",
+                    "children": [
+                        {
+                            "name": "Black and White Thinking",
+                            "description": "World divided into pure/impure, good/evil with no middle ground"
+                        },
+                        {
+                            "name": "Purity Spirals",
+                            "description": "Constant pressure to demonstrate ideological purity"
+                        },
+                        {
+                            "name": "Shame and Guilt",
+                            "description": "Using shame for not meeting impossible purity standards"
+                        },
+                        {
+                            "name": "Confession Rituals",
+                            "description": "Requiring public confession of impure thoughts or actions"
+                        }
+                    ]
+                },
+                {
+                    "name": "4. Cult of Confession",
+                    "type": "folder",
+                    "children": [
+                        {
+                            "name": "Public Confession",
+                            "description": "Confessing sins, doubts, or past life to group"
+                        },
+                        {
+                            "name": "Mutual Surveillance",
+                            "description": "Members monitoring and reporting each other's behavior"
+                        },
+                        {
+                            "name": "Confession as Bonding",
+                            "description": "Creating intimacy and leverage through shared secrets"
+                        },
+                        {
+                            "name": "Personal History Mining",
+                            "description": "Extracting detailed personal information for future control"
+                        }
+                    ]
+                },
+                {
+                    "name": "5. Sacred Science",
+                    "type": "folder",
+                    "children": [
+                        {
+                            "name": "Absolute Truth Claims",
+                            "description": "Group possesses ultimate truth that cannot be questioned"
+                        },
+                        {
+                            "name": "Pseudo-Scientific Language",
+                            "description": "Using scientific-sounding terminology to legitimize beliefs"
+                        },
+                        {
+                            "name": "Unfalsifiable Beliefs",
+                            "description": "Doctrines structured to be immune to disproof"
+                        },
+                        {
+                            "name": "Questioning as Evil",
+                            "description": "Critical thinking portrayed as defect or moral failing"
+                        }
+                    ]
+                },
+                {
+                    "name": "6. Loading the Language",
+                    "type": "folder",
+                    "children": [
+                        {
+                            "name": "Thought-Terminating Clichés",
+                            "description": "Simple phrases that stop critical thinking (e.g., 'Trust the plan')"
+                        },
+                        {
+                            "name": "Specialized Jargon",
+                            "description": "Group-specific language that shapes thought and creates in-group identity"
+                        },
+                        {
+                            "name": "Redefining Words",
+                            "description": "Common words given special meanings within group"
+                        },
+                        {
+                            "name": "Label Weapons",
+                            "description": "Pejorative labels for outsiders or critics (e.g., 'sheep', 'NPC')"
+                        }
+                    ]
+                },
+                {
+                    "name": "7. Doctrine Over Person",
+                    "type": "folder",
+                    "children": [
+                        {
+                            "name": "Experience Denial",
+                            "description": "Personal experiences denied if they contradict doctrine"
+                        },
+                        {
+                            "name": "Reality Redefinition",
+                            "description": "Group doctrine determines what is real, not personal observation"
+                        },
+                        {
+                            "name": "Identity Subordination",
+                            "description": "Individual identity subsumed into group identity"
+                        },
+                        {
+                            "name": "Gaslighting",
+                            "description": "Convincing members their perceptions and memories are wrong"
+                        }
+                    ]
+                },
+                {
+                    "name": "8. Dispensing of Existence",
+                    "type": "folder",
+                    "children": [
+                        {
+                            "name": "Us vs Them Mentality",
+                            "description": "Only group members have right to exist or be saved"
+                        },
+                        {
+                            "name": "Shunning and Ostracism",
+                            "description": "Complete social death for those who leave"
+                        },
+                        {
+                            "name": "Dehumanization",
+                            "description": "Outsiders portrayed as less than human or beyond redemption"
+                        },
+                        {
+                            "name": "Existential Threat",
+                            "description": "Leaving means death, damnation, or meaningless existence"
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "name": "Online Extremism & Digital Radicalization",
+            "type": "folder",
+            "children": [
+                {
+                    "name": "Algorithmic Acceleration",
+                    "type": "folder",
+                    "children": [
+                        {
+                            "name": "Recommendation Algorithms",
+                            "description": "YouTube, TikTok algorithms progressively suggesting more extreme content"
+                        },
+                        {
+                            "name": "Engagement Optimization",
+                            "description": "Platforms prioritizing inflammatory content that drives engagement"
+                        },
+                        {
+                            "name": "Filter Bubbles",
+                            "description": "Algorithmic curation creating isolated information environments"
+                        },
+                        {
+                            "name": "Rabbit Holes",
+                            "description": "Autoplay and suggestions leading from moderate to extreme content"
+                        }
+                    ]
+                },
+                {
+                    "name": "Social Media Mechanics",
+                    "type": "folder",
+                    "children": [
+                        {
+                            "name": "Viral Amplification",
+                            "description": "Extreme content spreads faster than nuanced discussion"
+                        },
+                        {
+                            "name": "Micro-Celebrity Culture",
+                            "description": "Status and attention rewards for provocative extremist content"
+                        },
+                        {
+                            "name": "Parasocial Relationships",
+                            "description": "One-sided relationships with extremist influencers"
+                        },
+                        {
+                            "name": "Notification Addiction",
+                            "description": "Constant engagement keeping users in extremist spaces"
+                        }
+                    ]
+                },
+                {
+                    "name": "Online Community Dynamics",
+                    "type": "folder",
+                    "children": [
+                        {
+                            "name": "Anonymous Disinhibition",
+                            "description": "Anonymity enabling more extreme expression and behavior"
+                        },
+                        {
+                            "name": "Meme Warfare",
+                            "description": "Spreading ideology through humor and viral content"
+                        },
+                        {
+                            "name": "Irony Poisoning",
+                            "description": "Starting as 'jokes' but gradually becoming sincere beliefs"
+                        },
+                        {
+                            "name": "Digital Tribalism",
+                            "description": "Online identities creating stronger in-group loyalty than offline connections"
+                        },
+                        {
+                            "name": "Gamification",
+                            "description": "Radicalization presented as game or challenge (e.g., 'red-pilling')"
+                        }
+                    ]
+                },
+                {
+                    "name": "Platform Migration",
+                    "type": "folder",
+                    "children": [
+                        {
+                            "name": "De-platforming Consequences",
+                            "description": "Bans pushing users to more extreme platforms"
+                        },
+                        {
+                            "name": "Platform Hopping",
+                            "description": "Movement from mainstream to fringe platforms (4chan, 8kun, Telegram)"
+                        },
+                        {
+                            "name": "Encrypted Communities",
+                            "description": "Signal, Discord servers hiding extreme organizing"
+                        },
+                        {
+                            "name": "Dark Web Forums",
+                            "description": "Completely unmoderated spaces for extreme content"
+                        }
+                    ]
+                },
+                {
+                    "name": "Specific Online Communities",
+                    "type": "folder",
+                    "children": [
+                        {
+                            "name": "Incel Communities",
+                            "description": "Involuntary celibacy forums promoting misogyny and violence"
+                        },
+                        {
+                            "name": "Conspiracy Networks",
+                            "description": "QAnon, anti-vax, and other conspiracy-driven radicalization"
+                        },
+                        {
+                            "name": "White Supremacy Online",
+                            "description": "Neo-Nazi and white nationalist recruitment through gaming, forums"
+                        },
+                        {
+                            "name": "Accelerationist Communities",
+                            "description": "Groups promoting societal collapse and violence"
+                        },
+                        {
+                            "name": "Manosphere Pipeline",
+                            "description": "Progression from men's rights to extreme misogyny"
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "name": "Hassan's BITE Model - Control Methods",
+            "type": "folder",
+            "children": [
+                {
+                    "name": "Behavior Control",
+                    "type": "folder",
+                    "children": [
+                        {
+                            "name": "Regulation of Physical Reality",
+                            "description": "Control over where you live, what you wear, what you eat"
+                        },
+                        {
+                            "name": "Time Control",
+                            "description": "Consuming all time with group activities, leaving no space for reflection"
+                        },
+                        {
+                            "name": "Financial Control",
+                            "description": "Economic dependence on group through debt or financial entanglement"
+                        },
+                        {
+                            "name": "Permission Requirements",
+                            "description": "Needing approval for major decisions (relationships, jobs, moves)"
+                        },
+                        {
+                            "name": "Rewards and Punishments",
+                            "description": "Systematic reinforcement of desired behaviors"
+                        }
+                    ]
+                },
+                {
+                    "name": "Information Control",
+                    "type": "folder",
+                    "children": [
+                        {
+                            "name": "Deception",
+                            "description": "Deliberately withholding or distorting information"
+                        },
+                        {
+                            "name": "Access Restriction",
+                            "description": "Limiting access to non-cult sources of information"
+                        },
+                        {
+                            "name": "Compartmentalization",
+                            "description": "Different members given different information"
+                        },
+                        {
+                            "name": "Spying and Reporting",
+                            "description": "Members reporting on each other to leadership"
+                        },
+                        {
+                            "name": "False Information",
+                            "description": "Spreading misinformation about outside world or critics"
+                        }
+                    ]
+                },
+                {
+                    "name": "Thought Control",
+                    "type": "folder",
+                    "children": [
+                        {
+                            "name": "Black and White Thinking",
+                            "description": "Good/evil, us/them binary worldview"
+                        },
+                        {
+                            "name": "Thought-Stopping Techniques",
+                            "description": "Chanting, praying, or phrases preventing critical thinking"
+                        },
+                        {
+                            "name": "Rejection of Critical Analysis",
+                            "description": "Critical thinking characterized as evil or negative"
+                        },
+                        {
+                            "name": "No Alternative Perspective",
+                            "description": "Group ideology presented as only valid worldview"
+                        },
+                        {
+                            "name": "Loaded Language",
+                            "description": "Thought-terminating clichés and specialized jargon"
+                        }
+                    ]
+                },
+                {
+                    "name": "Emotional Control",
+                    "type": "folder",
+                    "children": [
+                        {
+                            "name": "Fear Induction",
+                            "description": "Fear of leaving, outside world, or questioning"
+                        },
+                        {
+                            "name": "Guilt and Shame",
+                            "description": "Making members feel bad about self, family, or past"
+                        },
+                        {
+                            "name": "Extremes of Emotion",
+                            "description": "Love bombing alternating with harsh criticism"
+                        },
+                        {
+                            "name": "Phobia Indoctrination",
+                            "description": "Installing irrational fears about leaving or consequences"
+                        },
+                        {
+                            "name": "Emotional Highs",
+                            "description": "Creating dependency on group for positive emotions"
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "name": "Prevention & Intervention",
+            "type": "folder",
+            "children": [
+                {
+                    "name": "Early Warning Signs",
+                    "type": "folder",
+                    "children": [
+                        {
+                            "name": "Behavioral Changes",
+                            "description": "Sudden shifts in interests, friends, or daily routines"
+                        },
+                        {
+                            "name": "Linguistic Markers",
+                            "description": "Adoption of extremist terminology or rhetoric"
+                        },
+                        {
+                            "name": "Social Withdrawal",
+                            "description": "Isolating from family and old friends"
+                        },
+                        {
+                            "name": "Increased Online Activity",
+                            "description": "Excessive time in specific online communities"
+                        },
+                        {
+                            "name": "Black and White Thinking",
+                            "description": "Loss of nuance in worldview"
+                        }
+                    ]
+                },
+                {
+                    "name": "Protective Factors",
+                    "type": "folder",
+                    "children": [
+                        {
+                            "name": "Critical Media Literacy",
+                            "description": "Ability to evaluate sources and identify manipulation"
+                        },
+                        {
+                            "name": "Strong Social Bonds",
+                            "description": "Healthy relationships with family and diverse friends"
+                        },
+                        {
+                            "name": "Purpose and Identity",
+                            "description": "Stable sense of self not dependent on group membership"
+                        },
+                        {
+                            "name": "Economic Opportunity",
+                            "description": "Financial stability and meaningful employment"
+                        },
+                        {
+                            "name": "Mental Health Support",
+                            "description": "Access to therapy and psychological services"
+                        }
+                    ]
+                },
+                {
+                    "name": "Intervention Strategies",
+                    "type": "folder",
+                    "children": [
+                        {
+                            "name": "Maintain Connection",
+                            "description": "Keep lines of communication open without confrontation"
+                        },
+                        {
+                            "name": "Strategic Questioning",
+                            "description": "Socratic method to encourage critical thinking"
+                        },
+                        {
+                            "name": "Alternative Communities",
+                            "description": "Providing healthy alternatives for belonging"
+                        },
+                        {
+                            "name": "Professional Help",
+                            "description": "Exit counseling and cult recovery specialists"
+                        },
+                        {
+                            "name": "Address Root Causes",
+                            "description": "Treating underlying vulnerabilities (trauma, isolation)"
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "name": "Deradicalization & Recovery",
+            "type": "folder",
+            "children": [
+                {
+                    "name": "Exit Process",
+                    "type": "folder",
+                    "children": [
+                        {
+                            "name": "Cognitive Dissonance",
+                            "description": "Recognition of contradictions triggering doubt"
+                        },
+                        {
+                            "name": "Disillusionment Events",
+                            "description": "Specific incidents breaking belief in group or ideology"
+                        },
+                        {
+                            "name": "Safe Exit Planning",
+                            "description": "Creating plan for leaving safely with support"
+                        },
+                        {
+                            "name": "Transition Support",
+                            "description": "Help with practical needs (housing, employment)"
+                        }
+                    ]
+                },
+                {
+                    "name": "Recovery Support",
+                    "type": "folder",
+                    "children": [
+                        {
+                            "name": "Trauma Therapy",
+                            "description": "Processing psychological damage from radicalization"
+                        },
+                        {
+                            "name": "Identity Reconstruction",
+                            "description": "Rebuilding sense of self outside group identity"
+                        },
+                        {
+                            "name": "Former Member Networks",
+                            "description": "Connection with others who have left similar situations"
+                        },
+                        {
+                            "name": "Restorative Justice",
+                            "description": "When applicable, making amends for harms caused"
+                        },
+                        {
+                            "name": "New Purpose Development",
+                            "description": "Finding healthy meaning and belonging"
+                        }
+                    ]
+                },
+                {
+                    "name": "Relapse Prevention",
+                    "type": "folder",
+                    "children": [
+                        {
+                            "name": "Trigger Awareness",
+                            "description": "Identifying situations that may pull back toward extremism"
+                        },
+                        {
+                            "name": "Healthy Coping Strategies",
+                            "description": "Alternative ways to handle stress and isolation"
+                        },
+                        {
+                            "name": "Ongoing Support",
+                            "description": "Long-term therapy and community connection"
+                        },
+                        {
+                            "name": "Narrative Replacement",
+                            "description": "Developing new story about self and experience"
+                        }
+                    ]
+                }
+            ]
+        }
+    ]
+}

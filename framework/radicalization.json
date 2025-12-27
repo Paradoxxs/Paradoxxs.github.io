@@ -1,0 +1,360 @@
+{
+    "children": [
+    {
+        "children":[
+            {
+                "name":"Social Isolation",
+                "description":"Target feels disconnected from mainstream society, family, or friends"
+            },
+            {
+                "name":"Economic Hardship",
+                "description":"Financial struggles creating vulnerability and resentment"
+            },
+            {
+                "name":"Identity Crisis",
+                "description":"Lack of personal identity or purpose, searching for belonging"
+            },
+            {
+                "name":"Victimhood Narrative",
+                "description":"Perception of being wronged by society, specific groups, or systems"
+            },
+            {
+                "name":"Grievance Formation",
+                "description":"Development of specific complaints against perceived enemies"
+            },
+            {
+                "name":"Loss and Trauma",
+                "description":"Recent personal loss, rejection, or traumatic experience"
+            }],
+        "name":"Initial Vulnerabilities",
+        "type":"folder"
+    },
+    {
+        "children": [
+            {
+                "name":"Charismatic Leadership",
+                "description":"Influential figure providing answers and purpose"
+            },
+            {
+                "name":"Online Communities",
+                "description":"Forums, social media groups, and echo chambers reinforcing beliefs"
+            },
+            {
+                "name":"Fringe Content",
+                "description":"Algorithmic exposure to extreme content and conspiracy theories"
+            },
+            {
+                "name":"Gatekeeper Introduction",
+                "description":"Initial contact through seemingly moderate content or recruiters"
+            },
+            {
+                "name":"Crisis Exploitation",
+                "description":"Targeting during vulnerable moments (breakup, job loss, etc.)"
+            },
+            {
+                "name":"Peer Recruitment",
+                "description":"Introduction through friends or family already radicalized"
+            }],
+        "name":"Initial Contact",
+        "type":"folder"
+    },
+    {
+        "children": [
+            {
+                "name":"Love Bombing",
+                "description":"Overwhelming affection and attention to create dependency"
+            },
+            {
+                "name":"Instant Belonging",
+                "description":"Immediate acceptance into the group without conditions"
+            },
+            {
+                "name":"Shared Enemy",
+                "description":"Uniting against common perceived threats or opponents"
+            },
+            {
+                "name":"Special Knowledge",
+                "description":"Access to 'hidden truths' that outsiders don't understand"
+            },
+            {
+                "name":"Hero Narrative",
+                "description":"Positioning recruit as part of important mission or movement"
+            },
+            {
+                "name":"Brotherhood/Sisterhood",
+                "description":"Strong emphasis on family-like bonds and loyalty"
+            }],
+        "name":"Engagement Tactics",
+        "type":"folder"
+    },
+    {
+        "children": [
+            {
+                "name":"Us vs Them Mentality",
+                "description":"Binary worldview dividing people into allies and enemies"
+            },
+            {
+                "name":"Enemy Dehumanization",
+                "description":"Portraying out-groups as less than human or inherently evil"
+            },
+            {
+                "name":"Historical Revisionism",
+                "description":"Rewriting history to support extremist narrative"
+            },
+            {
+                "name":"Conspiracy Theories",
+                "description":"Complex theories explaining away contradictions"
+            },
+            {
+                "name":"Pseudo-Science",
+                "description":"Misuse of biology, psychology, or statistics to justify beliefs"
+            },
+            {
+                "name":"Selective Evidence",
+                "description":"Cherry-picking data while ignoring contradictory information"
+            },
+            {
+                "name":"Purity Spirals",
+                "description":"Competition to demonstrate most extreme commitment to ideology"
+            }],
+        "name":"Indoctrination Methods",
+        "type":"folder"
+    },
+    {
+        "children": [
+            {
+                "name":"Information Control",
+                "description":"Filtering what members see, read, or hear"
+            },
+            {
+                "name":"Thought-Stopping Clichés",
+                "description":"Simple phrases that shut down critical thinking"
+            },
+            {
+                "name":"Loaded Language",
+                "description":"Specialized terminology that shapes perception"
+            },
+            {
+                "name":"Mainstream Demonization",
+                "description":"Portraying outside sources as corrupt or lying"
+            },
+            {
+                "name":"Reality Distortion",
+                "description":"Gaslighting about events or changing narrative constantly"
+            },
+            {
+                "name":"Echo Chamber Reinforcement",
+                "description":"Only interacting with like-minded individuals"
+            }],
+        "name":"Thought Control",
+        "type":"folder"
+    },
+    {
+        "children": [
+            {
+                "name":"Social Pressure",
+                "description":"Peer pressure to conform to group norms and beliefs"
+            },
+            {
+                "name":"Public Commitment",
+                "description":"Requiring public statements that increase commitment"
+            },
+            {
+                "name":"Incremental Escalation",
+                "description":"Gradually increasing extreme behaviors or beliefs"
+            },
+            {
+                "name":"Guilt and Shame",
+                "description":"Using emotional manipulation to enforce compliance"
+            },
+            {
+                "name":"Fear of Ostracism",
+                "description":"Threatening exclusion for questioning or leaving"
+            },
+            {
+                "name":"Status Hierarchies",
+                "description":"Creating ranks and rewards for deeper commitment"
+            }],
+        "name":"Behavioral Control",
+        "type":"folder"
+    },
+    {
+        "children": [
+            {
+                "name":"Family Alienation",
+                "description":"Encouraging cutting ties with non-believing family members"
+            },
+            {
+                "name":"Friend Replacement",
+                "description":"Replacing old social networks with group members only"
+            },
+            {
+                "name":"Geographic Isolation",
+                "description":"Moving to compound or isolated location"
+            },
+            {
+                "name":"Time Monopolization",
+                "description":"Consuming all free time with group activities"
+            },
+            {
+                "name":"Financial Dependence",
+                "description":"Creating economic ties that make leaving difficult"
+            },
+            {
+                "name":"Bridge Burning",
+                "description":"Actions that make return to normal life impossible"
+            }],
+        "name":"Isolation Tactics",
+        "type":"folder"
+    },
+    {
+        "children": [
+            {
+                "name":"Identity Fusion",
+                "description":"Complete merging of personal and group identity"
+            },
+            {
+                "name":"Mission Obsession",
+                "description":"Single-minded focus on group's goals"
+            },
+            {
+                "name":"Deindividuation",
+                "description":"Loss of individual identity and self-awareness"
+            },
+            {
+                "name":"Moral Disengagement",
+                "description":"Justifying harmful actions through ideology"
+            },
+            {
+                "name":"Martyrdom Glorification",
+                "description":"Romanticizing sacrifice for the cause"
+            },
+            {
+                "name":"Action Imperative",
+                "description":"Pressure to prove commitment through increasingly extreme acts"
+            }],
+        "name":"Deep Radicalization",
+        "type":"folder"
+    },
+    {
+        "children": [
+            {
+                "name":"Stochastic Terrorism",
+                "description":"Rhetoric that inspires violence without direct orders"
+            },
+            {
+                "name":"Lone Wolf Activation",
+                "description":"Individual attacks inspired by ideology"
+            },
+            {
+                "name":"Coordinated Actions",
+                "description":"Group planning and execution of harmful activities"
+            },
+            {
+                "name":"Recruitment Activities",
+                "description":"Active recruiting of new members"
+            },
+            {
+                "name":"Propaganda Creation",
+                "description":"Producing content to spread ideology"
+            },
+            {
+                "name":"Normalization Efforts",
+                "description":"Attempting to make extreme views appear mainstream"
+            }],
+        "name":"Mobilization Phase",
+        "type":"folder"
+    },
+    {
+        "children": [
+            {
+                "name":"Cognitive Dissonance",
+                "description":"Recognizing contradictions between beliefs and reality"
+            },
+            {
+                "name":"External Intervention",
+                "description":"Family, friends, or professionals reaching out"
+            },
+            {
+                "name":"Exposure to Counter-Narratives",
+                "description":"Encountering information that challenges beliefs"
+            },
+            {
+                "name":"Disillusionment",
+                "description":"Disappointment with group or leaders"
+            },
+            {
+                "name":"Personal Growth",
+                "description":"Developing new interests or relationships outside group"
+            },
+            {
+                "name":"Crisis Point",
+                "description":"Event that forces reevaluation of involvement"
+            }],
+        "name":"Exit Indicators",
+        "type":"folder"
+    },
+    {
+        "children": [
+            {
+                "name":"Critical Thinking Skills",
+                "description":"Teaching evaluation of sources and logical reasoning"
+            },
+            {
+                "name":"Media Literacy",
+                "description":"Understanding propaganda techniques and manipulation"
+            },
+            {
+                "name":"Strong Social Bonds",
+                "description":"Healthy relationships outside extremist communities"
+            },
+            {
+                "name":"Purpose and Identity",
+                "description":"Sense of self not dependent on group membership"
+            },
+            {
+                "name":"Economic Stability",
+                "description":"Financial security reducing vulnerability"
+            },
+            {
+                "name":"Mental Health Support",
+                "description":"Access to therapy and counseling services"
+            },
+            {
+                "name":"Community Engagement",
+                "description":"Positive involvement in mainstream activities"
+            }],
+        "name":"Prevention Factors",
+        "type":"folder"
+    },
+    {
+        "children": [
+            {
+                "name":"Professional Deradicalization",
+                "description":"Therapy and counseling specialized in cult recovery"
+            },
+            {
+                "name":"Former Member Support",
+                "description":"Connection with others who have left similar groups"
+            },
+            {
+                "name":"Gradual Reintegration",
+                "description":"Slow reconnection with family and society"
+            },
+            {
+                "name":"Identity Reconstruction",
+                "description":"Rebuilding sense of self outside group identity"
+            },
+            {
+                "name":"Addressing Underlying Issues",
+                "description":"Treating root causes that made person vulnerable"
+            },
+            {
+                "name":"Creating New Purpose",
+                "description":"Finding healthy alternatives for belonging and meaning"
+            }],
+        "name":"Recovery and Rehabilitation",
+        "type":"folder"
+    }],
+    "name":"Radicalization Matrix"
+}
