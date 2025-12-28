@@ -185,7 +185,7 @@ permalink: /radicalization/
             <tr>
                 <th>Vulnerability<br>Exploitation</th>
                 <th>Initial<br>Contact</th>
-                <th>Engagement &<br>Love Bombing</th>
+                <th>Engagement</th>
                 <th>Indoctrination</th>
                 <th>Information<br>Control</th>
                 <th>Thought<br>Control</th>
