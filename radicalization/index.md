@@ -1,6 +1,6 @@
 ---
 layout: page
-title: Radicalization Matrix
+title: Psychology Attack Matrix
 permalink: /radicalization/
 ---
 
@@ -151,19 +151,32 @@ permalink: /radicalization/
 </style>
 
 <div class="info-section">
-    <h2>Radicalization Matrix - Psychology of Extremism</h2>
-    <p>This matrix maps the psychological tactics and stages used in radicalization processes, including cult recruitment, online extremism, and ideological manipulation. Inspired by MITRE ATT&CK, this framework synthesizes research from:</p>
+    <h2>Psychological Attack Matrix</h2>
+    <p>This matrix maps psychological manipulation tactics used across various contexts including cults, radicalization, abusive relationships, toxic workplaces, coercive control, and other forms of psychological manipulation. Inspired by MITRE ATT&CK, this framework synthesizes research from:</p>
     <ul>
-        <li><strong>McCauley & Moskalenko</strong> - Pyramid of Radicalization (Individual, Group, Mass levels)</li>
+        <li><strong>McCauley & Moskalenko</strong> - Pyramid of Radicalization</li>
         <li><strong>Robert Jay Lifton</strong> - Eight Criteria for Thought Reform</li>
         <li><strong>Steven Hassan</strong> - BITE Model (Behavior, Information, Thought, Emotional control)</li>
-        <li><strong>Online Extremism Research</strong> - Algorithmic radicalization and digital manipulation</li>
+        <li><strong>Coercive Control Research</strong> - Evan Stark's patterns of domestic abuse</li>
+        <li><strong>Gaslighting & Manipulation</strong> - Psychological abuse tactics</li>
+        <li><strong>Online Extremism Research</strong> - Digital manipulation and algorithmic radicalization</li>
+    </ul>
+    
+    <h4>Applies To:</h4>
+    <ul>
+        <li>Cult recruitment and thought reform</li>
+        <li>Online radicalization (incels, extremism, conspiracy groups)</li>
+        <li>Abusive relationships and domestic violence</li>
+        <li>Toxic workplace manipulation</li>
+        <li>Coercive control and emotional abuse</li>
+        <li>Gaslighting and psychological manipulation</li>
+        <li>High-control groups and organizations</li>
     </ul>
 </div>
 
 <div class="legend">
     <h4>How to Use This Matrix:</h4>
-    <p>Each column represents a <strong>Tactic</strong> (stage or method of radicalization). Each cell contains <strong>Techniques</strong> (specific methods used). Click on any technique to see detailed information.</p>
+    <p>Each column represents a <strong>Tactic</strong> (stage or method of psychological manipulation). Each cell contains <strong>Techniques</strong> (specific methods used). Click on any technique to see detailed information, examples across different contexts, and mitigation strategies.</p>
 </div>
 
 <div class="matrix-container">
@@ -538,6 +551,9 @@ permalink: /radicalization/
         <li>McCauley, C., & Moskalenko, S. (2011). <em>Friction: How Radicalization Happens to Them and Us</em></li>
         <li>Lifton, R. J. (1961). <em>Thought Reform and the Psychology of Totalism</em></li>
         <li>Hassan, S. (2018). <em>The Cult of Trump: A Leading Cult Expert Explains How the President Uses Mind Control</em></li>
+        <li>Stark, E. (2007). <em>Coercive Control: How Men Entrap Women in Personal Life</em></li>
+        <li>Bancroft, L. (2002). <em>Why Does He Do That? Inside the Minds of Angry and Controlling Men</em></li>
+        <li>Sweet, P. L. (2019). "The sociology of gaslighting." <em>American Sociological Review</em></li>
         <li>Ribeiro, M. H., et al. (2020). "Auditing radicalization pathways on YouTube." <em>FAT* 2020</em></li>
     </ul>
 </div>
@@ -547,35 +563,224 @@ permalink: /radicalization/
 const techniqueDetails = {
     'T001': {
         name: 'Social Isolation',
-        description: 'Targets individuals who feel disconnected from mainstream society, family, or friends. This vulnerability makes them more receptive to groups offering belonging.',
-        examples: ['Recent move to new city', 'Social rejection', 'Online-only social life', 'Feeling misunderstood by peers'],
+        description: 'Targets individuals who feel disconnected from mainstream society, family, or friends. This vulnerability makes them more receptive to manipulation.',
+        examples: [
+            '<strong>Cults:</strong> Recent move to new city, feeling misunderstood',
+            '<strong>Abusive Relationships:</strong> Partner moves them away from family/friends',
+            '<strong>Workplace:</strong> New employee without connections',
+            '<strong>Online:</strong> Only social interaction through screens'
+        ],
         mitigation: 'Build strong social networks, encourage diverse friendships, community engagement'
+    },
+    'T002': {
+        name: 'Economic Hardship',
+        description: 'Exploit financial struggles, debt, or economic instability to create dependency and vulnerability.',
+        examples: [
+            '<strong>Cults:</strong> Promise of financial security or success',
+            '<strong>Abusive Relationships:</strong> Control all finances, create debt',
+            '<strong>Workplace:</strong> Underpay while promising future rewards',
+            '<strong>MLMs:</strong> Exploit desire for income, create debt'
+        ],
+        mitigation: 'Financial education, independent income, avoid financial entanglement'
+    },
+    'T003': {
+        name: 'Identity Crisis',
+        description: 'Target individuals searching for purpose, meaning, or sense of self.',
+        examples: [
+            '<strong>Cults:</strong> Recent life transition, existential questions',
+            '<strong>Online Radicalization:</strong> Young men seeking masculine identity',
+            '<strong>Toxic Relationships:</strong> After breakup or loss',
+            '<strong>MLMs:</strong> Stay-at-home parents seeking purpose'
+        ],
+        mitigation: 'Develop stable self-identity, therapy, diverse interests and goals'
+    },
+    'T004': {
+        name: 'Victimhood Narrative',
+        description: 'Reinforce perception of being wronged, oppressed, or unfairly treated.',
+        examples: [
+            '<strong>Extremism:</strong> "They\'re replacing us", conspiracy theories',
+            '<strong>Abusive Relationships:</strong> "Nobody understands me but you"',
+            '<strong>Cults:</strong> "The world is against us"',
+            '<strong>Toxic Workplaces:</strong> "No one appreciates your work but me"'
+        ],
+        mitigation: 'Reality testing, diverse perspectives, professional assessment'
+    },
+    'T005': {
+        name: 'Loss & Trauma',
+        description: 'Exploit recent personal loss, rejection, trauma, or life crisis.',
+        examples: [
+            '<strong>Cults:</strong> After death, divorce, job loss',
+            '<strong>Abusive Relationships:</strong> During vulnerable moments',
+            '<strong>Online:</strong> After breakup (incel communities)',
+            '<strong>Scams:</strong> Recent widows/widowers'
+        ],
+        mitigation: 'Proper grief support, therapy, time before major decisions'
     },
     'T006': {
         name: 'Algorithmic Exposure',
-        description: 'YouTube, TikTok, and other platform algorithms progressively recommend more extreme content, creating "rabbit holes" that lead users from moderate to radical content.',
-        examples: ['YouTube autoplay to extreme videos', 'TikTok For You Page', 'Recommendation engines', 'Content rabbit holes'],
+        description: 'Platform algorithms progressively recommend more extreme content, creating "rabbit holes".',
+        examples: [
+            '<strong>YouTube:</strong> Autoplay to conspiracy theories',
+            '<strong>TikTok:</strong> For You Page radicalization',
+            '<strong>Facebook:</strong> Algorithm prioritizes outrage',
+            '<strong>Reddit:</strong> Recommendation to extreme subreddits'
+        ],
         mitigation: 'Media literacy education, diverse content consumption, algorithm awareness'
+    },
+    'T011': {
+        name: 'Love Bombing',
+        description: 'Overwhelming affection, attention, and validation to create emotional dependency.',
+        examples: [
+            '<strong>Cults:</strong> Instant intense friendship and attention',
+            '<strong>Abusive Relationships:</strong> Excessive gifts, constant contact early on',
+            '<strong>MLMs:</strong> Over-the-top compliments and inclusion',
+            '<strong>Toxic Workplaces:</strong> Boss lavishes praise initially'
+        ],
+        mitigation: 'Recognize excessive early intensity as red flag, pace relationships'
     },
     'T016': {
         name: 'Us vs Them',
-        description: 'Creates a binary worldview where people are divided into allies and enemies, with no middle ground or nuance allowed.',
-        examples: ['Red pill/blue pill framing', 'Awake vs sheep mentality', 'Based vs normie', 'Patriots vs traitors'],
+        description: 'Creates binary worldview: allies vs enemies, good vs evil, no middle ground.',
+        examples: [
+            '<strong>Extremism:</strong> "Red pill/blue pill", "awake vs sheep"',
+            '<strong>Cults:</strong> "Believers vs suppressives"',
+            '<strong>Abusive Relationships:</strong> "Your family doesn\'t understand us"',
+            '<strong>Toxic Workplaces:</strong> "It\'s us against corporate"'
+        ],
         mitigation: 'Encourage nuanced thinking, expose to diverse perspectives'
+    },
+    'T017': {
+        name: 'Dehumanization',
+        description: 'Portray out-groups as less than human, evil, or fundamentally different.',
+        examples: [
+            '<strong>Extremism:</strong> NPCs, subhuman terminology',
+            '<strong>Cults:</strong> Outsiders as spiritually dead',
+            '<strong>Abusive Relationships:</strong> "Other women/men are all..."',
+            '<strong>Toxic Workplaces:</strong> Customers as "idiots" or problems'
+        ],
+        mitigation: 'Humanize others, seek personal connections with diverse people'
+    },
+    'T022': {
+        name: 'Milieu Control',
+        description: 'Control all communication and information entering the environment.',
+        examples: [
+            '<strong>Cults:</strong> Compound living, filtered media',
+            '<strong>Abusive Relationships:</strong> Monitor phone, email, friends',
+            '<strong>Toxic Workplaces:</strong> Block certain websites, monitor all communication',
+            '<strong>Online:</strong> Only stay in moderated echo chamber groups'
+        ],
+        mitigation: 'Maintain diverse information sources, privacy boundaries'
     },
     'T027': {
         name: 'Thought-Stopping Clichés',
-        description: 'Simple phrases that shut down critical thinking and questioning. When doubt arises, these clichés are used to stop reflection.',
-        examples: ['"Trust the plan"', '"Do your own research"', '"You\'re overthinking it"', '"They want you to think that"'],
-        mitigation: 'Recognize manipulation tactics, practice critical analysis'
+        description: 'Simple phrases that shut down critical thinking and questioning.',
+        examples: [
+            '<strong>Cults/Extremism:</strong> "Trust the plan", "Do your own research"',
+            '<strong>Abusive Relationships:</strong> "You\'re overthinking it", "You\'re crazy"',
+            '<strong>Toxic Workplaces:</strong> "That\'s just how it is", "Be a team player"',
+            '<strong>MLMs:</strong> "Haters gonna hate", "You just don\'t understand the business"'
+        ],
+        mitigation: 'Recognize manipulation tactics, practice critical analysis, question clichés'
+    },
+    'T030': {
+        name: 'Reality Distortion / Gaslighting',
+        description: 'Make target question their own perceptions, memory, and sanity.',
+        examples: [
+            '<strong>Abusive Relationships:</strong> "That never happened", "You\'re remembering wrong"',
+            '<strong>Toxic Workplaces:</strong> Deny promises made, rewrite history',
+            '<strong>Cults:</strong> Reframe member\'s experiences to fit doctrine',
+            '<strong>Online:</strong> Mass coordinated denial of obvious facts'
+        ],
+        mitigation: 'Document everything, trust your perception, seek outside validation'
+    },
+    'T032': {
+        name: 'Social Pressure',
+        description: 'Use peer pressure and group dynamics to enforce compliance.',
+        examples: [
+            '<strong>Cults:</strong> Public criticism sessions, group judgment',
+            '<strong>Abusive Relationships:</strong> "Everyone thinks you\'re wrong"',
+            '<strong>Toxic Workplaces:</strong> Peer pressure to work unpaid overtime',
+            '<strong>Online:</strong> Mob harassment for questioning group'
+        ],
+        mitigation: 'Trust your own judgment, maintain relationships outside group'
+    },
+    'T035': {
+        name: 'Guilt & Shame',
+        description: 'Emotional manipulation using guilt and shame to enforce compliance.',
+        examples: [
+            '<strong>Cults:</strong> "Your doubt hurts the group"',
+            '<strong>Abusive Relationships:</strong> "After all I\'ve done for you"',
+            '<strong>Toxic Family:</strong> "You\'re abandoning us"',
+            '<strong>Workplace:</strong> "We\'re a family here, don\'t let us down"'
+        ],
+        mitigation: 'Recognize emotional manipulation, set healthy boundaries'
+    },
+    'T038': {
+        name: 'Family Alienation',
+        description: 'Encourage cutting ties with family members who don\'t support the relationship/group.',
+        examples: [
+            '<strong>Cults:</strong> "Your family will drag you down spiritually"',
+            '<strong>Abusive Relationships:</strong> "Your family doesn\'t want you happy"',
+            '<strong>Extremism:</strong> "Your family is brainwashed by mainstream"',
+            '<strong>MLMs:</strong> "Don\'t listen to dream stealers"'
+        ],
+        mitigation: 'Maintain family connections, recognize isolation tactics'
+    },
+    'T041': {
+        name: 'Financial Dependence',
+        description: 'Create economic ties that make leaving difficult or impossible.',
+        examples: [
+            '<strong>Cults:</strong> Donate all assets, work for group',
+            '<strong>Abusive Relationships:</strong> Control all money, prevent employment',
+            '<strong>Toxic Workplaces:</strong> Golden handcuffs, debt traps',
+            '<strong>MLMs:</strong> Encourage quitting job, taking on debt for inventory'
+        ],
+        mitigation: 'Maintain financial independence, separate accounts, avoid financial entanglement'
     },
     'T043': {
         name: 'Identity Fusion',
-        description: 'The complete merging of personal identity with group identity, where self-concept becomes inseparable from the group.',
-        examples: ['Using "we" instead of "I"', 'Group symbols as personal identity', 'Cannot imagine life outside group'],
-        mitigation: 'Maintain individual hobbies, diverse relationships, personal goals separate from group'
+        description: 'Complete merging of personal identity with group/partner identity.',
+        examples: [
+            '<strong>Cults:</strong> Using "we" exclusively, group symbols as personal identity',
+            '<strong>Abusive Relationships:</strong> "We are one person"',
+            '<strong>Extremism:</strong> Cannot imagine self outside ideology',
+            '<strong>Toxic Workplaces:</strong> "We\'re a family" culture'
+        ],
+        mitigation: 'Maintain individual hobbies, diverse relationships, personal goals'
+    },
+    'T044': {
+        name: 'Moral Disengagement',
+        description: 'Justify harmful actions through ideology, higher purpose, or dehumanization.',
+        examples: [
+            '<strong>Extremism:</strong> Violence justified by ideology',
+            '<strong>Cults:</strong> "The ends justify the means"',
+            '<strong>Abusive Relationships:</strong> "I only hurt you because I love you"',
+            '<strong>Toxic Workplaces:</strong> Unethical practices "for the company"'
+        ],
+        mitigation: 'Maintain moral compass, seek outside ethical perspective'
+    },
+    'T053': {
+        name: 'Cognitive Dissonance',
+        description: 'Recognize contradictions between beliefs/promises and reality - often first step to leaving.',
+        examples: [
+            '<strong>Cults:</strong> Prophecies fail, leaders caught in lies',
+            '<strong>Abusive Relationships:</strong> "They said they changed but..."',
+            '<strong>MLMs:</strong> Not making money despite following system',
+            '<strong>Extremism:</strong> Real-world evidence contradicts ideology'
+        ],
+        mitigation: 'Support critical thinking, help process contradictions without judgment'
+    },
+    'T057': {
+        name: 'Critical Thinking Skills',
+        description: 'Teaching evaluation of sources, logical reasoning, and identifying manipulation.',
+        examples: [
+            'Evaluate source credibility and bias',
+            'Identify logical fallacies',
+            'Recognize emotional manipulation',
+            'Question assumptions and extraordinary claims'
+        ],
+        mitigation: 'Education in logic, media literacy, scientific thinking'
     }
-    // Add more as needed
 };
 
 function showModal(techniqueId) {
