@@ -192,8 +192,7 @@ permalink: /radicalization/
                 <th>Behavioral<br>Control</th>
                 <th>Isolation</th>
                 <th>Deep<br>Radicalization</th>
-                <th>Mobilization</th>
-                <th>Exit &<br>Recovery</th>
+                <th>Action</th>
             </tr>
         </thead>
         <tbody>
@@ -469,7 +468,7 @@ permalink: /radicalization/
                     </div>
                 </td>
                 
-                <!-- Mobilization -->
+                <!-- Action -->
                 <td>
                     <div class="technique" onclick="showModal('T048')">
                         <div class="technique-id">T048</div>
@@ -495,40 +494,6 @@ permalink: /radicalization/
                         <div class="technique-id">T052</div>
                         <div class="technique-name">Meme Warfare</div>
                         <div class="technique-description">Spread ideology through viral content</div>
-                    </div>
-                </td>
-                
-                <!-- Exit & Recovery -->
-                <td>
-                    <div class="technique" onclick="showModal('T053')">
-                        <div class="technique-id">T053</div>
-                        <div class="technique-name">Cognitive Dissonance</div>
-                        <div class="technique-description">Recognize contradictions in beliefs</div>
-                    </div>
-                    <div class="technique" onclick="showModal('T054')">
-                        <div class="technique-id">T054</div>
-                        <div class="technique-name">Professional Deradicalization</div>
-                        <div class="technique-description">Therapy specialized in cult recovery</div>
-                    </div>
-                    <div class="technique" onclick="showModal('T055')">
-                        <div class="technique-id">T055</div>
-                        <div class="technique-name">Former Member Support</div>
-                        <div class="technique-description">Connect with others who left</div>
-                    </div>
-                    <div class="technique" onclick="showModal('T056')">
-                        <div class="technique-id">T056</div>
-                        <div class="technique-name">Identity Reconstruction</div>
-                        <div class="technique-description">Rebuild sense of self outside group</div>
-                    </div>
-                    <div class="technique" onclick="showModal('T057')">
-                        <div class="technique-id">T057</div>
-                        <div class="technique-name">Critical Thinking Skills</div>
-                        <div class="technique-description">Teach evaluation and logical reasoning</div>
-                    </div>
-                    <div class="technique" onclick="showModal('T058')">
-                        <div class="technique-id">T058</div>
-                        <div class="technique-name">New Purpose Development</div>
-                        <div class="technique-description">Find healthy alternatives for meaning</div>
                     </div>
                 </td>
             </tr>
