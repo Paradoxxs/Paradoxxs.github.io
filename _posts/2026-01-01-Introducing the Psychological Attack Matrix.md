@@ -1,5 +1,3 @@
-**Work in Progress**
-
 Over the years working in Forensics, I've noticed something striking: the tactics used by actors uses similar psychological manipulation tactics to compromise people. Whether it's a cult recruiting members, an extremist group radicalizing individuals online, or an abusive relationship trapping someone through coercive control—the playbook is remarkably similar.
 
 This realization led me to develop the **Psychological Attack Matrix**, inspired by MITRE ATT&CK's framework for mapping cyber adversary tactics and techniques.
