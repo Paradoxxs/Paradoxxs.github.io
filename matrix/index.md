@@ -1,7 +1,7 @@
 ---
 layout: page
 title: Psychology Attack Matrix
-permalink: /radicalization/
+permalink: /matrix/
 ---
 
 <style>
